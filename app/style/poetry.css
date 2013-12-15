@@ -1,0 +1,18 @@
+html, body {
+  font-family: "Minion Pro";
+  font-size: 17px;
+  color: #4A4A4A; }
+
+h1 {
+  font-size: 24;
+  color: #D8D8D8; }
+
+pre {
+  font-family: "Minion Pro";
+  font-style: italic;
+  float: left; }
+
+.author {
+  display: block;
+  text-align: right;
+  margin-right: -40px; }
