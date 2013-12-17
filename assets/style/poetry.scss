@@ -1,6 +1,7 @@
 html, body   { font-family: "Minion Pro"; font-size: 17px; color: #4A4A4A;}
 
 h1           { font-size: 24; color: #D8D8D8;}
+h1 a         { text-decoration: inherit; color: inherit;}
 
 button,
 textarea,
@@ -15,6 +16,8 @@ textarea     { border: 2px dashed #808080; min-height: 400px; width: calc(100% -
 
 input        { border: 2px dashed #808080; padding: 4px;}
 input.author { text-align: left; margin-left: 250px;}
+
+input.search { border: 2px solid #808080; width: 100%; box-sizing: border-box; margin: 26px auto;}
 
 
 
