@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Poetry</title>
+    <link rel="stylesheet" href="../bower_components/normalize-css/normalize.css"/>
+    <link rel="stylesheet" href="../bower_components/unsemantic/assets/stylesheets/unsemantic-grid-responsive.css   "/>
+
+    <link rel="stylesheet" href="assets/style/poetry.css"/>
+</head>
+<body>
+
+<div class="grid-container">
+    <div class="grid-25">
+        <h1>Poetry</h1>
+    </div>
+
+    <section class="grid-75 prefix-25">
+        <form id = "newPoetry" action="#">
+            <fieldset>
+                <textarea name="poem" id="" placeholder="Type there"></textarea>
+                <input name="author" class="author" type="text" placeholder="Author"/>
+            </fieldset>
+            <fieldset>
+                <button name="add">Add</button>
+            </fieldset>
+        </form>
+    </section>
+
+    <script>
+        document.getElementById("newPoetry")
+                .addEventListener("submit", function(e){
+                    e.preventDefault();
+
+                    var XHR = new XMLHttpRequest();
+
+                    // We setup our request
+                    XHR.open('POST', '/add');
+                    // We just send our FormData object, HTTP headers are set automatically
+                    XHR.send(new FormData(this));
+
+
+                }, false)
+    </script>
+</div>
+</body>
+</html>

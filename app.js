@@ -24,7 +24,7 @@ MongoClient.connect("mongodb://localhost:27017/poetry", function(err, db) {
 });
 
 
-
+app.use(express.bodyParser());
 app.use('/assets', express.static(__dirname + '/assets'));
 app.use('/bower_components',express.static(__dirname + '/bower_components'));
 
@@ -45,6 +45,27 @@ app.get('/', function(req, res){
             });
 
             return deferred.promise;
+        })
+        .then(function(html){
+            res.send(html);
+        })
+        .fail(function(err){
+            console.log(err);
+        })
+});
+
+app.post('/add', function(req, res){
+    collection.insert(req.body, {w:1}, function(err, result) {});
+    res.send("Ok")
+});
+
+app.get('/new', function(req, res){
+    qFS.read('assets/add.html')
+        .then(function(template){
+            return handlebars.compile(template);
+        })
+        .then(function(template){
+            return template({});
         })
         .then(function(html){
             res.send(html);
