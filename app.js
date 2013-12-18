@@ -5,6 +5,17 @@ var Q = require("q");
 var qFS = require("q-io/fs");
 var handlebars = require("handlebars")
 
+
+var mongojs = require('mongojs');
+var db = mongojs("poetry");
+var mycollection = db.collection('poetry');
+
+mycollection.runCommand("text", {search:"", language: "russian"}, function(err, res) {
+    console.log(res);
+    console.log(res.results);
+});
+
+
 function randomFromInterval(from,to){
     return Math.floor(Math.random()*(to-from+1)+from);
 }
@@ -20,6 +31,17 @@ MongoClient.connect("mongodb://localhost:27017/poetry", function(err, db) {
     db.createCollection('poetry', function(err, collect) {
         if(err) { return console.dir(err); }
         collection = collect;
+
+//        db.command({text:"poetry" , search: "Марина", language: "russian" }, function(err, cb){
+//            if(!err) {
+//                console.log(cb);
+//                cb.results.forEach(function(el, i){
+//                    console.log(el);
+//                })
+//            } else {console.log(err);}
+//
+//        })
+
     });
 });
 
