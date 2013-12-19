@@ -8,42 +8,11 @@ var handlebars = require("handlebars")
 
 var mongojs = require('mongojs');
 var db = mongojs("poetry");
-var mycollection = db.collection('poetry');
-
-mycollection.runCommand("text", {search:"", language: "russian"}, function(err, res) {
-    console.log(res);
-    console.log(res.results);
-});
-
+var collection = db.collection('poetry');
 
 function randomFromInterval(from,to){
     return Math.floor(Math.random()*(to-from+1)+from);
 }
-
-
-// Retrieve
-var MongoClient = require('mongodb').MongoClient;
-var collection;
-
-// Connect to the db
-MongoClient.connect("mongodb://localhost:27017/poetry", function(err, db) {
-    if(err) { return console.dir(err); }
-    db.createCollection('poetry', function(err, collect) {
-        if(err) { return console.dir(err); }
-        collection = collect;
-
-//        db.command({text:"poetry" , search: "Марина", language: "russian" }, function(err, cb){
-//            if(!err) {
-//                console.log(cb);
-//                cb.results.forEach(function(el, i){
-//                    console.log(el);
-//                })
-//            } else {console.log(err);}
-//
-//        })
-
-    });
-});
 
 
 app.use(express.bodyParser());
@@ -75,6 +44,27 @@ app.get('/', function(req, res){
             console.log(err);
         })
 });
+
+app.get('/search', function(req, res){
+    collection.find({
+        $or: [
+            { author : { $regex: req.query.query, $options: 'i' }},
+            { poem   : { $regex: req.query.query, $options: 'i' }}
+        ]})
+        .limit(10)
+        .toArray(function(err, data){
+            res.send({items: data});
+        })
+
+    /**
+     * Temporarily disabled full text search.
+     */
+//    collection.runCommand("text", {search:req.query.query, language: "russian"}, function(err, data) {
+//        res.send({items: data.results.map(function(el){return el.obj})});
+//    });
+})
+
+
 
 app.post('/add', function(req, res){
     collection.insert(req.body, {w:1}, function(err, result) {});

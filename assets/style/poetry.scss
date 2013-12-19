@@ -1,14 +1,14 @@
-html, body   { font-family: "Minion Pro"; font-size: 17px; color: #4A4A4A;}
+html, body   { font-family: "Minion Pro"; font-size: 17px; color: #4A4A4A; }
 
-h1           { font-size: 24; color: #D8D8D8;}
-h1 a         { text-decoration: inherit; color: inherit;}
+h1           { font-size: 24; color: #D8D8D8; }
+h1 a         { text-decoration: inherit; color: inherit; }
 
 button,
 textarea,
 input,
-pre          { font-family: "Minion Pro"; font-style: italic; float: left; color: #4A4A4A;}
+pre          { font-family: "Minion Pro"; font-style: italic; float: left; color: #4A4A4A; }
 
-.author      { display: block; text-align: right; margin-right: -40px;}
+.author      { display: block; text-align: right; margin-right: -40px; }
 
 textarea     { border: 2px dashed #808080; min-height: 400px; width: calc(100% - 20px); padding: 20px;
                position: relative; top: -20px; left: -20px;
@@ -19,7 +19,12 @@ input.author { text-align: left; margin-left: 250px;}
 
 input.search { border: 2px solid #808080; width: 100%; box-sizing: border-box; margin: 26px auto;}
 
-
-
 fieldset     { margin: 0; padding: 0; border: none; outline: none;}
 button       { border: 2px solid #808080; padding: 10px 30px 7px ; font-style: normal; }
+
+
+.highlight   { background-color: #ffff00;}
+
+#searchResult  { position: absolute; top: 70px; left: 0px;
+               background: none repeat scroll 0% 0% White; right: -180px; border: 1px solid gray;
+             }
