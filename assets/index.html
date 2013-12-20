@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <title>Poetry</title>
     <link rel="stylesheet" href="../bower_components/normalize-css/normalize.css"/>
-    <link rel="stylesheet" href="../bower_components/unsemantic/assets/stylesheets/unsemantic-grid-responsive.css   "/>
+    <link rel="stylesheet" href="../bower_components/unsemantic/assets/stylesheets/unsemantic-grid-responsive.css"/>
 
     <link rel="stylesheet" href="assets/style/poetry.css"/>
+    <link rel="stylesheet" href="assets/style/fonts/fontastic/fontAwesome/styles.css"/>
 </head>
 <body>
 
@@ -17,7 +18,11 @@
 
         <div class="grid-45">
             <form action="search" method="get">
+
+                <label for="search" class="search search-icon" data-icon="&#xe0d1;"></label>
                 <input name="query" id="search" type="text" class="search"/>
+                <label for="search" class="search clear-btn" data-icon="&#xe0c8;"></label>
+
                 <div id="searchResult" class="grid-container"></div>
             </form>
 
@@ -36,6 +41,12 @@
 
     <script>
         (function(){
+            //Aliases
+            var $ = Document.prototype.querySelector.bind(document),
+                $$ = Document.prototype.querySelectorAll.bind(document);
+
+            Element.prototype.on = Element.prototype.addEventListener;
+
             function higlightSearch(text, query){
                 var regExp = new RegExp("(\n[^\n]*){0,5}" + query + "([^\n]*\n){0,5}", "i"),
                     exText = "\n" + text + "\n", // "\n" + text + "\n" - it is hak for simplifying regex. (It for select first and last strings.)
@@ -50,8 +61,11 @@
                 return result;
             }
 
-
-            document.getElementById("search").addEventListener("keyup", function(e){
+            $("#search").on("keyup", function(e){
+                if (!this.value) {
+                    $("#searchResult").innerHTML = "";
+                    return;
+                }
                 var XHR = new XMLHttpRequest(),
                     queryText = this.value;
                 XHR.open('GET', '/search?' + "query=" + queryText);
@@ -61,19 +75,21 @@
                     var data = JSON.parse(XHR.responseText),
                         resultHtml = data.items.map(function(el, i) {
                             return "<div class='item'>" +
-
-                                            "<span class='grid-25'>" + higlightSearch(el.author, queryText) + "</span>" +
-                                            "<pre class='grid-75'>" + higlightSearch(el.poem, queryText) + "</pre>" +
-
-
+                                        "<span class='grid-25'>" + higlightSearch(el.author, queryText) + "</span>" +
+                                        "<pre class='grid-75'>" + higlightSearch(el.poem, queryText) + "</pre>" +
                                     "</div>"
                         }).join(" ");
 
-                    document.getElementById("searchResult").innerHTML = resultHtml;
+                    $("#searchResult").innerHTML = resultHtml;
                 })
 
                 XHR.send();
-            })
+            });
+
+            $(".search.clear-btn").on("click", function(){
+                $("#search").value = ""
+                $("#searchResult").innerHTML = "";
+            }, false);
         })()
 
     </script>
