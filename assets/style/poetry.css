@@ -8,7 +8,8 @@ body {
 
 h1 {
   font-size: 24;
-  color: #D8D8D8; }
+  color: #D8D8D8;
+  float: left; }
 
 h1 a {
   text-decoration: inherit;
@@ -100,8 +101,20 @@ button {
 .item {
   overflow: hidden;
   margin: 0;
-  padding: 0;
-  padding: 10px; }
+  padding: 10px;
+  cursor: pointer; }
 
 .item:hover {
   background-color: #ffffff; }
+
+.creation-toolbar a {
+  margin-top: 29px;
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  opacity: 0.3;
+  transition: opacity 0.5s;
+  font-size: 25px; }
+
+.creation-toolbar a:hover {
+  opacity: 1; }

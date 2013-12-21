@@ -18,21 +18,31 @@ app
     .use('/bower_components',express.static(__dirname + '/bower_components'))
 
     .get('/', function(req, res){
-        qFS.read('assets/index.html')
-            .then(function(template){
-                return handlebars.compile(template);
-            })
-            .then (function(template){
+
+        Q
+            .all([
+                qFS.read('assets/index.html'),
+                (function(){
+                    var deferred = Q.defer();
+
+                    collection
+                        .find()
+                        .count(function(err, count){
+                            var skip = Math.round(randomFromInterval(0, count - 1));
+                            deferred.resolve(skip);
+                        });
+
+                    return deferred.promise;
+                })()
+            ])
+            .spread(function (template, skipCount) {
                 var deferred = Q.defer();
-
-                collection.find().count(function(err, count){
-                    var skip = Math.round(randomFromInterval(0, count - 1));
-
-                    collection.find({}).skip(skip).limit(1).toArray(function(err, items) {
-                        deferred.resolve (template(items[0]))
+                collection
+                    .find({})
+                    .skip(skipCount).limit(1)
+                    .toArray(function(err, items) {
+                        deferred.resolve (handlebars.compile(template)(items[0]))
                     });
-                });
-
                 return deferred.promise;
             })
             .then(function(html){
