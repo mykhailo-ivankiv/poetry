@@ -19,32 +19,60 @@
         return result;
     }
 
-    $("#search").on("keyup", function(e){
-        if (!this.value) {
-            $("#searchResult").innerHTML = "";
-            return;
-        }
-        var XHR = new XMLHttpRequest(),
-            queryText = this.value;
-        XHR.open('GET', '/search?' + "query=" + queryText);
+    function getLocationQuery() {
+        var result = {};
+
+        decodeURI(window.location.search)
+            .substring(1)
+            .split("&")
+            .forEach(function(el, i) {
+                var params = el.split("=")
+                result[params[0]] = params[1];
+            });
+        return result;
+    }
+
+    function search(query) {
+        var XHR = new XMLHttpRequest();
+        XHR.open('GET', '/search?' + "query=" + query);
 
 
         XHR.addEventListener("load", function(e){
             var data = JSON.parse(XHR.responseText),
-                resultHtml = data.items.map(function(el, i) {
-                    return "<div class='item'>" +
-                        "<span class='grid-25'>" + higlightSearch(el.author, queryText) + "</span>" +
-                        "<pre class='grid-75'>" + higlightSearch(el.poem, queryText) + "</pre>" +
-                        "</div>"
+                resultHtml = data.items.map(function(el) {
+                    return "<a href='/poems/" + el._id + "' class='item'>" +
+                        "<span class='grid-25'>" + higlightSearch(el.author, query) + "</span>" +
+                        "<pre class='grid-75'>" + higlightSearch(el.poem, query) + "</pre>" +
+                        "</a>"
                 }).join(" ");
 
             $("#searchResult").innerHTML = resultHtml;
         })
 
         XHR.send();
+    }
+
+    var searchQuery = getLocationQuery().query;
+    if (searchQuery) {
+        $("#search").value = searchQuery;
+        $("#search").select();
+        search(searchQuery);
+    }
+
+    $("#search").on("keyup", function(e){
+        if (!this.value) {
+            $("#searchResult").innerHTML = "";
+            history.replaceState({},"", "/");
+            return;
+        }
+
+        history.replaceState({},"", "?query="+this.value);
+
+        search(this.value);
     });
 
     $(".search.clear-btn").on("click", function(){
+        history.replaceState({},"", "/");
         $("#search").value = ""
         $("#searchResult").innerHTML = "";
     }, false);

@@ -102,7 +102,9 @@ button {
   overflow: hidden;
   margin: 0;
   padding: 10px;
-  cursor: pointer; }
+  cursor: pointer;
+  display: block;
+  color: inherit; }
 
 .item:hover {
   background-color: #ffffff; }

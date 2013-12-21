@@ -5,6 +5,7 @@ var express = require('express'),
     handlebars = require("handlebars"),
 
     mongojs = require('mongojs'),
+    BSON = require('mongodb').BSONPure,
     db = mongojs("poetry"),
     collection = db.collection('poetry');
 
@@ -19,10 +20,7 @@ app
 
     .get('/', function(req, res){
 
-        Q
-            .all([
-                qFS.read('assets/index.html'),
-                (function(){
+            (function(){
                     var deferred = Q.defer();
 
                     collection
@@ -33,24 +31,47 @@ app
                         });
 
                     return deferred.promise;
-                })()
-            ])
-            .spread(function (template, skipCount) {
+            })()
+
+            .then(function (skipCount) {
                 var deferred = Q.defer();
                 collection
                     .find({})
                     .skip(skipCount).limit(1)
                     .toArray(function(err, items) {
-                        deferred.resolve (handlebars.compile(template)(items[0]))
+                        deferred.resolve (items[0]);
                     });
                 return deferred.promise;
             })
-            .then(function(html){
-                res.send(html);
+            .then(function(data){
+                res.redirect("/poems/" + data._id);
             })
             .fail(function(err){
                 console.log(err);
             })
+    })
+
+    .get('/poems/:id', function(req, res){
+
+        Q
+            .all([
+                qFS.read('assets/index.html'),
+                (function(){
+                    var deferred = Q.defer();
+
+                    var id = new BSON.ObjectID(req.params.id);
+                    collection.findOne({'_id': id}, function(err, data){
+                        deferred.resolve(data)
+                    });
+                    return deferred.promise;
+                })()
+            ])
+            .spread(function (template, data) {
+                res.send(handlebars.compile(template)(data));
+            })
+            .fail(function(err){ console.log(err);})
+
+
     })
 
     .get('/search', function(req, res){
@@ -64,7 +85,6 @@ app
                 res.send({items: data});
             })
     })
-
 
     .post('/add', function(req, res){
         collection.insert(req.body, {w:1}, function(err, result) {

@@ -40,7 +40,7 @@ button                    { border: 2px solid #808080; padding: 10px 30px 7px ; 
                             background-color: #F6F6F6; padding: 0;
                           }
 
-.item                     { overflow: hidden; margin: 0; padding: 10px; cursor: pointer;}
+.item                     { overflow: hidden; margin: 0; padding: 10px; cursor: pointer; display: block; color: inherit;}
 .item:hover               { background-color: #ffffff;}
 
 .creation-toolbar a       { margin-top: 29px; display: inline-block; text-decoration: none; color: inherit;
