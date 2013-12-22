@@ -1,3 +1,9 @@
+var LanguageDetect = require('languagedetect');
+var lngDetector = new LanguageDetect();
+
+console.log(lngDetector.detect('Йдеш на мене подібний'));
+
+
 var express = require('express'),
     app = express(),
     Q = require("q"),
