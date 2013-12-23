@@ -9,7 +9,7 @@ textarea,
 input,
 pre                       { font-family: "Minion Pro"; font-style: italic; float: left; color: #4A4A4A; }
 
-.author                   { display: block; text-align: right; margin-right: -40px; }
+pre .author               { display: block; text-align: right; margin-right: -40px; }
 
 textarea                  { border: 2px dashed #808080; min-height: 400px; width: calc(100% - 20px); padding: 20px;
                             position: relative; top: -20px; left: -20px;

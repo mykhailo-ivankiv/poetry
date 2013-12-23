@@ -24,7 +24,7 @@ pre {
   float: left;
   color: #4A4A4A; }
 
-.author {
+pre .author {
   display: block;
   text-align: right;
   margin-right: -40px; }
