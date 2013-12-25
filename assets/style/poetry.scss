@@ -1,5 +1,7 @@
+$LINE_HEIGHT : 21.4px;
+
 html, body                { font-family: "Minion Pro"; font-size: 17px; color: #4A4A4A;}
-body                      { overflow-y: scroll;}
+body                      { overflow-y: scroll; }
 
 h1                        { font-size: 24; color: #D8D8D8; float: left; }
 h1 a                      { text-decoration: inherit; color: inherit; }
@@ -11,23 +13,42 @@ pre                       { font-family: "Minion Pro"; font-style: italic; float
 
 pre .author               { display: block; text-align: right; margin-right: -40px; }
 
-textarea                  { border: 2px dashed #808080; min-height: 400px; width: calc(100% - 20px); padding: 20px;
-                            position: relative; top: -20px; left: -20px;
-                          }
+.add {
+  button,
+  textarea,
+  input,
+  pre                       { float: left; }
 
-input                     { border: 2px dashed #808080; padding: 4px;}
-input.author              { text-align: left; margin-left: 250px;}
+
+
+  textarea                  { border: 2px dashed #808080; min-height: 400px; width: calc(100% - 20px); padding: 20px;
+                              position: relative; top: -20px; left: -20px;
+                            }
+
+  input                     { border: 2px dashed #808080; padding: 4px;}
+  input.author              { text-align: left; margin-left: 250px;}
+}
+
 
 input.search              { border: 2px solid #808080; width: 100%; box-sizing: border-box; margin: 25px auto;
                             -moz-box-sizing: border-box; padding: 4px 25px; }
+
+textarea.search           { height: 33px; min-height: 0; min-width: 0; resize: none; margin: 25px auto;
+                            border: 2px solid #808080; width: 100%; padding: 4px 25px; -moz-box-sizing: border-box;
+                            overflow: hidden; transition: height 0.3s, min-height 0.3s;
+                          }
+
+textarea.add              { min-height: $LINE_HEIGHT * 14;}
 
 form[action="search"]     { position: relative;}
 .search.search-icon       { position: absolute; left: 8px; top: 32px;}
 
 .search.clear-btn         { position: absolute; top: 32px; right: 5px; opacity: 0; cursor: pointer;
-                            transition: opacity 0.5s;}
+                            transition: opacity 0.3s;}
+
+textarea.search:focus+.search.clear-btn,
 input.search:focus+.search.clear-btn,
-.search.clear-btn:hover   {opacity: 1;}
+.search.clear-btn:hover   { opacity: 1;}
 
 fieldset                  { margin: 0; padding: 0; border: none; outline: none;}
 button                    { border: 2px solid #808080; padding: 10px 30px 7px ; font-style: normal; }

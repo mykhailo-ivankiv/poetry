@@ -3,7 +3,12 @@
     var $ = Document.prototype.querySelector.bind(document),
         $$ = Document.prototype.querySelectorAll.bind(document);
 
+    Element.prototype.$ = Element.prototype.querySelector;
+    Element.prototype.$$ = Element.prototype.querySelectorAll;
+
     Element.prototype.on = Element.prototype.addEventListener;
+
+    const LINE_HEIGHT = 21.4 //px
 
     function higlightSearch(text, query){
         var regExp = new RegExp("(\n[^\n]*){0,5}" + query + "([^\n]*\n){0,5}", "i"),
@@ -59,21 +64,56 @@
         search(searchQuery);
     }
 
-    $("#search").on("keyup", function(e){
-        if (!this.value) {
-            $("#searchResult").innerHTML = "";
-            history.replaceState({},"", "/");
-            return;
-        }
-
-        history.replaceState({},"", "?query="+this.value);
-
-        search(this.value);
-    });
-
-    $(".search.clear-btn").on("click", function(){
+    function claerAndCloseSearch() {
         history.replaceState({},"", "/");
         $("#search").value = ""
         $("#searchResult").innerHTML = "";
-    }, false);
+    }
+
+    function closeSearch(){
+        history.replaceState({},"", "/");
+        $("#searchResult").innerHTML = "";
+    };
+
+    $("#search").on("keydown", function(e){
+        var numbersOfLine;
+
+        if (e.keyCode === 13 && !this.classList.contains("add")){ //Enter
+            this.classList.add("add");
+            closeSearch();
+        }
+
+        if (this.value.match(/\n/g)) {
+            numbersOfLine = this.value.match(/\n/g).length;
+
+            if (numbersOfLine > 10) {
+                this.style.height = (numbersOfLine + 5) * LINE_HEIGHT + "px";
+            }
+        }
+
+    });
+
+    $("#search").on("keyup", function(e){
+        e.preventDefault();
+
+        if (this.value.indexOf("\n") + 1) { //Add mode
+            this.classList.add("add");
+            closeSearch();
+
+        } else { //Search mode;
+            this.classList.remove("add");
+
+            this.style.height = "33px";
+            if (!this.value) {
+                $("#searchResult").innerHTML = "";
+                history.replaceState({},"", "/");
+            } else {
+                history.replaceState({},"", "?query="+this.value);
+                search(this.value);
+            }
+        }
+
+    });
+
+    $(".search.clear-btn").on("click", claerAndCloseSearch);
 })()

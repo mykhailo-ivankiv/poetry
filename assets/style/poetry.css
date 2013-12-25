@@ -29,7 +29,12 @@ pre .author {
   text-align: right;
   margin-right: -40px; }
 
-textarea {
+.add button,
+.add textarea,
+.add input,
+.add pre {
+  float: left; }
+.add textarea {
   border: 2px dashed #808080;
   min-height: 400px;
   width: calc(100% - 20px);
@@ -37,12 +42,10 @@ textarea {
   position: relative;
   top: -20px;
   left: -20px; }
-
-input {
+.add input {
   border: 2px dashed #808080;
   padding: 4px; }
-
-input.author {
+.add input.author {
   text-align: left;
   margin-left: 250px; }
 
@@ -53,6 +56,22 @@ input.search {
   margin: 25px auto;
   -moz-box-sizing: border-box;
   padding: 4px 25px; }
+
+textarea.search {
+  height: 33px;
+  min-height: 0;
+  min-width: 0;
+  resize: none;
+  margin: 25px auto;
+  border: 2px solid #808080;
+  width: 100%;
+  padding: 4px 25px;
+  -moz-box-sizing: border-box;
+  overflow: hidden;
+  transition: height 0.3s, min-height 0.3s; }
+
+textarea.add {
+  min-height: 299.6px; }
 
 form[action="search"] {
   position: relative; }
@@ -68,8 +87,9 @@ form[action="search"] {
   right: 5px;
   opacity: 0;
   cursor: pointer;
-  transition: opacity 0.5s; }
+  transition: opacity 0.3s; }
 
+textarea.search:focus + .search.clear-btn,
 input.search:focus + .search.clear-btn,
 .search.clear-btn:hover {
   opacity: 1; }
