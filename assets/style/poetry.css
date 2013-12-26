@@ -7,6 +7,7 @@ body {
   overflow-y: scroll; }
 
 h1 {
+  font-family: Museo;
   font-size: 24;
   color: #D8D8D8;
   float: left; }
