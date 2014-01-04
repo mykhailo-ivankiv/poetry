@@ -59,3 +59,11 @@ button                    { border: 2px solid #808080; padding: 10px 30px 7px ; 
 
 .main-footer              { position: absolute; right: 0; bottom: 10px; font: 12px Museo; color: #cccccc;}
 .main-footer a            { color: inherit;}
+
+.main-navigation          { font-family: Museo; left: 260px; position: absolute; top: 2px; color: #4A4A4A; }
+.main-navigation a        { color: inherit; text-transform: uppercase; margin: 0 10px; font-size: 13px;}
+
+
+.poems                    {}
+.poems pre                { width: 100%;}
+.poems pre:after { content: "***"; display: block; margin: 10px 0 -25px;}

@@ -75,6 +75,35 @@ app
             .fail(function(err){console.log(err);})
     })
 
+    .get('/authors/:author', function(req, res){
+        var author = req.params.author;
+        (function(){
+            var deferred = Q.defer();
+            collection.find({author: author}).toArray(function(err, data){
+                deferred.resolve({
+                    author : author,
+                    poems : data.map(function(el){
+                        var poem =  "\n" +  el.poem // "\n" + text + "\n" - it is hak for simplifying regex. (It for select first and last strings.)
+                        poem = poem.match(/(\n[^\n]*){0,4}/)[0];
+                        return {
+                            _id: el._id,
+                            poem: poem,
+                            language: el.language
+                        }
+                    })
+                });
+            })
+            return deferred.promise;
+        })()
+        .then(function (data) {
+            console.log(data);
+            res.render('author', data);
+        })
+        .fail(function(err){console.log(err);})
+
+
+    })
+
     .get('/poems/:id', function(req, res){
             (function(){
                 var deferred = Q.defer();

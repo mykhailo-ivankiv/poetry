@@ -16,13 +16,17 @@
     <heder class="main-header">
         <div class="grid-20">
             <h1><a href="/">Kalliope.me</a></h1>
+            <nav class="main-navigation">
+                <a href="/authors">Authors</a>
+                <a href="/poems">Poems</a>
+            </nav>
         </div>
 
         <div class="grid-45">
-            <form action="search" method="get" class="super-form">
+            <form action="search" method="get" class="super-form add">
 
                 <label for="search" class="search search-icon" data-icon="&#xe0d1;"></label>
-                <textarea rows="1" wrap="off" name="query" id="search" type="text" class="search"></textarea>
+                <textarea rows="1" wrap="off" name="query" id="search" type="text" class="search add"></textarea>
                 <label for="search" class="search clear-btn" data-icon="&#xe0c8;"></label>
 
                 <div id="searchResult" class="grid-container"></div>

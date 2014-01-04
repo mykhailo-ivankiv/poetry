@@ -112,7 +112,7 @@
                 $("#searchResult").innerHTML = "";
                 history.replaceState({},"", "/");
             } else {
-                history.replaceState({},"", "?query="+this.value);
+                history.replaceState({},"", "?query=" + this.value);
                 search(this.value);
             }
         }
