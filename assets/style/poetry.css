@@ -121,3 +121,24 @@ button {
 
 .creation-toolbar a:hover {
   opacity: 1; }
+
+.main-section {
+  margin-top: 70px; }
+
+.main-container {
+  position: relative; }
+
+.main-header {
+  position: absolute;
+  left: 0;
+  right: 0; }
+
+.main-footer {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  font: 12px Museo;
+  color: #cccccc; }
+
+.main-footer a {
+  color: inherit; }

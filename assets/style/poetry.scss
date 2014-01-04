@@ -14,23 +14,6 @@ pre                       { font-family: "Minion Pro"; font-style: italic; float
 pre .author               { display: block; text-align: right; margin-right: -40px; }
 
 
-//.add {
-//  button,
-//  textarea,
-//  input,
-//  pre                       { float: left; }
-//
-//
-//
-//  textarea                  { border: 2px dashed #808080; min-height: 400px; width: calc(100% - 20px); padding: 20px;
-//                              position: relative; top: -20px; left: -20px;
-//                            }
-//
-//  input                     { border: 2px dashed #808080; padding: 4px;}
-//  input.author              { text-align: left; margin-left: 250px;}
-//}
-
-
 input.search              { border: 2px solid #808080; width: 100%; box-sizing: border-box; margin: 25px auto;
                             -moz-box-sizing: border-box; padding: 4px 25px; }
 
@@ -69,3 +52,10 @@ button                    { border: 2px solid #808080; padding: 10px 30px 7px ; 
                             opacity: 0.3; transition: opacity 0.5s; font-size: 25px;
                           }
 .creation-toolbar a:hover { opacity: 1;}
+
+.main-section             { margin-top: 70px;}
+.main-container           { position: relative;}
+.main-header              { position: absolute; left: 0; right: 0;}
+
+.main-footer              { position: absolute; right: 0; bottom: 10px; font: 12px Museo; color: #cccccc;}
+.main-footer a            { color: inherit;}
