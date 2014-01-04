@@ -79,7 +79,9 @@
         var numbersOfLine;
 
         if (e.keyCode === 13 && !this.classList.contains("add")){ //Enter
+            $(".super-form").classList.add("add");
             this.classList.add("add");
+
             closeSearch();
         }
 
@@ -97,10 +99,12 @@
         e.preventDefault();
 
         if (this.value.indexOf("\n") + 1) { //Add mode
+            $(".super-form").classList.add("add")
             this.classList.add("add");
             closeSearch();
 
         } else { //Search mode;
+            $(".super-form").classList.remove("add")
             this.classList.remove("add");
 
             this.style.height = "33px";

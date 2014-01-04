@@ -13,21 +13,22 @@ pre                       { font-family: "Minion Pro"; font-style: italic; float
 
 pre .author               { display: block; text-align: right; margin-right: -40px; }
 
-.add {
-  button,
-  textarea,
-  input,
-  pre                       { float: left; }
 
-
-
-  textarea                  { border: 2px dashed #808080; min-height: 400px; width: calc(100% - 20px); padding: 20px;
-                              position: relative; top: -20px; left: -20px;
-                            }
-
-  input                     { border: 2px dashed #808080; padding: 4px;}
-  input.author              { text-align: left; margin-left: 250px;}
-}
+//.add {
+//  button,
+//  textarea,
+//  input,
+//  pre                       { float: left; }
+//
+//
+//
+//  textarea                  { border: 2px dashed #808080; min-height: 400px; width: calc(100% - 20px); padding: 20px;
+//                              position: relative; top: -20px; left: -20px;
+//                            }
+//
+//  input                     { border: 2px dashed #808080; padding: 4px;}
+//  input.author              { text-align: left; margin-left: 250px;}
+//}
 
 
 input.search              { border: 2px solid #808080; width: 100%; box-sizing: border-box; margin: 25px auto;
