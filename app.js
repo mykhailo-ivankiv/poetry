@@ -5,6 +5,7 @@ console.log(lngDetector.detect('Йдеш на мене подібний'));
 
 
 var express = require('express'),
+    exphbs  = require('express3-handlebars'),
     app = express(),
     Q = require("q"),
     FS = require("fs")
@@ -16,7 +17,8 @@ var express = require('express'),
     db = mongojs("poetry"),
     collection = db.collection('poetry');
 
-    authorsTemplate = handlebars.compile(FS.readFileSync("assets/authors.html", "utf-8"));
+app.engine('handlebars', exphbs({defaultLayout: 'main'}));
+app.set('view engine', 'handlebars');
 
 function randomFromInterval(from,to){
     return Math.floor(Math.random()*(to-from+1)+from);
@@ -61,39 +63,30 @@ app
     })
 
     .get('/authors', function(req, res){
-        Q
-            .all([
-                qFS.read('assets/authors.html'),
-                (function(){
-                    var deferred = Q.defer();
 
-                    collection.distinct("author", function(err, data){ deferred.resolve({authors:data}); });
-                    return deferred.promise;
-                })()
-            ])
-            .spread(function(template, data){
-                res.send(handlebars.compile(template)(data));
+            (function(){
+                var deferred = Q.defer();
+                collection.distinct("author", function(err, data){ deferred.resolve({authors:data}); });
+                return deferred.promise;
+            })()
+            .then(function(data){
+                res.render('authors', data);
             })
             .fail(function(err){console.log(err);})
     })
 
     .get('/poems/:id', function(req, res){
+            (function(){
+                var deferred = Q.defer();
 
-        Q
-            .all([
-                qFS.read('assets/index.html'),
-                (function(){
-                    var deferred = Q.defer();
-
-                    var id = new BSON.ObjectID(req.params.id);
-                    collection.findOne({'_id': id}, function(err, data){
-                        deferred.resolve(data)
-                    });
-                    return deferred.promise;
-                })()
-            ])
-            .spread(function (template, data) {
-                res.send(handlebars.compile(template)(data));
+                var id = new BSON.ObjectID(req.params.id);
+                collection.findOne({'_id': id}, function(err, data){
+                    deferred.resolve(data)
+                });
+                return deferred.promise;
+            })()
+            .then(function (data) {
+                res.render('poem', data);
             })
             .fail(function(err){ console.log(err);})
 
