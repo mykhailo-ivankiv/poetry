@@ -17,21 +17,38 @@ pre .author               { display: block; text-align: right; margin-right: -40
 input.search              { border: 2px solid #808080; width: 100%; box-sizing: border-box; margin: 25px auto;
                             -moz-box-sizing: border-box; padding: 4px 25px; }
 
-textarea.search           { height: 33px; min-height: 0; min-width: 0; resize: none; margin: 25px auto;
+textarea#search           { height: 33px; min-height: 0; min-width: 0; resize: none; margin: 25px auto;
                             border: 2px solid #808080; width: 100%; padding: 4px 25px; -moz-box-sizing: border-box;
                             overflow: hidden; transition: height 0.3s, min-height 0.3s;
                           }
 
-textarea.add              { min-height: $LINE_HEIGHT * 14;}
-
 form[action="search"]     { position: relative;}
-.search.search-icon       { position: absolute; left: 8px; top: 32px;}
+.search.search-icon       { position: absolute; left: 15px; top: 32px; opacity: 1; transition: opacity 0.3s;}
 
-.search.clear-btn         { position: absolute; top: 32px; right: 5px; opacity: 0; cursor: pointer;
+.search.clear-btn         { position: absolute; top: 32px; right: 15px; opacity: 0; cursor: pointer;
                             transition: opacity 0.3s;}
 
+.additional               { position: absolute; left: 100%; top: 25px; bottom: 0px; opacity: 0; transition: opacity 0.3s;}
+
+.add-poem                 { border: medium none; position: absolute; top: 29px; right: -30px; width: 30px;
+                            padding: 0; height: 30px; z-index: 1; transition: opacity 0.3s; cursor: pointer;
+                            background: transparent;
+                          }
+
+.add {
+  #search                 { min-height: $LINE_HEIGHT * 14;}
+
+  .additional             { opacity: 1; z-index: 2}
+  .add-poem               { opacity: 0; }
+  label.search-icon       { opacity: 0;}
+
+  input                   { border: 2px solid #808080; width: 100%; padding: 5px 10px;
+                            -moz-box-sizing: border-box; margin: 6px 0px;
+                          }
+
+}
+
 textarea.search:focus+.search.clear-btn,
-input.search:focus+.search.clear-btn,
 .search.clear-btn:hover   { opacity: 1;}
 
 fieldset                  { margin: 0; padding: 0; border: none; outline: none;}
@@ -60,7 +77,7 @@ button                    { border: 2px solid #808080; padding: 10px 30px 7px ; 
 .main-footer              { position: absolute; right: 0; bottom: 10px; font: 12px Museo; color: #cccccc;}
 .main-footer a            { color: inherit;}
 
-.main-navigation          { font-family: Museo; left: 260px; position: absolute; top: 2px; color: #4A4A4A; }
+.main-navigation          { font-family: Museo; left: 260px; position: absolute; top: 2px; color: #4A4A4A; z-index: 3;}
 .main-navigation a        { color: inherit; text-transform: uppercase; margin: 0 10px; font-size: 13px;}
 
 

@@ -96,7 +96,6 @@ app
             return deferred.promise;
         })()
         .then(function (data) {
-            console.log(data);
             res.render('author', data);
         })
         .fail(function(err){console.log(err);})
@@ -138,21 +137,5 @@ app
         collection.insert(req.body, {w:1}, function(err, result) {
             res.send("Ok")
         });
-    })
-
-    .get('/new', function(req, res){
-        qFS.read('assets/add.html')
-            .then(function(template){
-                return handlebars.compile(template);
-            })
-            .then(function(template){
-                return template({});
-            })
-            .then(function(html){
-                res.send(html);
-            })
-            .fail(function(err){
-                console.log(err);
-            })
     })
     .listen(3000);

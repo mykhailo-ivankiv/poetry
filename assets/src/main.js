@@ -95,17 +95,47 @@
 
     });
 
+
+    function switchToAdd() {
+        $(".super-form").classList.add("add")
+        $("#search").classList.add("add");
+        $("#search").name = "poem";
+    }
+
+    $(".add-poem").on("click", function (e){
+        $("#search").value += "\n";
+        e.preventDefault();
+        switchToAdd();
+    });
+
+    $(".super-form").on("submit", function (e){
+
+        e.preventDefault();
+
+        var XHR = new XMLHttpRequest();
+
+        XHR.addEventListener("load", function(e){
+            alert("ok");
+        })
+
+        // We setup our request
+        XHR.open('POST', '/add');
+        // We just send our FormData object, HTTP headers are set automatically
+        XHR.send(new FormData(this));
+
+    });
+
     $("#search").on("keyup", function(e){
         e.preventDefault();
 
         if (this.value.indexOf("\n") + 1) { //Add mode
-            $(".super-form").classList.add("add")
-            this.classList.add("add");
+            switchToAdd()
             closeSearch();
 
         } else { //Search mode;
             $(".super-form").classList.remove("add")
             this.classList.remove("add");
+            $("#search").name = "query";
 
             this.style.height = "33px";
             if (!this.value) {
