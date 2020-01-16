@@ -1,0 +1,22 @@
+{
+    "author": "Лівицька-Холодна Наталя",
+    "link": "/metrs.php?id=323&type=tvorch",
+    "poems": [
+        {
+            "name": "\"Весняним громом прогрими...\"",
+            "link": "metrs_poem.php?poem=7989"
+        },
+        {
+            "name": "\"Мені очей звести несила...",
+            "link": "metrs_poem.php?poem=7990"
+        },
+        {
+            "name": "\"Сім літер, що палають в слові \"Україна\"",
+            "link": "metrs_poem.php?poem=7988"
+        },
+        {
+            "name": "\"Такий похмурий вечір нині...\"",
+            "link": "metrs_poem.php?poem=7987"
+        }
+    ]
+}

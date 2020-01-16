@@ -1,0 +1,22 @@
+{
+    "author": "Воробкевич Сидір ",
+    "link": "/metrs.php?id=106&type=tvorch",
+    "poems": [
+        {
+            "name": "\"Ой, Iсусе, глянь на мене...\"",
+            "link": "metrs_poem.php?poem=832"
+        },
+        {
+            "name": "МОЛИТВА НА НIЧ ДЛЯ НАЙМЕНШИХ",
+            "link": "metrs_poem.php?poem=830"
+        },
+        {
+            "name": "ОСІНЬ",
+            "link": "metrs_poem.php?poem=828"
+        },
+        {
+            "name": "РIДНА МОВА",
+            "link": "metrs_poem.php?poem=829"
+        }
+    ]
+}

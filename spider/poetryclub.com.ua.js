@@ -16,42 +16,19 @@ const getHTML = url =>
       console.log(error);
     });
 
+const writeJsonToFile = async (filePath, data) =>
+  fs.writeFile(filePath, JSON.stringify(data, null, 4));
+
+const getJSONFromFile = async path => {
+  const text = await fs.readFile(path, "utf8");
+  return JSON.parse(text);
+};
+
 const getAuthorsListFromHTML = html =>
   [...new JSDOM(html).window.document.querySelectorAll("a.buttn")].map(el => ({
     author: el.innerHTML,
     link: el.getAttribute("href")
   }));
-
-function getPoemsList(authors) {
-  authors.forEach(function(author, i) {
-    getHTML(DOMAIN + author.link).then(function(html) {
-      jsdom.env({
-        html: html,
-        scripts: ["http://code.jquery.com/jquery.js"],
-        done: function(errors, window) {
-          var $ = window.$,
-            data = {
-              author: author.author,
-              poems: []
-            };
-
-          $(".poem10").each(function(i, el) {
-            data.poems.push({
-              name: $(el).html(),
-              link: $(el).attr("href")
-            });
-          });
-
-          fs.writeFileSync(
-            DATA_FOLDER + "/data." + i + ".json",
-            JSON.stringify(data, null, 4)
-          );
-          console.log(i + " Poems list saved");
-        }
-      });
-    });
-  });
-}
 
 function getPoem(i) {
   qFS
@@ -166,23 +143,48 @@ const saveAuthorListToFile = async (url, filePath) => {
   try {
     const authorsHTML = await getHTML(url);
     const authors = getAuthorsListFromHTML(authorsHTML);
-
-    await fs.writeFile(filePath, JSON.stringify(authors, null, 4));
+    return writeJsonToFile(filePath, authors);
   } catch (e) {
     console.log(e);
   }
 };
 
-const getJSONFromFile = async path => {
-  const text = await fs.readFile(path, "utf8");
-  return JSON.parse(text);
+const getAuthorPoemLIst = async ({ author, link }) => {
+  const html = await getHTML(DOMAIN + link);
+
+  return {
+    author,
+    link,
+    poems: [...new JSDOM(html).window.document.querySelectorAll(".poem10")].map(
+      el => ({
+        name: el.innerHTML,
+        link: el.getAttribute("href")
+      })
+    )
+  };
 };
 
 Promise.all([
   // saveAuthorListToFile(DOMAIN + "/poets_of_ua.php", AUTHORS_DATA_PATH)
-  getJSONFromFile(AUTHORS_DATA_PATH)
+  (async () =>
+    Promise.all(
+      (await getJSONFromFile(AUTHORS_DATA_PATH)).map(async (author, i) => {
+        try {
+          const poemList = await getAuthorPoemLIst(author);
+          await writeJsonToFile(`${DATA_FOLDER}/authors/${i}.json`, poemList);
+          console.log(`[${i}] ${author.author} -> done`);
+          return "ok ";
+        } catch (e) {
+          console.log(`e`);
+          return "err";
+        }
+      })
+    ))()
 ])
-  .then(messages => console.log(messages.join("\n")))
+  .then(messages => {
+    console.log("-----------------");
+    console.log(messages.join(" | "));
+  })
   .catch(e => console.log(e));
 
 //getPoemsList();

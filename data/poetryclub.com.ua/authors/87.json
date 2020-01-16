@@ -1,0 +1,62 @@
+{
+    "author": "Мазуренко Галина",
+    "link": "/metrs.php?id=326&type=tvorch",
+    "poems": [
+        {
+            "name": "\"В болючій тузі народилось слово...\"",
+            "link": "metrs_poem.php?poem=8046"
+        },
+        {
+            "name": "\"Диха гірко, по-весінньому...\"",
+            "link": "metrs_poem.php?poem=8054"
+        },
+        {
+            "name": "\"Коли відквітнуть наші мрії...\"",
+            "link": "metrs_poem.php?poem=8048"
+        },
+        {
+            "name": "\"Куди ведеш нас, Господи? Куди?\"",
+            "link": "metrs_poem.php?poem=8056"
+        },
+        {
+            "name": "\"Лісунець собі на грудці...\"",
+            "link": "metrs_poem.php?poem=8053"
+        },
+        {
+            "name": "\"Світе любий, таємний, далекий...\"",
+            "link": "metrs_poem.php?poem=8047"
+        },
+        {
+            "name": "\"Серед людей – як у пустелі...\"",
+            "link": "metrs_poem.php?poem=8055"
+        },
+        {
+            "name": "\"Ти плачеш?\"",
+            "link": "metrs_poem.php?poem=8050"
+        },
+        {
+            "name": "ГЕТСИМАНСЬКИЙ САД ",
+            "link": "metrs_poem.php?poem=8057"
+        },
+        {
+            "name": "ГОГОЛЬ ",
+            "link": "metrs_poem.php?poem=8051"
+        },
+        {
+            "name": "ЗАЛІЗНА ДИВІЗІЯ ",
+            "link": "metrs_poem.php?poem=8059"
+        },
+        {
+            "name": "ОСТАННІЙ ВІРШ ",
+            "link": "metrs_poem.php?poem=8058"
+        },
+        {
+            "name": "ПРОЗОРО-ПРОСТІ ",
+            "link": "metrs_poem.php?poem=8049"
+        },
+        {
+            "name": "СУЗІР’Я РИБ ",
+            "link": "metrs_poem.php?poem=8052"
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "author": "Лубківський Роман",
+    "link": "/metrs.php?id=64&type=tvorch",
+    "poems": [
+        {
+            "name": "\"Матері не вмирають...\"",
+            "link": "metrs_poem.php?poem=17360"
+        },
+        {
+            "name": "\"Небувалі часи\" Із Цьоткі",
+            "link": "metrs_poem.php?poem=17361"
+        },
+        {
+            "name": "\"Прокидаюся в Белграді...\"",
+            "link": "metrs_poem.php?poem=17358"
+        },
+        {
+            "name": "\"Чистою-чистою, білою-білою...\"",
+            "link": "metrs_poem.php?poem=17362"
+        },
+        {
+            "name": "БІЛЬ",
+            "link": "metrs_poem.php?poem=369"
+        },
+        {
+            "name": "ДО ШЕВЧЕНКА",
+            "link": "metrs_poem.php?poem=17365"
+        },
+        {
+            "name": "КРЕДО",
+            "link": "metrs_poem.php?poem=17359"
+        },
+        {
+            "name": "МАТЕРІ",
+            "link": "metrs_poem.php?poem=17364"
+        },
+        {
+            "name": "ПОЛЮВАННЯ",
+            "link": "metrs_poem.php?poem=368"
+        },
+        {
+            "name": "ПРИСВЯТА ОДНОМУ З ШЕВЧЕНКІВСЬКИХ АВТОПОРТРЕТІВ",
+            "link": "metrs_poem.php?poem=17363"
+        }
+    ]
+}

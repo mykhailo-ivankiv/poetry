@@ -1,0 +1,50 @@
+{
+    "author": "Мисик Василь",
+    "link": "/metrs.php?id=297&type=tvorch",
+    "poems": [
+        {
+            "name": "\"Глухе падіння яблук, мовби крок...\"",
+            "link": "metrs_poem.php?poem=17174"
+        },
+        {
+            "name": "БАБА",
+            "link": "metrs_poem.php?poem=17176"
+        },
+        {
+            "name": "ВОЗОВИЦЯ",
+            "link": "metrs_poem.php?poem=17175"
+        },
+        {
+            "name": "З ПІВДНЯ ТЕМНІЄ ОБРІЙ (Уривки)",
+            "link": "metrs_poem.php?poem=6461"
+        },
+        {
+            "name": "КОНКІСТАДОРИ (Морський похід)",
+            "link": "metrs_poem.php?poem=6463"
+        },
+        {
+            "name": "ОЛЕНЬ",
+            "link": "metrs_poem.php?poem=6459"
+        },
+        {
+            "name": "ПІД ІВАНА КУПАЛА",
+            "link": "metrs_poem.php?poem=6462"
+        },
+        {
+            "name": "ПЕРЕД ЖНИВАМИ",
+            "link": "metrs_poem.php?poem=16532"
+        },
+        {
+            "name": "ПЕРШИЙ СНІГ",
+            "link": "metrs_poem.php?poem=16531"
+        },
+        {
+            "name": "СУЧАСНІСТЬ",
+            "link": "metrs_poem.php?poem=17177"
+        },
+        {
+            "name": "ТРАВИ",
+            "link": "metrs_poem.php?poem=6460"
+        }
+    ]
+}

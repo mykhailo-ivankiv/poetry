@@ -1,0 +1,50 @@
+{
+    "author": "Старицький Михайло",
+    "link": "/metrs.php?id=107&type=tvorch",
+    "poems": [
+        {
+            "name": "БОРВІЙ",
+            "link": "metrs_poem.php?poem=16858"
+        },
+        {
+            "name": "ВИКЛИК",
+            "link": "metrs_poem.php?poem=835"
+        },
+        {
+            "name": "ДО МОЛОДІ",
+            "link": "metrs_poem.php?poem=16859"
+        },
+        {
+            "name": "КРАЙ КОМІНКА ",
+            "link": "metrs_poem.php?poem=18170"
+        },
+        {
+            "name": "МІСТО СПИТЬ...",
+            "link": "metrs_poem.php?poem=18171"
+        },
+        {
+            "name": "МОНОЛОГИ ПРО КОХАННЯ",
+            "link": "metrs_poem.php?poem=836"
+        },
+        {
+            "name": "НІЧ ",
+            "link": "metrs_poem.php?poem=18175"
+        },
+        {
+            "name": "НИВА ",
+            "link": "metrs_poem.php?poem=18172"
+        },
+        {
+            "name": "ПОЕТУ",
+            "link": "metrs_poem.php?poem=16861"
+        },
+        {
+            "name": "УЧТА ",
+            "link": "metrs_poem.php?poem=18173"
+        },
+        {
+            "name": "ШВАЧКА ",
+            "link": "metrs_poem.php?poem=18174"
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "author": "Звєрьков Геннадій",
+    "link": "/metrs.php?id=35&type=tvorch",
+    "poems": [
+        {
+            "name": "ГЕЗЛЕВ-ЕВПАТОРИЯ",
+            "link": "metrs_poem.php?poem=269"
+        },
+        {
+            "name": "ГОРОДУ МОРЯ",
+            "link": "metrs_poem.php?poem=279"
+        },
+        {
+            "name": "ЕВПАТОРИЯ - КУРОРТ",
+            "link": "metrs_poem.php?poem=270"
+        },
+        {
+            "name": "ИШАК ИЛИ ВЕРБЛЮД?",
+            "link": "metrs_poem.php?poem=268"
+        },
+        {
+            "name": "ЛИСТОПАД",
+            "link": "metrs_poem.php?poem=274"
+        },
+        {
+            "name": "МЫ -ЯХТСМЕНЫ",
+            "link": "metrs_poem.php?poem=277"
+        },
+        {
+            "name": "НА ЕВПАТОРИЙСКОМ ВЗМОРЬЕ",
+            "link": "metrs_poem.php?poem=278"
+        },
+        {
+            "name": "ОБЛАКА",
+            "link": "metrs_poem.php?poem=275"
+        },
+        {
+            "name": "ПИШУ СТИХИ",
+            "link": "metrs_poem.php?poem=265"
+        },
+        {
+            "name": "ПОЛЁТЫ ГРЁЗ",
+            "link": "metrs_poem.php?poem=264"
+        },
+        {
+            "name": "Рифмуем",
+            "link": "metrs_poem.php?poem=266"
+        },
+        {
+            "name": "СЛОВО ПЕЧАЛИ",
+            "link": "metrs_poem.php?poem=272"
+        },
+        {
+            "name": "СОЛНЕЧНЫЙ  ПОЕЗД",
+            "link": "metrs_poem.php?poem=267"
+        },
+        {
+            "name": "ЧТО ТЕБЕ ПОЖЕЛАТЬ?",
+            "link": "metrs_poem.php?poem=276"
+        },
+        {
+            "name": "ЭЛЕГИЧЕСКИЕ АККОРДЫ",
+            "link": "metrs_poem.php?poem=273"
+        },
+        {
+            "name": "ЭТО БЫЛО У МОРЯ",
+            "link": "metrs_poem.php?poem=271"
+        }
+    ]
+}

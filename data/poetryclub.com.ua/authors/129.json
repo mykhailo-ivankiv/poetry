@@ -1,0 +1,30 @@
+{
+    "author": "Нечерда Борис",
+    "link": "/metrs.php?id=54&type=tvorch",
+    "poems": [
+        {
+            "name": "\"Літає риба в саду...\"",
+            "link": "metrs_poem.php?poem=336"
+        },
+        {
+            "name": "ДІВЧА 3 ТОГО БЕРЕГА",
+            "link": "metrs_poem.php?poem=333"
+        },
+        {
+            "name": "ДО ДИСКУСІЇ ПРО ЙОГІВ",
+            "link": "metrs_poem.php?poem=335"
+        },
+        {
+            "name": "КІЛІЙСЬКЕ",
+            "link": "metrs_poem.php?poem=334"
+        },
+        {
+            "name": "РЕКВІЄМ НА ЗДАЧУ СЕВАСТОПОЛЯ",
+            "link": "metrs_poem.php?poem=17602"
+        },
+        {
+            "name": "СНІГУРІ",
+            "link": "metrs_poem.php?poem=332"
+        }
+    ]
+}

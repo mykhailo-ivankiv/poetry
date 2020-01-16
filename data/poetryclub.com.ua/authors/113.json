@@ -1,0 +1,366 @@
+{
+    "author": "Сосюра Володимир ",
+    "link": "/metrs.php?id=133&type=tvorch",
+    "poems": [
+        {
+            "name": "\"Вже в золоті лани, і вітер кличе зорі...\"",
+            "link": "metrs_poem.php?poem=10872"
+        },
+        {
+            "name": "\"Губи в губи... тепло і вишнево...\"",
+            "link": "metrs_poem.php?poem=10871"
+        },
+        {
+            "name": "\"Маленьким хлопчиком додому...\"",
+            "link": "metrs_poem.php?poem=16674"
+        },
+        {
+            "name": "\"Ну чому ті хвилини кохання...\"",
+            "link": "metrs_poem.php?poem=10879"
+        },
+        {
+            "name": "\"О кучері ясні і очі Беатріче...\"",
+            "link": "metrs_poem.php?poem=10873"
+        },
+        {
+            "name": "\"Осінній вітер з Туркестану...\"",
+            "link": "metrs_poem.php?poem=10874"
+        },
+        {
+            "name": "\"Смуглявий і стрункий. А золоте волосся...\"",
+            "link": "metrs_poem.php?poem=10869"
+        },
+        {
+            "name": "\"Я Вас любив, а Ви ніколи...\" (ТРОЯНДИ)",
+            "link": "metrs_poem.php?poem=16675"
+        },
+        {
+            "name": "І знову дні руді та бурі...",
+            "link": "metrs_poem.php?poem=7930"
+        },
+        {
+            "name": "Іду я стежкою дзвінкою...\"",
+            "link": "metrs_poem.php?poem=1790"
+        },
+        {
+            "name": "Айстри задумані, квіти останнії...",
+            "link": "metrs_poem.php?poem=1800"
+        },
+        {
+            "name": "Білі акації будуть цвісти...",
+            "link": "metrs_poem.php?poem=3228"
+        },
+        {
+            "name": "БАБИНЕ ЛІТО",
+            "link": "metrs_poem.php?poem=1803"
+        },
+        {
+            "name": "Блукає осінь. Безгомінням...",
+            "link": "metrs_poem.php?poem=1806"
+        },
+        {
+            "name": "В РЕСТОРАНІ",
+            "link": "metrs_poem.php?poem=10878"
+        },
+        {
+            "name": "ВАСИЛЬКИ",
+            "link": "metrs_poem.php?poem=1809"
+        },
+        {
+            "name": "Взяла Орися кошеня...",
+            "link": "metrs_poem.php?poem=1810"
+        },
+        {
+            "name": "ДІВЧИНА",
+            "link": "metrs_poem.php?poem=1804"
+        },
+        {
+            "name": "ДВА ВОЛОДЬКИ (Уривок)",
+            "link": "metrs_poem.php?poem=7934"
+        },
+        {
+            "name": "З ВІКНА",
+            "link": "metrs_poem.php?poem=7935"
+        },
+        {
+            "name": "З дерев опадає убрання...",
+            "link": "metrs_poem.php?poem=1808"
+        },
+        {
+            "name": "ЗАЛІЗНИЦЯ (Уривок з поеми)",
+            "link": "metrs_poem.php?poem=7936"
+        },
+        {
+            "name": "ЗИМА",
+            "link": "metrs_poem.php?poem=1811"
+        },
+        {
+            "name": "Коли потяг у даль загуркоче...",
+            "link": "metrs_poem.php?poem=3229"
+        },
+        {
+            "name": "ЛЕНІН",
+            "link": "metrs_poem.php?poem=1792"
+        },
+        {
+            "name": "ЛЮБОВ",
+            "link": "metrs_poem.php?poem=10876"
+        },
+        {
+            "name": "Любіть Україну, як сонце, любіть...",
+            "link": "metrs_poem.php?poem=1794"
+        },
+        {
+            "name": "Любити Вітчизну, любити завжди...",
+            "link": "metrs_poem.php?poem=1795"
+        },
+        {
+            "name": "Люблю України коханої небо...",
+            "link": "metrs_poem.php?poem=1798"
+        },
+        {
+            "name": "Люблю я море в шумний час прибою...",
+            "link": "metrs_poem.php?poem=1812"
+        },
+        {
+            "name": "МАЗЕПА  I",
+            "link": "metrs_poem.php?poem=3200"
+        },
+        {
+            "name": "МАЗЕПА  II",
+            "link": "metrs_poem.php?poem=3201"
+        },
+        {
+            "name": "МАЗЕПА  IV",
+            "link": "metrs_poem.php?poem=3203"
+        },
+        {
+            "name": "МАЗЕПА  IX",
+            "link": "metrs_poem.php?poem=3208"
+        },
+        {
+            "name": "МАЗЕПА  V",
+            "link": "metrs_poem.php?poem=3204"
+        },
+        {
+            "name": "МАЗЕПА  VI",
+            "link": "metrs_poem.php?poem=3205"
+        },
+        {
+            "name": "МАЗЕПА  VII",
+            "link": "metrs_poem.php?poem=3206"
+        },
+        {
+            "name": "МАЗЕПА  VIII",
+            "link": "metrs_poem.php?poem=3207"
+        },
+        {
+            "name": "МАЗЕПА  X",
+            "link": "metrs_poem.php?poem=3209"
+        },
+        {
+            "name": "МАЗЕПА  XI",
+            "link": "metrs_poem.php?poem=3210"
+        },
+        {
+            "name": "МАЗЕПА  XII",
+            "link": "metrs_poem.php?poem=3211"
+        },
+        {
+            "name": "МАЗЕПА  XIII",
+            "link": "metrs_poem.php?poem=3212"
+        },
+        {
+            "name": "МАЗЕПА  XIV",
+            "link": "metrs_poem.php?poem=3213"
+        },
+        {
+            "name": "МАЗЕПА  XIX",
+            "link": "metrs_poem.php?poem=3218"
+        },
+        {
+            "name": "МАЗЕПА  XV",
+            "link": "metrs_poem.php?poem=3214"
+        },
+        {
+            "name": "МАЗЕПА  XVI",
+            "link": "metrs_poem.php?poem=3215"
+        },
+        {
+            "name": "МАЗЕПА  XVII",
+            "link": "metrs_poem.php?poem=3216"
+        },
+        {
+            "name": "МАЗЕПА  XVIII",
+            "link": "metrs_poem.php?poem=3217"
+        },
+        {
+            "name": "МАЗЕПА  XX",
+            "link": "metrs_poem.php?poem=3219"
+        },
+        {
+            "name": "МАЗЕПА  XXI",
+            "link": "metrs_poem.php?poem=3220"
+        },
+        {
+            "name": "МАЗЕПА  XXII",
+            "link": "metrs_poem.php?poem=3221"
+        },
+        {
+            "name": "МАЗЕПА  XXIII",
+            "link": "metrs_poem.php?poem=3222"
+        },
+        {
+            "name": "МАЗЕПА  XXIV",
+            "link": "metrs_poem.php?poem=3223"
+        },
+        {
+            "name": "МАЗЕПА  XXV",
+            "link": "metrs_poem.php?poem=3224"
+        },
+        {
+            "name": "МАЗЕПА  XXVI",
+            "link": "metrs_poem.php?poem=3225"
+        },
+        {
+            "name": "МАЗЕПА  Епілог",
+            "link": "metrs_poem.php?poem=3226"
+        },
+        {
+            "name": "МАЗЕПА  Пролог",
+            "link": "metrs_poem.php?poem=3199"
+        },
+        {
+            "name": "МАЗЕПА (Уривки з поеми)",
+            "link": "metrs_poem.php?poem=7937"
+        },
+        {
+            "name": "МАЗЕПА III",
+            "link": "metrs_poem.php?poem=3202"
+        },
+        {
+            "name": "МАЗЕПА. ВСТУП ДО ПОЕМИ",
+            "link": "metrs_poem.php?poem=21848"
+        },
+        {
+            "name": "МАКИ",
+            "link": "metrs_poem.php?poem=7938"
+        },
+        {
+            "name": "МАЛИНОВИЙ ПЛАТОК",
+            "link": "metrs_poem.php?poem=10870"
+        },
+        {
+            "name": "МАРІЇ",
+            "link": "metrs_poem.php?poem=1813"
+        },
+        {
+            "name": "МАРІЯ",
+            "link": "metrs_poem.php?poem=1814"
+        },
+        {
+            "name": "Магнолії лимонний дух...",
+            "link": "metrs_poem.php?poem=7931"
+        },
+        {
+            "name": "Мені ти приснилась давно...",
+            "link": "metrs_poem.php?poem=1815"
+        },
+        {
+            "name": "Наближення зими у всьому серце чує...",
+            "link": "metrs_poem.php?poem=1816"
+        },
+        {
+            "name": "ОЙ, ВЕСНА!..",
+            "link": "metrs_poem.php?poem=10875"
+        },
+        {
+            "name": "Облітають квіти, обриває вітер...",
+            "link": "metrs_poem.php?poem=1793"
+        },
+        {
+            "name": "Ой сніги мої, сніги...",
+            "link": "metrs_poem.php?poem=1799"
+        },
+        {
+            "name": "РІДНА МОВА",
+            "link": "metrs_poem.php?poem=1817"
+        },
+        {
+            "name": "САД (Уривок)",
+            "link": "metrs_poem.php?poem=7939"
+        },
+        {
+            "name": "СЕРЦЕ (Уривки)",
+            "link": "metrs_poem.php?poem=7940"
+        },
+        {
+            "name": "СИНІ ТРАВИ",
+            "link": "metrs_poem.php?poem=1818"
+        },
+        {
+            "name": "СТАЛІН",
+            "link": "metrs_poem.php?poem=1791"
+        },
+        {
+            "name": "СТЕП",
+            "link": "metrs_poem.php?poem=7941"
+        },
+        {
+            "name": "Сном блакитним заснули поля...",
+            "link": "metrs_poem.php?poem=1805"
+        },
+        {
+            "name": "ТИ ПРИЙШЛА",
+            "link": "metrs_poem.php?poem=10877"
+        },
+        {
+            "name": "Так ніхто не кохав. Через тисячі літ...",
+            "link": "metrs_poem.php?poem=1789"
+        },
+        {
+            "name": "Такий я ніжний, такий тривожний...",
+            "link": "metrs_poem.php?poem=7932"
+        },
+        {
+            "name": "Туди, де в синім неба морі...",
+            "link": "metrs_poem.php?poem=1801"
+        },
+        {
+            "name": "У кроках мільйонів і крок мій звучить...",
+            "link": "metrs_poem.php?poem=1796"
+        },
+        {
+            "name": "У синім безгомінні...",
+            "link": "metrs_poem.php?poem=1819"
+        },
+        {
+            "name": "Уже зоря золотогора...",
+            "link": "metrs_poem.php?poem=7933"
+        },
+        {
+            "name": "Це було на острові Цейлоні...",
+            "link": "metrs_poem.php?poem=1820"
+        },
+        {
+            "name": "Чи знаєш ти світання в полі...",
+            "link": "metrs_poem.php?poem=1821"
+        },
+        {
+            "name": "Я — квітка осіння… Дощі мене мочать...",
+            "link": "metrs_poem.php?poem=1797"
+        },
+        {
+            "name": "Я знаю силу слова...",
+            "link": "metrs_poem.php?poem=1807"
+        },
+        {
+            "name": "Я люблю, коли в листя зелене...",
+            "link": "metrs_poem.php?poem=1822"
+        },
+        {
+            "name": "Як не любить той край, де вперше ти побачив...",
+            "link": "metrs_poem.php?poem=1802"
+        }
+    ]
+}

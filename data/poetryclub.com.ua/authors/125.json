@@ -1,0 +1,14 @@
+{
+    "author": "Корж Віктор",
+    "link": "/metrs.php?id=66&type=tvorch",
+    "poems": [
+        {
+            "name": "\"Я в ніч приніс...\"",
+            "link": "metrs_poem.php?poem=372"
+        },
+        {
+            "name": "РОБІНЗОНІВСЬКИЙ ПЛАЧ",
+            "link": "metrs_poem.php?poem=373"
+        }
+    ]
+}

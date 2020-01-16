@@ -1,0 +1,34 @@
+{
+    "author": "Русин Павло з Кросна ",
+    "link": "/metrs.php?id=302&type=tvorch",
+    "poems": [
+        {
+            "name": "ДО КНИЖЕЧКИ",
+            "link": "metrs_poem.php?poem=6783"
+        },
+        {
+            "name": "ДО СТАНІСЛАВА ТУРЗО",
+            "link": "metrs_poem.php?poem=16411"
+        },
+        {
+            "name": "ЕЛЕГІЯ НА ЧЕСТЬ ЙОАНА ВИСЛОЦЬКОГО, ШАНУВАЛЬНИКА МУЗ, ГІДНОГО ХВАЛИ УЧНЯ",
+            "link": "metrs_poem.php?poem=6779"
+        },
+        {
+            "name": "ПОХВАЛА ВАЛЕРІЮ МАКСІМУ",
+            "link": "metrs_poem.php?poem=6781"
+        },
+        {
+            "name": "ПОХВАЛА ПОЕЗІЇ",
+            "link": "metrs_poem.php?poem=6778"
+        },
+        {
+            "name": "ПРО ПРИХІД ЗИМИ",
+            "link": "metrs_poem.php?poem=6782"
+        },
+        {
+            "name": "ПРОМОВЛЯЄ КНИГА, ЯКУ ДОБУТО ІЗ СХОВИЩА І ЯКІЙ ПОВЕРНЕНО ДАВНІЙ БЛИСК",
+            "link": "metrs_poem.php?poem=6780"
+        }
+    ]
+}

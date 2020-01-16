@@ -1,0 +1,14 @@
+{
+    "author": "Семоненко Іван",
+    "link": "/metrs.php?id=87&type=tvorch",
+    "poems": [
+        {
+            "name": "\"Зелені руїни зозулі...\"",
+            "link": "metrs_poem.php?poem=460"
+        },
+        {
+            "name": "АРХЕОЛОГІЯ",
+            "link": "metrs_poem.php?poem=459"
+        }
+    ]
+}

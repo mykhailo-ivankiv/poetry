@@ -1,0 +1,22 @@
+{
+    "author": "Марко Вороний",
+    "link": "/metrs.php?id=296&type=tvorch",
+    "poems": [
+        {
+            "name": "БОНДАРІВНА",
+            "link": "metrs_poem.php?poem=6457"
+        },
+        {
+            "name": "ВІЗІЯ",
+            "link": "metrs_poem.php?poem=6456"
+        },
+        {
+            "name": "ОТЧИЗНА",
+            "link": "metrs_poem.php?poem=6455"
+        },
+        {
+            "name": "СЛОВО",
+            "link": "metrs_poem.php?poem=6458"
+        }
+    ]
+}

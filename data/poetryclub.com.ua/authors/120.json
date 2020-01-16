@@ -1,0 +1,434 @@
+{
+    "author": "Драч Іван",
+    "link": "/metrs.php?id=20&type=tvorch",
+    "poems": [
+        {
+            "name": "\"Єдина, з твоїх фантазій...\"",
+            "link": "metrs_poem.php?poem=17052"
+        },
+        {
+            "name": "\"Б’ють кропом у ніздрі осінні базари...\"",
+            "link": "metrs_poem.php?poem=17051"
+        },
+        {
+            "name": "\"Балада про соняшник...\"",
+            "link": "metrs_poem.php?poem=201"
+        },
+        {
+            "name": "\"Балада роду...\"",
+            "link": "metrs_poem.php?poem=202"
+        },
+        {
+            "name": "\"Без тебе світ — це тьмавий морок...\"",
+            "link": "metrs_poem.php?poem=3342"
+        },
+        {
+            "name": "\"Грузинській дівчині, убитій саперною лопаткою\"",
+            "link": "metrs_poem.php?poem=17094"
+        },
+        {
+            "name": "\"Десь на дні моїх ночей...\"",
+            "link": "metrs_poem.php?poem=17118"
+        },
+        {
+            "name": "\"Кругом будується біда...\"",
+            "link": "metrs_poem.php?poem=17101"
+        },
+        {
+            "name": "\"Ніч западається. Крикне криком ранок...\"",
+            "link": "metrs_poem.php?poem=17059"
+        },
+        {
+            "name": "\"Покоління-біжутеріє…\"",
+            "link": "metrs_poem.php?poem=17119"
+        },
+        {
+            "name": "\"Україна копає городи...\"",
+            "link": "metrs_poem.php?poem=17120"
+        },
+        {
+            "name": "\"Цей шум осокора вночі...\"",
+            "link": "metrs_poem.php?poem=17121"
+        },
+        {
+            "name": "\"Чому ти серце, все болиш частіш?..\"",
+            "link": "metrs_poem.php?poem=17066"
+        },
+        {
+            "name": "\"Я п'ять років займався політикою...\"",
+            "link": "metrs_poem.php?poem=17122"
+        },
+        {
+            "name": "\"Як ховали два Майбороди Малишка...\"",
+            "link": "metrs_poem.php?poem=17123"
+        },
+        {
+            "name": "ІМПРОВІЗАЦІЯ ",
+            "link": "metrs_poem.php?poem=17053"
+        },
+        {
+            "name": "АРХІТЕКТУРНИЙ ДИПТИХ ",
+            "link": "metrs_poem.php?poem=17067"
+        },
+        {
+            "name": "БАБУСЕНЦІЯ",
+            "link": "metrs_poem.php?poem=17078"
+        },
+        {
+            "name": "БАЛАДА ЗОЛОТОЇ ЦИБЦЛІ",
+            "link": "metrs_poem.php?poem=17079"
+        },
+        {
+            "name": "БАЛАДА ПРО ВУЗЛИКИ",
+            "link": "metrs_poem.php?poem=17080"
+        },
+        {
+            "name": "БАЛАДА ПРО ГЕНИ",
+            "link": "metrs_poem.php?poem=17076"
+        },
+        {
+            "name": "БАЛАДА ПРО КАРМАЛЮКА",
+            "link": "metrs_poem.php?poem=17081"
+        },
+        {
+            "name": "БАЛАДА ПРО КОБЗАРЯ ХВЕДОРА ХОЛОДНОГО",
+            "link": "metrs_poem.php?poem=17082"
+        },
+        {
+            "name": "БАЛАДА ПРО ПЕРА",
+            "link": "metrs_poem.php?poem=17083"
+        },
+        {
+            "name": "БАЛАДА ПРО САР'ЯНІВ ТА ВАН-ГОГІВ",
+            "link": "metrs_poem.php?poem=17068"
+        },
+        {
+            "name": "БАЛАДА ПРО СТУПУ",
+            "link": "metrs_poem.php?poem=17084"
+        },
+        {
+            "name": "БАЛАДА ПРО УСМІШКУ",
+            "link": "metrs_poem.php?poem=17085"
+        },
+        {
+            "name": "БАЛЛАДА О МОЕМ ОСКОЛКЕ",
+            "link": "metrs_poem.php?poem=17069"
+        },
+        {
+            "name": "БАЛЯДА ДВОХ ",
+            "link": "metrs_poem.php?poem=17045"
+        },
+        {
+            "name": "БАЛЯДА ПРО ВІДРО ",
+            "link": "metrs_poem.php?poem=17046"
+        },
+        {
+            "name": "БАЛЯДА ПРО ДЯДЬКА ГОРДІЯ ",
+            "link": "metrs_poem.php?poem=17047"
+        },
+        {
+            "name": "БАЛЯДА ПРО ЛЮЛЬКУ ",
+            "link": "metrs_poem.php?poem=17048"
+        },
+        {
+            "name": "БАЛЯДА ПРО СКРОМНІСТЬ ",
+            "link": "metrs_poem.php?poem=17049"
+        },
+        {
+            "name": "БАЛЯДА СИНТЕЗИ ",
+            "link": "metrs_poem.php?poem=17050"
+        },
+        {
+            "name": "БАРВІНОК",
+            "link": "metrs_poem.php?poem=17086"
+        },
+        {
+            "name": "БАС І ПЛАЧ",
+            "link": "metrs_poem.php?poem=17087"
+        },
+        {
+            "name": "БАТУРИН",
+            "link": "metrs_poem.php?poem=17088"
+        },
+        {
+            "name": "БЛУДНИЙ СИН",
+            "link": "metrs_poem.php?poem=17089"
+        },
+        {
+            "name": "В МІКРОФОН КРИНИЦІ",
+            "link": "metrs_poem.php?poem=293"
+        },
+        {
+            "name": "Вірш, прочитаний на I з’їзді Руху",
+            "link": "metrs_poem.php?poem=17093"
+        },
+        {
+            "name": "ВАСИЛЕВІ СИМОНЕНКОВІ",
+            "link": "metrs_poem.php?poem=17090"
+        },
+        {
+            "name": "ВЕРДИКТ",
+            "link": "metrs_poem.php?poem=17091"
+        },
+        {
+            "name": "ВЕСНЯНА АКВАРЕЛЬ",
+            "link": "metrs_poem.php?poem=3343"
+        },
+        {
+            "name": "ВИВАНТАЖЕННЯ ГРАНІТУ ",
+            "link": "metrs_poem.php?poem=17070"
+        },
+        {
+            "name": "ВИКЛИК",
+            "link": "metrs_poem.php?poem=17092"
+        },
+        {
+            "name": "ВРУБЕЛІВСЬКИЙ ЕТЮД",
+            "link": "metrs_poem.php?poem=17071"
+        },
+        {
+            "name": "ГІТАРА ПАВЛО НЕРУДИ ",
+            "link": "metrs_poem.php?poem=17072"
+        },
+        {
+            "name": "ДІД ЛЮБИМЕНЕНЕПОКИНЬ",
+            "link": "metrs_poem.php?poem=17095"
+        },
+        {
+            "name": "ДВІ СЕСТРИ",
+            "link": "metrs_poem.php?poem=17073"
+        },
+        {
+            "name": "ЕТЮД КОХАННЯ",
+            "link": "metrs_poem.php?poem=3344"
+        },
+        {
+            "name": "ЕТЮД ПРО ХЛІБ ",
+            "link": "metrs_poem.php?poem=17074"
+        },
+        {
+            "name": "ЖІНКИ І ЛЕЛЕКИ",
+            "link": "metrs_poem.php?poem=17096"
+        },
+        {
+            "name": "ЖАРТІВЛИВА БАЛАДА ПРО ВИПРАНІ ШТАНИ ",
+            "link": "metrs_poem.php?poem=17075"
+        },
+        {
+            "name": "ЗАЛІЗО",
+            "link": "metrs_poem.php?poem=17097"
+        },
+        {
+            "name": "КАЛИНА НА ТОМУ СВІТІ",
+            "link": "metrs_poem.php?poem=17098"
+        },
+        {
+            "name": "КАЛИНОВА БАЛЯДА ",
+            "link": "metrs_poem.php?poem=17054"
+        },
+        {
+            "name": "КАМ'ЯНЕЦЬ-ПОДІЛЬСЬКИЙ",
+            "link": "metrs_poem.php?poem=17099"
+        },
+        {
+            "name": "КОСАР І ВДОВА",
+            "link": "metrs_poem.php?poem=17100"
+        },
+        {
+            "name": "КРИЛА ",
+            "link": "metrs_poem.php?poem=17055"
+        },
+        {
+            "name": "ЛЕБЕДИНИЙ ЕТЮД",
+            "link": "metrs_poem.php?poem=3345"
+        },
+        {
+            "name": "ЛИТОВСЬКА ПОГОНЯ ВІД МАКСИМА БОГДАНОВИЧА",
+            "link": "metrs_poem.php?poem=17102"
+        },
+        {
+            "name": "ЛОША",
+            "link": "metrs_poem.php?poem=17103"
+        },
+        {
+            "name": "ЛЮДИ, МАШИНИ, БДЖОЛИ",
+            "link": "metrs_poem.php?poem=17104"
+        },
+        {
+            "name": "ЛЮДИНОПТАХИ, ПТАХОЛЮДИ - МИ",
+            "link": "metrs_poem.php?poem=17105"
+        },
+        {
+            "name": "МІРАЖІ ",
+            "link": "metrs_poem.php?poem=17057"
+        },
+        {
+            "name": "МАЧИНКА ",
+            "link": "metrs_poem.php?poem=17056"
+        },
+        {
+            "name": "МОНТЕНЬ ЧИ СВІФТ",
+            "link": "metrs_poem.php?poem=17106"
+        },
+        {
+            "name": "МУЗИЧНИЙ ЕТЮД ",
+            "link": "metrs_poem.php?poem=17058"
+        },
+        {
+            "name": "НІЖ У СОНЦІ   (трагедія)",
+            "link": "metrs_poem.php?poem=3349"
+        },
+        {
+            "name": "НІЧНИЙ ЕТЮД ",
+            "link": "metrs_poem.php?poem=17060"
+        },
+        {
+            "name": "ОДА ЧЕСНОМУ БОЯГУЗОВІ ",
+            "link": "metrs_poem.php?poem=17061"
+        },
+        {
+            "name": "ОРЛИНІ ОЧІ - ДНЯ ДНЯ",
+            "link": "metrs_poem.php?poem=17107"
+        },
+        {
+            "name": "ОСКАРЖЕННЯ ІВАНА ГОНТИ",
+            "link": "metrs_poem.php?poem=17108"
+        },
+        {
+            "name": "ПЕРО ",
+            "link": "metrs_poem.php?poem=17062"
+        },
+        {
+            "name": "РЕКВІЄМ ПАВЛОВІ ТИЧИНІ",
+            "link": "metrs_poem.php?poem=17109"
+        },
+        {
+            "name": "РОБОТА І ДОЗВІЛЛЯ ",
+            "link": "metrs_poem.php?poem=17063"
+        },
+        {
+            "name": "САМООБСЛУГОВУВАННЯ",
+            "link": "metrs_poem.php?poem=17110"
+        },
+        {
+            "name": "САМОТНЯ ЛАСТІВКА",
+            "link": "metrs_poem.php?poem=17111"
+        },
+        {
+            "name": "СВІЧКА ДЛЯ ПАТРІАРХА",
+            "link": "metrs_poem.php?poem=17077"
+        },
+        {
+            "name": "СМЕРТЬ ШЕВЧЕНКА ",
+            "link": "metrs_poem.php?poem=17064"
+        },
+        {
+            "name": "СОНЯШНИЙ ЕТЮД",
+            "link": "metrs_poem.php?poem=3346"
+        },
+        {
+            "name": "ТАЄМНИЦЯ",
+            "link": "metrs_poem.php?poem=17112"
+        },
+        {
+            "name": "ТАЄМНИЦЯ БУТТЯ",
+            "link": "metrs_poem.php?poem=3347"
+        },
+        {
+            "name": "ТЕПЛІ ДЖИНСИ",
+            "link": "metrs_poem.php?poem=17113"
+        },
+        {
+            "name": "ТИХИЙ ЕТЮД ",
+            "link": "metrs_poem.php?poem=17065"
+        },
+        {
+            "name": "ТРОЄ ЯБЛУК ЦИГАНОК",
+            "link": "metrs_poem.php?poem=17114"
+        },
+        {
+            "name": "Український perpetuum mobile, або Машина української незалежності",
+            "link": "metrs_poem.php?poem=17115"
+        },
+        {
+            "name": "ХОХОЛ - ЖИРАФ?!",
+            "link": "metrs_poem.php?poem=17116"
+        },
+        {
+            "name": "ХРЕЩАТИЦЬКА МАДОННА",
+            "link": "metrs_poem.php?poem=292"
+        },
+        {
+            "name": "ЧАС, ГОСПОДИ",
+            "link": "metrs_poem.php?poem=17117"
+        },
+        {
+            "name": "ЕПІЛОГ",
+            "link": "/metrs_poem.php?poem=3366"
+        },
+        {
+            "name": "ПРОЛОГ",
+            "link": "/metrs_poem.php?poem=3350"
+        },
+        {
+            "name": "ЧОРНОБИЛЬСЬКА МАДОННА.   З ДОПОВІДНОЇ СКРОМНОГО АГЕНТА ФРАНЦУЗЬКОЇ РОЗВІДКИ ПРО ПОВЕДІНКУ ПОЕТІВ У ПАРИЖІ",
+            "link": "/metrs_poem.php?poem=3364"
+        },
+        {
+            "name": "ЧОРНОБИЛЬСЬКА МАДОННА.   ОДА МОЛОДОСТІ",
+            "link": "/metrs_poem.php?poem=3359"
+        },
+        {
+            "name": "ЧОРНОБИЛЬСЬКА МАДОННА.   ПРИМІТИВНИЙ ПОРТРЕТ СКЛАДНОЇ ЛЮДИНИ",
+            "link": "/metrs_poem.php?poem=3358"
+        },
+        {
+            "name": "ЧОРНОБИЛЬСЬКА МАДОННА.   РОЗДУМИ ПІД ЧАС ВІДКРИТОГО ЧОРНОБИЛЬСЬКОГО СУДУ В ЗАКРИТІЙ ЗОНІ НА СТАРУ ТЕМУ: ІРОД І ПІЛАТ",
+            "link": "/metrs_poem.php?poem=3360"
+        },
+        {
+            "name": "ЧОРНОБИЛЬСЬКА МАДОННА.   ТРАКТОРИСТКА",
+            "link": "/metrs_poem.php?poem=3357"
+        },
+        {
+            "name": "ЧОРНОБИЛЬСЬКА МАДОННА.   ХРЕЩАТИЦЬКА МАДОННА",
+            "link": "/metrs_poem.php?poem=3365"
+        },
+        {
+            "name": "ЧОРНОБИЛЬСЬКА МАДОННА.   ЧОРНОБИЛЬ ПО-МІЛАНСЬКИ",
+            "link": "/metrs_poem.php?poem=3363"
+        },
+        {
+            "name": "ЧОРНОБИЛЬСЬКА МАДОННА.  БАНКЕТ В ПОРУ СНІДу, або СКІФСЬКА МАДОННА",
+            "link": "/metrs_poem.php?poem=3362"
+        },
+        {
+            "name": "ЧОРНОБИЛЬСЬКА МАДОННА.  ВІЧНА МАТЕРИНСЬКА ЕЛЕГІЯ",
+            "link": "/metrs_poem.php?poem=3352"
+        },
+        {
+            "name": "ЧОРНОБИЛЬСЬКА МАДОННА.  ВАРІАЦІЯ НА БАНАЛЬНИЙ КИЇВСЬКИЙ СЮЖЕТ, або ж БАБА В ЦЕЛОФАНІ - НАША МАТИ",
+            "link": "/metrs_poem.php?poem=3351"
+        },
+        {
+            "name": "ЧОРНОБИЛЬСЬКА МАДОННА.  ЗАПИТАННЯ БЕЗ ВІДПОВІДІ",
+            "link": "/metrs_poem.php?poem=3353"
+        },
+        {
+            "name": "ЧОРНОБИЛЬСЬКА МАДОННА.  МАТЕРИНСЬКА ПІСНЯ З ЧОЛОВІЧОЇ ДУШІ",
+            "link": "/metrs_poem.php?poem=3356"
+        },
+        {
+            "name": "ЧОРНОБИЛЬСЬКА МАДОННА.  МАТИ І “ХРИСТОПРОДАВЦІ”",
+            "link": "/metrs_poem.php?poem=3355"
+        },
+        {
+            "name": "ЧОРНОБИЛЬСЬКА МАДОННА.  СОЛОВЕЙ-РОЗБІЙНИК",
+            "link": "/metrs_poem.php?poem=3354"
+        },
+        {
+            "name": "ЧОРНОБИЛЬСЬКА МАДОННА.  СУЧАСНА СКОВОРОДИСТКА",
+            "link": "/metrs_poem.php?poem=3361"
+        }
+    ]
+}

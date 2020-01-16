@@ -1,0 +1,742 @@
+{
+    "author": "Глазовий Павло",
+    "link": "/metrs.php?id=150&type=tvorch",
+    "poems": [
+        {
+            "name": "ВУСАНЬ",
+            "link": "/metrs_poem.php?poem=16483"
+        },
+        {
+            "name": "ЗАЙВЕ ПИТАННЯ",
+            "link": "/metrs_poem.php?poem=16485"
+        },
+        {
+            "name": "КОЗАРЛЮГА",
+            "link": "/metrs_poem.php?poem=16489"
+        },
+        {
+            "name": "КОЛИ ВИПИТЬ ХОЧЕТЬСЯ",
+            "link": "/metrs_poem.php?poem=16488"
+        },
+        {
+            "name": "НА ТРЬОХ",
+            "link": "/metrs_poem.php?poem=16486"
+        },
+        {
+            "name": "НАСОЛОДА",
+            "link": "/metrs_poem.php?poem=16484"
+        },
+        {
+            "name": "РЕПЛІКИ",
+            "link": "/metrs_poem.php?poem=16487"
+        },
+        {
+            "name": "ЧИТАКА",
+            "link": "/metrs_poem.php?poem=16490"
+        },
+        {
+            "name": "ГВОЗДИКИ",
+            "link": "metrs_poem.php?poem=16332"
+        },
+        {
+            "name": "ДАВНІЙ ЖАРТ",
+            "link": "/metrs_poem.php?poem=16452"
+        },
+        {
+            "name": "ЗАЛІЗНИЙ ХАРАКТЕР",
+            "link": "/metrs_poem.php?poem=16454"
+        },
+        {
+            "name": "НЕРВОВИЙ ПАСАЖИР",
+            "link": "/metrs_poem.php?poem=16451"
+        },
+        {
+            "name": "ПОЦІЛУНОК",
+            "link": "/metrs_poem.php?poem=16456"
+        },
+        {
+            "name": "СПРАВЖНІЙ МУЖЧИНА",
+            "link": "/metrs_poem.php?poem=16453"
+        },
+        {
+            "name": "У ТРАМВАЇ",
+            "link": "/metrs_poem.php?poem=16455"
+        },
+        {
+            "name": "БАЛАКУЧИЙ ПИЛИП",
+            "link": "/metrs_poem.php?poem=16363"
+        },
+        {
+            "name": "ЖЕРАР",
+            "link": "/metrs_poem.php?poem=2164"
+        },
+        {
+            "name": "ЗАКОХАНИЙ КУЗЬМА",
+            "link": "/metrs_poem.php?poem=16361"
+        },
+        {
+            "name": "ЗДРАСТЄ, МАМА РОДНАЯ!",
+            "link": "/metrs_poem.php?poem=16365"
+        },
+        {
+            "name": "МАРКІВ СПИСОК",
+            "link": "/metrs_poem.php?poem=16362"
+        },
+        {
+            "name": "ПИЛИП У РИМІ",
+            "link": "/metrs_poem.php?poem=16364"
+        },
+        {
+            "name": "СКРОМНЯГА",
+            "link": "/metrs_poem.php?poem=2166"
+        },
+        {
+            "name": "ТОНКА НАТУРА",
+            "link": "/metrs_poem.php?poem=2165"
+        },
+        {
+            "name": "ФЕЙЛЕТОН ПРО БАЛКОН",
+            "link": "/metrs_poem.php?poem=2167"
+        },
+        {
+            "name": "ДАВНЯ ЗВИЧКА",
+            "link": "/metrs_poem.php?poem=16427"
+        },
+        {
+            "name": "ЗАЖУРИЛАСЯ БАБУСЯ",
+            "link": "/metrs_poem.php?poem=16429"
+        },
+        {
+            "name": "КУРЯЧА ГРАМОТА",
+            "link": "/metrs_poem.php?poem=16426"
+        },
+        {
+            "name": "ОГІРОЧКИ",
+            "link": "/metrs_poem.php?poem=16431"
+        },
+        {
+            "name": "ОТ КОЛИСЬ БУЛИ ДІВЧАТА!",
+            "link": "/metrs_poem.php?poem=16430"
+        },
+        {
+            "name": "РЕКЛАМА",
+            "link": "/metrs_poem.php?poem=16428"
+        },
+        {
+            "name": "ЦІКАВА БАБУСЯ",
+            "link": "/metrs_poem.php?poem=16425"
+        },
+        {
+            "name": "РОЗМОВА НА ПЛЯЖІ",
+            "link": "/metrs_poem.php?poem=16422"
+        },
+        {
+            "name": "СВАХА ДОМАХА",
+            "link": "/metrs_poem.php?poem=16421"
+        },
+        {
+            "name": "ЯК ЯРЕМА ОЖЕНИВСЯ",
+            "link": "/metrs_poem.php?poem=16423"
+        },
+        {
+            "name": "ДИЧИНА",
+            "link": "/metrs_poem.php?poem=16493"
+        },
+        {
+            "name": "ЖИРАФИ",
+            "link": "/metrs_poem.php?poem=16492"
+        },
+        {
+            "name": "ЗОЗУЛЯ",
+            "link": "/metrs_poem.php?poem=16495"
+        },
+        {
+            "name": "НЕБЕЗПЕЧНЕ ОЛЮВАННЯ",
+            "link": "/metrs_poem.php?poem=16497"
+        },
+        {
+            "name": "РИБАЛОНЬКА",
+            "link": "/metrs_poem.php?poem=16496"
+        },
+        {
+            "name": "ХОРОША ПРИКМЕТА",
+            "link": "/metrs_poem.php?poem=16494"
+        },
+        {
+            "name": "ПІДЖМУРКИ",
+            "link": "/metrs_poem.php?poem=16386"
+        },
+        {
+            "name": "ШАЛАПУТНИЙ ІВАН",
+            "link": "/metrs_poem.php?poem=16385"
+        },
+        {
+            "name": "ГОЛУБ'ЯТА",
+            "link": "/metrs_poem.php?poem=16467"
+        },
+        {
+            "name": "ГРОШІ ТРЕБА БЕРЕГТИ",
+            "link": "/metrs_poem.php?poem=16465"
+        },
+        {
+            "name": "МРІЯ ПРО МОРЕ",
+            "link": "/metrs_poem.php?poem=16466"
+        },
+        {
+            "name": "ІСТОРІЯ ХВОРОБИ ",
+            "link": "/metrs_poem.php?poem=16462"
+        },
+        {
+            "name": "ВСЕ ЯСНО",
+            "link": "/metrs_poem.php?poem=16458"
+        },
+        {
+            "name": "ДВІ ПОРАДИ",
+            "link": "/metrs_poem.php?poem=16461"
+        },
+        {
+            "name": "ЕСКУЛАП",
+            "link": "/metrs_poem.php?poem=16463"
+        },
+        {
+            "name": "ЛІКИ ВІД СТРАХУ",
+            "link": "/metrs_poem.php?poem=16460"
+        },
+        {
+            "name": "ЛИХЕ ОКО",
+            "link": "/metrs_poem.php?poem=16459"
+        },
+        {
+            "name": "ВАРИВОДА",
+            "link": "/metrs_poem.php?poem=2176"
+        },
+        {
+            "name": "ВИГІДНА ЖІНКА",
+            "link": "/metrs_poem.php?poem=16382"
+        },
+        {
+            "name": "ГОЛОВА І ШИЯ",
+            "link": "/metrs_poem.php?poem=16378"
+        },
+        {
+            "name": "ДОБРА ДУША",
+            "link": "/metrs_poem.php?poem=16379"
+        },
+        {
+            "name": "ДУРНІ ГРОШІ",
+            "link": "/metrs_poem.php?poem=16383"
+        },
+        {
+            "name": "ЕХ, ЛІТА, ЛІТА...",
+            "link": "/metrs_poem.php?poem=16376"
+        },
+        {
+            "name": "ЗОЛОТІ РУКИ",
+            "link": "/metrs_poem.php?poem=2175"
+        },
+        {
+            "name": "ЗРАЗКОВИЙ МУЖ",
+            "link": "/metrs_poem.php?poem=16377"
+        },
+        {
+            "name": "СІМЕЄЧКА",
+            "link": "/metrs_poem.php?poem=2174"
+        },
+        {
+            "name": "У ПИСЬМОВІЙ ФОРМІ",
+            "link": "/metrs_poem.php?poem=16375"
+        },
+        {
+            "name": "ЧУДЕСНА БРИТВА",
+            "link": "/metrs_poem.php?poem=16381"
+        },
+        {
+            "name": "ЯК КУЗЬМУ ПРОВЧИЛА ЖІНКА ЙОГО МИЛА",
+            "link": "/metrs_poem.php?poem=2173"
+        },
+        {
+            "name": "БЛИЗНЯТА",
+            "link": "/metrs_poem.php?poem=16334"
+        },
+        {
+            "name": "БРЕХУНЕЦЬ",
+            "link": "/metrs_poem.php?poem=2135"
+        },
+        {
+            "name": "БУЙНІ ПРЕДКИ",
+            "link": "/metrs_poem.php?poem=2134"
+        },
+        {
+            "name": "В КОГО БАТЬКО РОЗУМНІШИЙ",
+            "link": "/metrs_poem.php?poem=2143"
+        },
+        {
+            "name": "ГЕРОЙ",
+            "link": "/metrs_poem.php?poem=2138"
+        },
+        {
+            "name": "ДЕ БЕРУТЬСЯ ДІТИ",
+            "link": "/metrs_poem.php?poem=2133"
+        },
+        {
+            "name": "КАЗКА",
+            "link": "/metrs_poem.php?poem=2145"
+        },
+        {
+            "name": "МАЛЕНЬКИЙ ДАЧНИК",
+            "link": "/metrs_poem.php?poem=2139"
+        },
+        {
+            "name": "МАМИ НЕ ЗАМІНИШ",
+            "link": "/metrs_poem.php?poem=2137"
+        },
+        {
+            "name": "НЕПРАВДА",
+            "link": "/metrs_poem.php?poem=2141"
+        },
+        {
+            "name": "ОСЛИК",
+            "link": "/metrs_poem.php?poem=2146"
+        },
+        {
+            "name": "ПОМІЧНИК",
+            "link": "/metrs_poem.php?poem=2140"
+        },
+        {
+            "name": "ПРЯНИК",
+            "link": "/metrs_poem.php?poem=2136"
+        },
+        {
+            "name": "САША",
+            "link": "/metrs_poem.php?poem=2142"
+        },
+        {
+            "name": "ЧУДНИЙ ШКОЛЯР",
+            "link": "/metrs_poem.php?poem=2144"
+        },
+        {
+            "name": "БУБЛИК З МАКОМ",
+            "link": "/metrs_poem.php?poem=2154"
+        },
+        {
+            "name": "ВІЧНА ПАМ'ЯТЬ",
+            "link": "/metrs_poem.php?poem=2152"
+        },
+        {
+            "name": "МРІЙНИКИ",
+            "link": "/metrs_poem.php?poem=16347"
+        },
+        {
+            "name": "НАДІЙНИЙ ЧОЛОВІК",
+            "link": "/metrs_poem.php?poem=16345"
+        },
+        {
+            "name": "НАЙКРАЩА МОВА",
+            "link": "/metrs_poem.php?poem=16344"
+        },
+        {
+            "name": "ОБМОВА",
+            "link": "/metrs_poem.php?poem=2153"
+        },
+        {
+            "name": "ПІСЛЯ АВАНСУ",
+            "link": "/metrs_poem.php?poem=2151"
+        },
+        {
+            "name": "СЛУХНЯНА ДОНЯ",
+            "link": "/metrs_poem.php?poem=2155"
+        },
+        {
+            "name": "СУПЕРЕЧКА",
+            "link": "/metrs_poem.php?poem=16346"
+        },
+        {
+            "name": "ТАТКОВА ДОНЯ",
+            "link": "/metrs_poem.php?poem=2156"
+        },
+        {
+            "name": "ТРІЙНЯТКА",
+            "link": "/metrs_poem.php?poem=16348"
+        },
+        {
+            "name": "\"ДУЄЛЬ\"",
+            "link": "/metrs_poem.php?poem=16476"
+        },
+        {
+            "name": "БАНДУРИСТ",
+            "link": "/metrs_poem.php?poem=16474"
+        },
+        {
+            "name": "ДЕ ЯК ЦІЛУЮТЬ",
+            "link": "/metrs_poem.php?poem=16477"
+        },
+        {
+            "name": "МИСТЕЦТВО ЄДНАЄ",
+            "link": "/metrs_poem.php?poem=16479"
+        },
+        {
+            "name": "НАЙКОРОТША ПІСНЯ",
+            "link": "/metrs_poem.php?poem=16475"
+        },
+        {
+            "name": "ПЕЙЗА",
+            "link": "/metrs_poem.php?poem=16480"
+        },
+        {
+            "name": "ПОБАЛАКАЛИ...",
+            "link": "/metrs_poem.php?poem=16478"
+        },
+        {
+            "name": "ШПРИЦ",
+            "link": "/metrs_poem.php?poem=16481"
+        },
+        {
+            "name": "КУЦА ФЕНЬКА",
+            "link": "/metrs_poem.php?poem=16367"
+        },
+        {
+            "name": "УЧЕНА РОЗМОВА",
+            "link": "/metrs_poem.php?poem=16368"
+        },
+        {
+            "name": "БОРЯ ОЖЕНИВСЯ",
+            "link": "/metrs_poem.php?poem=16372"
+        },
+        {
+            "name": "ВЕРЕДЛИВИЙ ЖЕНИХ",
+            "link": "/metrs_poem.php?poem=2172"
+        },
+        {
+            "name": "ДЕНИСОВА КОПІЯ",
+            "link": "/metrs_poem.php?poem=2170"
+        },
+        {
+            "name": "ЗАЯВА",
+            "link": "/metrs_poem.php?poem=16370"
+        },
+        {
+            "name": "КЛОПІТ",
+            "link": "/metrs_poem.php?poem=2171"
+        },
+        {
+            "name": "МЕДОВИЙ МІСЯЦЬ",
+            "link": "/metrs_poem.php?poem=16373"
+        },
+        {
+            "name": "МОЛОДЯТА",
+            "link": "/metrs_poem.php?poem=16371"
+        },
+        {
+            "name": "ОРЕЛ",
+            "link": "/metrs_poem.php?poem=16380"
+        },
+        {
+            "name": "ОТАКЕ ЖИТТЯ ДІВОЧЕ!",
+            "link": "/metrs_poem.php?poem=2168"
+        },
+        {
+            "name": "СТАРИЙ ДУРЕНЬ",
+            "link": "/metrs_poem.php?poem=2169"
+        },
+        {
+            "name": "В ТЕМНІМ ЗАЛІ",
+            "link": "/metrs_poem.php?poem=16470"
+        },
+        {
+            "name": "ЛЮБИТЕЛЬ КЛАСИКИ",
+            "link": "/metrs_poem.php?poem=16472"
+        },
+        {
+            "name": "НОВА П'ЄСА",
+            "link": "/metrs_poem.php?poem=16471"
+        },
+        {
+            "name": "УВРТЮРА",
+            "link": "/metrs_poem.php?poem=16469"
+        },
+        {
+            "name": "ІЗЮМ",
+            "link": "/metrs_poem.php?poem=16522"
+        },
+        {
+            "name": "ВПЕРТИЙ ЛЕКТОР",
+            "link": "/metrs_poem.php?poem=16514"
+        },
+        {
+            "name": "ГРІШНИЙ ПІП",
+            "link": "/metrs_poem.php?poem=16512"
+        },
+        {
+            "name": "ГРИЗУН",
+            "link": "/metrs_poem.php?poem=16507"
+        },
+        {
+            "name": "ДЕГУСТАТОР",
+            "link": "/metrs_poem.php?poem=16513"
+        },
+        {
+            "name": "ДОПОТОПНЕ ПРІЗВИЩЕ",
+            "link": "/metrs_poem.php?poem=16524"
+        },
+        {
+            "name": "ЖАЛІБНИЙ ЗЯТЬ",
+            "link": "/metrs_poem.php?poem=16523"
+        },
+        {
+            "name": "ЗАЛЬОТНИК",
+            "link": "/metrs_poem.php?poem=16517"
+        },
+        {
+            "name": "ЗАПРОШЕННЯ",
+            "link": "/metrs_poem.php?poem=16518"
+        },
+        {
+            "name": "КІНДРАТ-АКРОБАТ",
+            "link": "/metrs_poem.php?poem=16525"
+        },
+        {
+            "name": "МОЯ ШАХТА",
+            "link": "/metrs_poem.php?poem=16530"
+        },
+        {
+            "name": "МУЧЕНИКИ",
+            "link": "/metrs_poem.php?poem=16510"
+        },
+        {
+            "name": "НЕВИННА ДУША",
+            "link": "/metrs_poem.php?poem=16529"
+        },
+        {
+            "name": "НЕДРІМАЙЛО",
+            "link": "/metrs_poem.php?poem=16527"
+        },
+        {
+            "name": "НЕРВОВИЙ БОГ",
+            "link": "/metrs_poem.php?poem=16511"
+        },
+        {
+            "name": "ПРО СКЕЛЕТ І ГАЗЕТУ",
+            "link": "/metrs_poem.php?poem=16516"
+        },
+        {
+            "name": "СВІЖИНА",
+            "link": "/metrs_poem.php?poem=16505"
+        },
+        {
+            "name": "СВЯТИЙ МУЗЕЙ",
+            "link": "/metrs_poem.php?poem=16509"
+        },
+        {
+            "name": "СЕМЕНОВЕ СОБАЧА",
+            "link": "/metrs_poem.php?poem=16508"
+        },
+        {
+            "name": "СЛОНЯЧИЙ РАЦІОН",
+            "link": "/metrs_poem.php?poem=16528"
+        },
+        {
+            "name": "СОКОЛИК",
+            "link": "/metrs_poem.php?poem=16526"
+        },
+        {
+            "name": "ТІСНОТА",
+            "link": "/metrs_poem.php?poem=16520"
+        },
+        {
+            "name": "ТЕМНОТА!",
+            "link": "/metrs_poem.php?poem=16515"
+        },
+        {
+            "name": "ХРИСТИНА ОБНОВА",
+            "link": "/metrs_poem.php?poem=16519"
+        },
+        {
+            "name": "ЩО КРАЩЕ СТРІЛЯЄ",
+            "link": "/metrs_poem.php?poem=16506"
+        },
+        {
+            "name": "ДИВНІ ХОЛОШІ",
+            "link": "/metrs_poem.php?poem=16446"
+        },
+        {
+            "name": "ЗАКОХАНИЙ ЧОРТ",
+            "link": "/metrs_poem.php?poem=16449"
+        },
+        {
+            "name": "ЗНАЙШЛА ВИНУВАТОГО",
+            "link": "/metrs_poem.php?poem=16447"
+        },
+        {
+            "name": "КУХЛИК",
+            "link": "/metrs_poem.php?poem=16448"
+        },
+        {
+            "name": "ЛАСКАВА ДІВЧИНА",
+            "link": "/metrs_poem.php?poem=16445"
+        },
+        {
+            "name": "НЕМА ДУРНИХ!",
+            "link": "/metrs_poem.php?poem=16444"
+        },
+        {
+            "name": "НА СУДІ",
+            "link": "/metrs_poem.php?poem=16388"
+        },
+        {
+            "name": "НЕ ПРОВЕДЕШ МИКИТУ!",
+            "link": "/metrs_poem.php?poem=16389"
+        },
+        {
+            "name": "МОНПАНСЬЄ",
+            "link": "/metrs_poem.php?poem=16436"
+        },
+        {
+            "name": "ОКРЕМА КВАРТИРА",
+            "link": "/metrs_poem.php?poem=16437"
+        },
+        {
+            "name": "СИНОК",
+            "link": "/metrs_poem.php?poem=16433"
+        },
+        {
+            "name": "СМІХОВИНА",
+            "link": "/metrs_poem.php?poem=16435"
+        },
+        {
+            "name": "ТОВСТИЙ І ТОНКИЙ",
+            "link": "/metrs_poem.php?poem=16434"
+        },
+        {
+            "name": "ШПАРГАЛКА",
+            "link": "/metrs_poem.php?poem=16438"
+        },
+        {
+            "name": "ВИСОКА ЧЕСТЬ",
+            "link": "/metrs_poem.php?poem=16358"
+        },
+        {
+            "name": "КУЬТПОХІД",
+            "link": "/metrs_poem.php?poem=16356"
+        },
+        {
+            "name": "НАОЧНИЙ УРОК",
+            "link": "/metrs_poem.php?poem=2163"
+        },
+        {
+            "name": "СОЛДАТСЬКА ЛІРИКА",
+            "link": "/metrs_poem.php?poem=16355"
+        },
+        {
+            "name": "ТАЄМНИЦЯ",
+            "link": "/metrs_poem.php?poem=2162"
+        },
+        {
+            "name": "ЧУДОДІЙНИЙ БОРЩ",
+            "link": "/metrs_poem.php?poem=16357"
+        },
+        {
+            "name": "БОЛІЛЬНИК",
+            "link": "/metrs_poem.php?poem=16503"
+        },
+        {
+            "name": "НИНІШНЯ МОЛОДЬ",
+            "link": "/metrs_poem.php?poem=16502"
+        },
+        {
+            "name": "СИЛАЧ",
+            "link": "/metrs_poem.php?poem=16501"
+        },
+        {
+            "name": "СПОРТСМЕН",
+            "link": "/metrs_poem.php?poem=16499"
+        },
+        {
+            "name": "ЯК МИКИТА СТАВ БОКСЕРОМ",
+            "link": "/metrs_poem.php?poem=16500"
+        },
+        {
+            "name": "БОСИЙ СТУДЕНТ",
+            "link": "/metrs_poem.php?poem=16350"
+        },
+        {
+            "name": "ВЕРЕДЛИВА ДІВЧИНА",
+            "link": "/metrs_poem.php?poem=16352"
+        },
+        {
+            "name": "ДИПЛОМ",
+            "link": "/metrs_poem.php?poem=16351"
+        },
+        {
+            "name": "ЖЕНИХ",
+            "link": "/metrs_poem.php?poem=2158"
+        },
+        {
+            "name": "СОЛДАТСЬКА ЛІРИКА",
+            "link": "/metrs_poem.php?poem=2161"
+        },
+        {
+            "name": "СТРАШНІ ЗНАННЯ",
+            "link": "/metrs_poem.php?poem=2157"
+        },
+        {
+            "name": "У КИЄВІ НА ПОДОЛІ",
+            "link": "/metrs_poem.php?poem=2160"
+        },
+        {
+            "name": "ЦИВІЛІЗОВАНИЙ ОМЕЛЬКО",
+            "link": "/metrs_poem.php?poem=2159"
+        },
+        {
+            "name": "ВЕРЕДЛИВИЙ ГІСТЬ",
+            "link": "/metrs_poem.php?poem=16442"
+        },
+        {
+            "name": "ЛАСКАВА ГОСПОДИНЯ",
+            "link": "/metrs_poem.php?poem=16441"
+        },
+        {
+            "name": "У КВАРТИРІ КОМУНАЛЬНІЙ",
+            "link": "/metrs_poem.php?poem=16440"
+        },
+        {
+            "name": "ІНТЕЛІГЕНТНА РОЗМОВА",
+            "link": "/metrs_poem.php?poem=16337"
+        },
+        {
+            "name": "АРХАЇЗМИ",
+            "link": "/metrs_poem.php?poem=16341"
+        },
+        {
+            "name": "ГІДНА ЗМІНА",
+            "link": "/metrs_poem.php?poem=2148"
+        },
+        {
+            "name": "ДОПИТЛИВИЙ СИН",
+            "link": "/metrs_poem.php?poem=2150"
+        },
+        {
+            "name": "ЖОРА Й ЛОРА",
+            "link": "/metrs_poem.php?poem=16340"
+        },
+        {
+            "name": "МУЧЕНИК НАУКИ",
+            "link": "/metrs_poem.php?poem=16336"
+        },
+        {
+            "name": "ОДНОКАШНИК",
+            "link": "/metrs_poem.php?poem=16338"
+        },
+        {
+            "name": "ТАЄМНИЦЯ МОЗКУ",
+            "link": "/metrs_poem.php?poem=2149"
+        },
+        {
+            "name": "ТАБЕЛЬ",
+            "link": "/metrs_poem.php?poem=16339"
+        },
+        {
+            "name": "ЩО ТАКЕ БАЙКА",
+            "link": "/metrs_poem.php?poem=16342"
+        }
+    ]
+}

@@ -1,0 +1,318 @@
+{
+    "author": "Зеров Микола",
+    "link": "/metrs.php?id=125&type=tvorch",
+    "poems": [
+        {
+            "name": " INCOGNITO",
+            "link": "metrs_poem.php?poem=1423"
+        },
+        {
+            "name": " KAPNOS TES PARTRIDOS",
+            "link": "metrs_poem.php?poem=1393"
+        },
+        {
+            "name": " PRO DOMO",
+            "link": "metrs_poem.php?poem=1444"
+        },
+        {
+            "name": " SEMPER LEGENDA",
+            "link": "metrs_poem.php?poem=1431"
+        },
+        {
+            "name": " SUPERSTITIO",
+            "link": "metrs_poem.php?poem=1420"
+        },
+        {
+            "name": " ІВАНІВ ГАЙ У ПОЛТАВІ",
+            "link": "metrs_poem.php?poem=1404"
+        },
+        {
+            "name": " ІСТОРІЯ ГЕНРІ ЕСМОНДА",
+            "link": "metrs_poem.php?poem=1433"
+        },
+        {
+            "name": " БЛИЗНЯТА",
+            "link": "metrs_poem.php?poem=1429"
+        },
+        {
+            "name": " БРАМА ЗАБОРОВСЬКОГО",
+            "link": "metrs_poem.php?poem=1400"
+        },
+        {
+            "name": " БУДІВНИКОВІ",
+            "link": "metrs_poem.php?poem=1401"
+        },
+        {
+            "name": " В ГОСТЯХ У ПОЕТА",
+            "link": "metrs_poem.php?poem=1412"
+        },
+        {
+            "name": " В ДОНБАСІ",
+            "link": "metrs_poem.php?poem=1438"
+        },
+        {
+            "name": " ВІДПОВІДЬ",
+            "link": "metrs_poem.php?poem=1415"
+        },
+        {
+            "name": " ВЕЛИКА П’ЯТНИЦЯ",
+            "link": "metrs_poem.php?poem=1386"
+        },
+        {
+            "name": " ВЕРГІЛІЙ",
+            "link": "metrs_poem.php?poem=1441"
+        },
+        {
+            "name": " ВИЗВОЛЕННЯ",
+            "link": "metrs_poem.php?poem=1426"
+        },
+        {
+            "name": " ВОДНИК",
+            "link": "metrs_poem.php?poem=1430"
+        },
+        {
+            "name": " ВОРОЖІННЯ",
+            "link": "metrs_poem.php?poem=1422"
+        },
+        {
+            "name": " ГОРЛЕНКО",
+            "link": "metrs_poem.php?poem=1405"
+        },
+        {
+            "name": " ГУЛЛІВЕР",
+            "link": "metrs_poem.php?poem=1442"
+        },
+        {
+            "name": " ДАНТЕ",
+            "link": "metrs_poem.php?poem=1443"
+        },
+        {
+            "name": " ДВЕРІ У СТІНІ",
+            "link": "metrs_poem.php?poem=1413"
+        },
+        {
+            "name": " ДОМБІ І СИН",
+            "link": "metrs_poem.php?poem=1436"
+        },
+        {
+            "name": " ЕЛЕГІЯ",
+            "link": "metrs_poem.php?poem=1427"
+        },
+        {
+            "name": " ЖИТТЯ НА МІСІСІПІ",
+            "link": "metrs_poem.php?poem=1435"
+        },
+        {
+            "name": " КИЇВ — ТРАДИЦІЯ",
+            "link": "metrs_poem.php?poem=1396"
+        },
+        {
+            "name": " КИЇВ З ЛІВОГО БЕРЕГА",
+            "link": "metrs_poem.php?poem=1395"
+        },
+        {
+            "name": " КИЇВ НАВЕСНІ ВВЕЧЕРІ",
+            "link": "metrs_poem.php?poem=1397"
+        },
+        {
+            "name": " КУЛІШ",
+            "link": "metrs_poem.php?poem=1403"
+        },
+        {
+            "name": " ЛЕГЕНДА ОДНІЄЇ САДИБИ",
+            "link": "metrs_poem.php?poem=1434"
+        },
+        {
+            "name": " ЛЕСТРИГОНИ",
+            "link": "metrs_poem.php?poem=1392"
+        },
+        {
+            "name": " ЛОТОФАГИ",
+            "link": "metrs_poem.php?poem=1391"
+        },
+        {
+            "name": " НА ВЕРХІВ’ЯХ КАЧІ",
+            "link": "metrs_poem.php?poem=1390"
+        },
+        {
+            "name": " П’єр Ронсар (1524-1585)СОНЕТИ ДЛЯ ГЕЛЕНИ",
+            "link": "metrs_poem.php?poem=1452"
+        },
+        {
+            "name": " ПІД НОВИЙ РІК",
+            "link": "metrs_poem.php?poem=1421"
+        },
+        {
+            "name": " ПАРАДУ",
+            "link": "metrs_poem.php?poem=1437"
+        },
+        {
+            "name": " ПРИСВЯТА",
+            "link": "metrs_poem.php?poem=1425"
+        },
+        {
+            "name": " РОЗМОВА НА ПАРОПЛАВІ",
+            "link": "metrs_poem.php?poem=1409"
+        },
+        {
+            "name": " САМООЗНАЧЕННЯ",
+            "link": "metrs_poem.php?poem=1445"
+        },
+        {
+            "name": " СВЯТОСЛАВ НА ПОРОГАХ",
+            "link": "metrs_poem.php?poem=1408"
+        },
+        {
+            "name": " СОН СВЯТОСЛАВА",
+            "link": "metrs_poem.php?poem=1419"
+        },
+        {
+            "name": " СТАРОВИННОСТІ РИМУ",
+            "link": "metrs_poem.php?poem=1454"
+        },
+        {
+            "name": " СУНИЦІ",
+            "link": "metrs_poem.php?poem=1428"
+        },
+        {
+            "name": " ТАЄМНИЧИЙ ОСТРІВ",
+            "link": "metrs_poem.php?poem=1432"
+        },
+        {
+            "name": " ТВОРЧА ТИША",
+            "link": "metrs_poem.php?poem=1447"
+        },
+        {
+            "name": " ТЕЛЕМАХ У СПАРТІ",
+            "link": "metrs_poem.php?poem=1394"
+        },
+        {
+            "name": " ТИТАНІЇ",
+            "link": "metrs_poem.php?poem=1424"
+        },
+        {
+            "name": " ТОЙ САМИЙ",
+            "link": "metrs_poem.php?poem=1406"
+        },
+        {
+            "name": " ТУРЧИНОВСЬКИЙ",
+            "link": "metrs_poem.php?poem=1402"
+        },
+        {
+            "name": " У ТРАВНІ",
+            "link": "metrs_poem.php?poem=1398"
+        },
+        {
+            "name": " Франческо Петрарка (1304-1374). На смерть Лаури\n\n ССLXXIX",
+            "link": "metrs_poem.php?poem=1450"
+        },
+        {
+            "name": " ХЕРСОН",
+            "link": "metrs_poem.php?poem=1414"
+        },
+        {
+            "name": " ЧЕРНІГІВ",
+            "link": "metrs_poem.php?poem=1399"
+        },
+        {
+            "name": " ЧЕРНИШЕВСЬКИЙ",
+            "link": "metrs_poem.php?poem=1407"
+        },
+        {
+            "name": " ЧИСТИЙ ЧЕТВЕРГ",
+            "link": "metrs_poem.php?poem=1385"
+        },
+        {
+            "name": " ЧИТАЮЧИ ПОЕТА",
+            "link": "metrs_poem.php?poem=1446"
+        },
+        {
+            "name": "\"Poor Yorick! У ласкавий листопад...\"",
+            "link": "metrs_poem.php?poem=1416"
+        },
+        {
+            "name": "\"Все те — тріумф усталеного ладу...\"",
+            "link": "metrs_poem.php?poem=1417"
+        },
+        {
+            "name": "\"З білявих хмар, із шовкових запон...\"",
+            "link": "metrs_poem.php?poem=1439"
+        },
+        {
+            "name": "\"Тут теплий Олексій іще іскриться зрана...\"",
+            "link": "metrs_poem.php?poem=1449"
+        },
+        {
+            "name": "HOI TRIAKONTA",
+            "link": "metrs_poem.php?poem=7417"
+        },
+        {
+            "name": "KOSMOS",
+            "link": "metrs_poem.php?poem=1418"
+        },
+        {
+            "name": "АРИСТАРХ",
+            "link": "metrs_poem.php?poem=7418"
+        },
+        {
+            "name": "В СТЕПУ",
+            "link": "metrs_poem.php?poem=7419"
+        },
+        {
+            "name": "ГОЛОС",
+            "link": "metrs_poem.php?poem=1411"
+        },
+        {
+            "name": "ЖАЛІ",
+            "link": "metrs_poem.php?poem=1453"
+        },
+        {
+            "name": "Зі збірки \"СОНЕТИ І ЕЛЕГІЇ\"НОВА УКРАЇНСЬКА ПОЕЗІЯ",
+            "link": "metrs_poem.php?poem=1384"
+        },
+        {
+            "name": "КОСМОС",
+            "link": "metrs_poem.php?poem=7420"
+        },
+        {
+            "name": "МОЛОДА УКРАЇНА",
+            "link": "metrs_poem.php?poem=7421"
+        },
+        {
+            "name": "ОБРИ",
+            "link": "metrs_poem.php?poem=7946"
+        },
+        {
+            "name": "ПАРТЕНІТ",
+            "link": "metrs_poem.php?poem=1389"
+        },
+        {
+            "name": "ПОТЬОМКІНСЬКІ СЕЛИЩА",
+            "link": "metrs_poem.php?poem=1410"
+        },
+        {
+            "name": "СОНЕТИЧАТИР-ДАГ",
+            "link": "metrs_poem.php?poem=1388"
+        },
+        {
+            "name": "СТЕПОВІ ДОРОГИ",
+            "link": "metrs_poem.php?poem=1440"
+        },
+        {
+            "name": "То був щасливий, десятилітній сон...",
+            "link": "metrs_poem.php?poem=7414"
+        },
+        {
+            "name": "Франческо Петрарка (1304-1374). На смерть Лаури СССХІІ \n",
+            "link": "metrs_poem.php?poem=1451"
+        },
+        {
+            "name": "Чорніє лід біля трамвайних колій...",
+            "link": "metrs_poem.php?poem=7415"
+        },
+        {
+            "name": "Як нам жить хвилиною легкою...",
+            "link": "metrs_poem.php?poem=7416"
+        }
+    ]
+}

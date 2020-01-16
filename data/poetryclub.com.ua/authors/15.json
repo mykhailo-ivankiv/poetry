@@ -1,0 +1,46 @@
+{
+    "author": "Котляревський Іван",
+    "link": "/metrs.php?id=92&type=tvorch",
+    "poems": [
+        {
+            "name": "\"Віють вітри, віють буйні...\"",
+            "link": "metrs_poem.php?poem=474"
+        },
+        {
+            "name": "\"Ой я дівчина полтавка...\"",
+            "link": "metrs_poem.php?poem=476"
+        },
+        {
+            "name": "\"Сонце низенько, вечір близенько...\"",
+            "link": "metrs_poem.php?poem=475"
+        },
+        {
+            "name": "\"Чого вода каламутна...\"",
+            "link": "metrs_poem.php?poem=473"
+        },
+        {
+            "name": "ЕНЕЇДА  Частина друга.",
+            "link": "metrs_poem.php?poem=468"
+        },
+        {
+            "name": "ЕНЕЇДА  Частина перша.",
+            "link": "metrs_poem.php?poem=467"
+        },
+        {
+            "name": "ЕНЕЇДА Частина п'ята.",
+            "link": "metrs_poem.php?poem=471"
+        },
+        {
+            "name": "ЕНЕЇДА Частина третя.",
+            "link": "metrs_poem.php?poem=469"
+        },
+        {
+            "name": "ЕНЕЇДА Частина четверта.",
+            "link": "metrs_poem.php?poem=470"
+        },
+        {
+            "name": "ЕНЕЇДА Частина шоста.",
+            "link": "metrs_poem.php?poem=472"
+        }
+    ]
+}

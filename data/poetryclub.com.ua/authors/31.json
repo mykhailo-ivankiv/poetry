@@ -1,0 +1,514 @@
+{
+    "author": "Федькович Юрій",
+    "link": "/metrs.php?id=318&type=tvorch",
+    "poems": [
+        {
+            "name": "[МІЙ САРДАК]",
+            "link": "metrs_poem.php?poem=7812"
+        },
+        {
+            "name": "ДО ІГОРЯ",
+            "link": "/metrs_poem.php?poem=7864"
+        },
+        {
+            "name": "ДО ІСАЇ",
+            "link": "/metrs_poem.php?poem=7863"
+        },
+        {
+            "name": "ДО БОЯНА",
+            "link": "/metrs_poem.php?poem=7862"
+        },
+        {
+            "name": "ДО ВЕЛЕСА",
+            "link": "/metrs_poem.php?poem=7861"
+        },
+        {
+            "name": "ІЛЕМ",
+            "link": "metrs_poem.php?poem=7820"
+        },
+        {
+            "name": "А ХТО ВИНЕН?",
+            "link": "metrs_poem.php?poem=7814"
+        },
+        {
+            "name": "БАРВІНОК",
+            "link": "metrs_poem.php?poem=7799"
+        },
+        {
+            "name": "БАРКАРОЛА",
+            "link": "metrs_poem.php?poem=7872"
+        },
+        {
+            "name": "БУДЬ ЗДОРОВА!",
+            "link": "metrs_poem.php?poem=7886"
+        },
+        {
+            "name": "В АРЕШТІ",
+            "link": "metrs_poem.php?poem=7775"
+        },
+        {
+            "name": "В САМБОРІ",
+            "link": "metrs_poem.php?poem=7823"
+        },
+        {
+            "name": "В ЦЕРКВІ",
+            "link": "metrs_poem.php?poem=7770"
+        },
+        {
+            "name": "ВЕЧІР НА ПІДГІР'Ю",
+            "link": "metrs_poem.php?poem=7760"
+        },
+        {
+            "name": "ВЕЧОРОМ",
+            "link": "metrs_poem.php?poem=7754"
+        },
+        {
+            "name": "ВИПРАВА В ПОЛЕ",
+            "link": "metrs_poem.php?poem=7748"
+        },
+        {
+            "name": "ГРИВКО І СИВКО",
+            "link": "metrs_poem.php?poem=7891"
+        },
+        {
+            "name": "ГУЛЯЛИ",
+            "link": "metrs_poem.php?poem=7819"
+        },
+        {
+            "name": "ГУЦУЛ-НЕВІР",
+            "link": "metrs_poem.php?poem=7880"
+        },
+        {
+            "name": "ГУЦУЛКА",
+            "link": "metrs_poem.php?poem=7804"
+        },
+        {
+            "name": "1. Вступ",
+            "link": "/metrs_poem.php?poem=7846"
+        },
+        {
+            "name": "2. НАЙМИТ",
+            "link": "/metrs_poem.php?poem=7847"
+        },
+        {
+            "name": "3. НЕКРУТ",
+            "link": "/metrs_poem.php?poem=7848"
+        },
+        {
+            "name": "4. КАПРАЛ",
+            "link": "/metrs_poem.php?poem=7849"
+        },
+        {
+            "name": "5. ЛИСТ",
+            "link": "/metrs_poem.php?poem=7850"
+        },
+        {
+            "name": "6. АВДИТОР",
+            "link": "/metrs_poem.php?poem=7851"
+        },
+        {
+            "name": "7. СТОЙКАР",
+            "link": "/metrs_poem.php?poem=7852"
+        },
+        {
+            "name": "8. КОНЕЦЬ",
+            "link": "/metrs_poem.php?poem=7853"
+        },
+        {
+            "name": "ДЕЗЕРТИР",
+            "link": "metrs_poem.php?poem=7774"
+        },
+        {
+            "name": "ДИКІ ДУМИ",
+            "link": "metrs_poem.php?poem=7879"
+        },
+        {
+            "name": "ДИТИНА",
+            "link": "metrs_poem.php?poem=7758"
+        },
+        {
+            "name": "ДО ДАНИЛА МЛАКИ",
+            "link": "metrs_poem.php?poem=7818"
+        },
+        {
+            "name": "ДО ДМИТРА ЛЕЛИКА (ЦУГФІРА)",
+            "link": "metrs_poem.php?poem=7817"
+        },
+        {
+            "name": "ДО М. Д.",
+            "link": "metrs_poem.php?poem=7815"
+        },
+        {
+            "name": "ДО МОГО БРАТА ОЛЕКСИ ЧЕРНЯВСЬКОГО, ЩО ЗБУДУВАВ МІСТ НА ЧЕРЕМШІ У РОТОКАХ",
+            "link": "metrs_poem.php?poem=7811"
+        },
+        {
+            "name": "ДО НАШОГО БАТЬКА МОГИЛЬНИЦЬКОГО",
+            "link": "metrs_poem.php?poem=7767"
+        },
+        {
+            "name": "ДО НЕЇ",
+            "link": "metrs_poem.php?poem=7769"
+        },
+        {
+            "name": "ДО РОЖІ",
+            "link": "metrs_poem.php?poem=7882"
+        },
+        {
+            "name": "ДО РУСЬКОГО БОЯНСТВА",
+            "link": "metrs_poem.php?poem=7752"
+        },
+        {
+            "name": "ДОБУШ",
+            "link": "metrs_poem.php?poem=7793"
+        },
+        {
+            "name": "ДОЛЯ",
+            "link": "metrs_poem.php?poem=7881"
+        },
+        {
+            "name": "ДУМИ МОЇ",
+            "link": "metrs_poem.php?poem=7751"
+        },
+        {
+            "name": "ДУМИ МОЇ, ДІТИ МОЇ",
+            "link": "metrs_poem.php?poem=7831"
+        },
+        {
+            "name": "ДУМКА",
+            "link": "metrs_poem.php?poem=7797"
+        },
+        {
+            "name": "ДУМКИ",
+            "link": "metrs_poem.php?poem=7807"
+        },
+        {
+            "name": "ДУШКО МОЯ РОЗМАЇТА",
+            "link": "metrs_poem.php?poem=7813"
+        },
+        {
+            "name": "З ОКРУШКІВ",
+            "link": "metrs_poem.php?poem=7822"
+        },
+        {
+            "name": "З-ПІД ЮГА",
+            "link": "metrs_poem.php?poem=7885"
+        },
+        {
+            "name": "ЗІЛЄ",
+            "link": "metrs_poem.php?poem=7801"
+        },
+        {
+            "name": "ЗАЄЦЬ",
+            "link": "metrs_poem.php?poem=7892"
+        },
+        {
+            "name": "ЗОЛОТИЙ ЛЕВ",
+            "link": "metrs_poem.php?poem=7802"
+        },
+        {
+            "name": "КІНЬ",
+            "link": "metrs_poem.php?poem=7893"
+        },
+        {
+            "name": "КІТ І ЛИС",
+            "link": "metrs_poem.php?poem=7890"
+        },
+        {
+            "name": "КВІТКИ",
+            "link": "metrs_poem.php?poem=7759"
+        },
+        {
+            "name": "КЕРМАНИЧ",
+            "link": "metrs_poem.php?poem=7884"
+        },
+        {
+            "name": "КИРТЧАЛІ",
+            "link": "metrs_poem.php?poem=7795"
+        },
+        {
+            "name": "КОЗАК",
+            "link": "metrs_poem.php?poem=7783"
+        },
+        {
+            "name": "КОНЕЦЬ",
+            "link": "metrs_poem.php?poem=7788"
+        },
+        {
+            "name": "КРІЛЬ І ЕРОЛЬ. За Гете",
+            "link": "metrs_poem.php?poem=7824"
+        },
+        {
+            "name": "КРЕСАК",
+            "link": "metrs_poem.php?poem=7867"
+        },
+        {
+            "name": "КУДА?",
+            "link": "metrs_poem.php?poem=7865"
+        },
+        {
+            "name": "ЛАЙДАКА",
+            "link": "metrs_poem.php?poem=7874"
+        },
+        {
+            "name": "ЛУК'ЯН КОБИЛИЦЯ",
+            "link": "metrs_poem.php?poem=7809"
+        },
+        {
+            "name": "МІЙ ОБРАЗ",
+            "link": "metrs_poem.php?poem=7768"
+        },
+        {
+            "name": "МАРШ НА ІТАЛІЮ. Співанка",
+            "link": "metrs_poem.php?poem=7779"
+        },
+        {
+            "name": "МОЛИТВА",
+            "link": "metrs_poem.php?poem=7762"
+        },
+        {
+            "name": "НІЧЛІГ",
+            "link": "metrs_poem.php?poem=7747"
+        },
+        {
+            "name": "НА ДОРОГУ",
+            "link": "metrs_poem.php?poem=7771"
+        },
+        {
+            "name": "НА МОГИЛІ ЗВАНОГО МОГО БРАТА МИХАЙЛА ДУКАЧА У ЗАСТАВНІ",
+            "link": "metrs_poem.php?poem=7838"
+        },
+        {
+            "name": "НА МОГИЛІ МОГО БРАТА",
+            "link": "metrs_poem.php?poem=7786"
+        },
+        {
+            "name": "НАШІ \"СТАРІ\"",
+            "link": "metrs_poem.php?poem=7888"
+        },
+        {
+            "name": "НЕ ЗНАЮ",
+            "link": "metrs_poem.php?poem=7805"
+        },
+        {
+            "name": "НИВА",
+            "link": "metrs_poem.php?poem=7810"
+        },
+        {
+            "name": "НОВОБРАНЧИК. Поема",
+            "link": "metrs_poem.php?poem=7808"
+        },
+        {
+            "name": "О, ЧОМ, ДУНАЙ?..",
+            "link": "metrs_poem.php?poem=7878"
+        },
+        {
+            "name": "ОДНИХ ВИУЧУЮТЬ ПИСАРИТЬ...",
+            "link": "metrs_poem.php?poem=7821"
+        },
+        {
+            "name": "ОЙ ВИЙДУ Я З ХАТИ. Думка",
+            "link": "metrs_poem.php?poem=7777"
+        },
+        {
+            "name": "ОЙ НІЧКА ТО ТИХА. Думка",
+            "link": "metrs_poem.php?poem=7776"
+        },
+        {
+            "name": "ОСКРЕСНИ, БОЯН!",
+            "link": "metrs_poem.php?poem=7765"
+        },
+        {
+            "name": "ОСЬМИЙ ПОМЕННИК ТАРАСОВІ ГРИГОРОВИЧЕВІ ШЕВЧЕНЦІ НА ВІЧНУЮ ПАМ'ЯТЬ",
+            "link": "metrs_poem.php?poem=7830"
+        },
+        {
+            "name": "ОСЬМИЙ ПОМЕННИК ТАРАСОВІ ШЕВЧЕНКОВІ НА ВІЧНУЮ ПАМ'ЯТЬ",
+            "link": "metrs_poem.php?poem=7827"
+        },
+        {
+            "name": "ПІД МАДЖЕНТОВ",
+            "link": "metrs_poem.php?poem=7749"
+        },
+        {
+            "name": "ПІСНІ ЛАДОВНІЇ (ВЕСІЛЬНІ). При вечері",
+            "link": "metrs_poem.php?poem=7757"
+        },
+        {
+            "name": "ПОКЛІН. Співанка",
+            "link": "metrs_poem.php?poem=7753"
+        },
+        {
+            "name": "ПРАВДА",
+            "link": "metrs_poem.php?poem=7869"
+        },
+        {
+            "name": "ПРАЗНИК У ТАКОВІ",
+            "link": "metrs_poem.php?poem=7796"
+        },
+        {
+            "name": "ПРЕЧИСТА ДІВО, РАДУЙСЯ, МАРІЄ!",
+            "link": "metrs_poem.php?poem=7761"
+        },
+        {
+            "name": "ПРИ ВІДХОДІ. Співанка",
+            "link": "metrs_poem.php?poem=7756"
+        },
+        {
+            "name": "ПРОЩІ. За Гейне",
+            "link": "metrs_poem.php?poem=7826"
+        },
+        {
+            "name": "РЕКРУТ",
+            "link": "metrs_poem.php?poem=7772"
+        },
+        {
+            "name": "РОЖА",
+            "link": "metrs_poem.php?poem=7870"
+        },
+        {
+            "name": "РУСЬ. По \"Mignon\" Гете",
+            "link": "metrs_poem.php?poem=7763"
+        },
+        {
+            "name": "СВЯТИЙ ВЕЧІР",
+            "link": "metrs_poem.php?poem=7773"
+        },
+        {
+            "name": "СЕМУ-ТОМУ, ХТО ЦУРАЄСЬ СВОГО ДОМУ",
+            "link": "metrs_poem.php?poem=7806"
+        },
+        {
+            "name": "СЕСТРА. Співанка з української думки",
+            "link": "metrs_poem.php?poem=7755"
+        },
+        {
+            "name": "СИРОТИ",
+            "link": "metrs_poem.php?poem=7798"
+        },
+        {
+            "name": "СПІВАК. За Шіллером. \"De Theilung der Erde\"",
+            "link": "metrs_poem.php?poem=7825"
+        },
+        {
+            "name": "СПІВАНКА",
+            "link": "metrs_poem.php?poem=7778"
+        },
+        {
+            "name": "СПІВАНКИ",
+            "link": "metrs_poem.php?poem=7889"
+        },
+        {
+            "name": "СПІВАЦЬКА ДОБРАНІЧ. На скін Тараса Шевченка",
+            "link": "metrs_poem.php?poem=7766"
+        },
+        {
+            "name": "СПІВАЦЬКА ДОЛЯ",
+            "link": "metrs_poem.php?poem=7750"
+        },
+        {
+            "name": "СТАРИЙ ЖОВНЯР",
+            "link": "metrs_poem.php?poem=7816"
+        },
+        {
+            "name": "СТРІЛЕЦЬ. З німецького, Ф. Шіллера",
+            "link": "metrs_poem.php?poem=7790"
+        },
+        {
+            "name": "СТРІЛЕЦЬКА ПРИГОДА",
+            "link": "metrs_poem.php?poem=7792"
+        },
+        {
+            "name": "СТРАЖ НА РУСІ",
+            "link": "metrs_poem.php?poem=7871"
+        },
+        {
+            "name": "ТОВАРИШІ",
+            "link": "metrs_poem.php?poem=7781"
+        },
+        {
+            "name": "ТРАФУНОК",
+            "link": "metrs_poem.php?poem=7791"
+        },
+        {
+            "name": "ТРУПАРНЯ",
+            "link": "metrs_poem.php?poem=7782"
+        },
+        {
+            "name": "У ВЕРОНІ. Співанка",
+            "link": "metrs_poem.php?poem=7780"
+        },
+        {
+            "name": "У ГОРАХ",
+            "link": "metrs_poem.php?poem=7873"
+        },
+        {
+            "name": "У КОЖУСІ",
+            "link": "metrs_poem.php?poem=7868"
+        },
+        {
+            "name": "У ЛЕГІНЯ",
+            "link": "metrs_poem.php?poem=7877"
+        },
+        {
+            "name": "У ПОЛІ, ГЕЙ, У ПОЛІ!",
+            "link": "metrs_poem.php?poem=7785"
+        },
+        {
+            "name": "УКРАЇНА",
+            "link": "metrs_poem.php?poem=7764"
+        },
+        {
+            "name": "ХІБА ДОЛІ ЯКЕ ДІЛО?",
+            "link": "metrs_poem.php?poem=7866"
+        },
+        {
+            "name": "ХУСТКА",
+            "link": "metrs_poem.php?poem=7803"
+        },
+        {
+            "name": "ЦИГАНКА",
+            "link": "metrs_poem.php?poem=7844"
+        },
+        {
+            "name": "ЧИ ХТО ЗМІРКУЄ?",
+            "link": "metrs_poem.php?poem=7876"
+        },
+        {
+            "name": "ЧОМУ?",
+            "link": "metrs_poem.php?poem=7784"
+        },
+        {
+            "name": "ШЕЛЬВАХ",
+            "link": "metrs_poem.php?poem=7800"
+        },
+        {
+            "name": "ШИПІТСЬКІ БЕРЕЗИ",
+            "link": "metrs_poem.php?poem=7883"
+        },
+        {
+            "name": "ЩО Я ЛЮБЛЮ, В ЩО ВІРУЮ, НА ЩО НАДІЮСЬ",
+            "link": "metrs_poem.php?poem=7894"
+        },
+        {
+            "name": "ЮРІЙ ГІНДА",
+            "link": "metrs_poem.php?poem=7794"
+        },
+        {
+            "name": "Я ГАДАВ",
+            "link": "metrs_poem.php?poem=7875"
+        },
+        {
+            "name": "Я НЕ ДИВУЮСЯ...",
+            "link": "metrs_poem.php?poem=7887"
+        },
+        {
+            "name": "ЯК ТО СПІВАК ПРОКЛИНАЄ. З німецького, Л. Уланда",
+            "link": "metrs_poem.php?poem=7789"
+        },
+        {
+            "name": "ЯК Я, БРАТТЯ, РАЗ СКОНАЮ. Думка",
+            "link": "metrs_poem.php?poem=7787"
+        }
+    ]
+}

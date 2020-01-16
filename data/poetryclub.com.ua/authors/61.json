@@ -1,0 +1,66 @@
+{
+    "author": "Бобинський Василь",
+    "link": "/metrs.php?id=291&type=tvorch",
+    "poems": [
+        {
+            "name": "4. ІІІ",
+            "link": "metrs_poem.php?poem=10868"
+        },
+        {
+            "name": "ІЗ ПОЕМИ \"СМЕРТЬ ФРАНКА\"",
+            "link": "metrs_poem.php?poem=6404"
+        },
+        {
+            "name": "ВЕЧІРНЯ МЕЛОДІЯ",
+            "link": "metrs_poem.php?poem=18986"
+        },
+        {
+            "name": "ЗА ВІКНОМ СНІГ",
+            "link": "metrs_poem.php?poem=10804"
+        },
+        {
+            "name": "1. ЗАСПІВ",
+            "link": "/metrs_poem.php?poem=10808"
+        },
+        {
+            "name": "2. І",
+            "link": "/metrs_poem.php?poem=10809"
+        },
+        {
+            "name": "3. ІІІ",
+            "link": "/metrs_poem.php?poem=10810"
+        },
+        {
+            "name": "КАМО",
+            "link": "metrs_poem.php?poem=18987"
+        },
+        {
+            "name": "ЛІТО",
+            "link": "metrs_poem.php?poem=18988"
+        },
+        {
+            "name": "НІЧ КОХАННЯ. Вінок сонетів",
+            "link": "metrs_poem.php?poem=10806"
+        },
+        {
+            "name": "РУСАЛКА",
+            "link": "metrs_poem.php?poem=10805"
+        },
+        {
+            "name": "СТЕЖКА",
+            "link": "metrs_poem.php?poem=18989"
+        },
+        {
+            "name": "СТРІЛА. Цикл",
+            "link": "metrs_poem.php?poem=18991"
+        },
+        {
+            "name": "ТАЙНА ТАНЦЮ",
+            "link": "metrs_poem.php?poem=18990"
+        },
+        {
+            "name": "ЧОРНОЗЕМ (Уривок)",
+            "link": "metrs_poem.php?poem=6405"
+        }
+    ]
+}

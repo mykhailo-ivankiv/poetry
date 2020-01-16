@@ -1,0 +1,46 @@
+{
+    "author": "Поетеси Петрівки",
+    "link": "/metrs.php?id=33&type=tvorch",
+    "poems": [
+        {
+            "name": "Вера Смирнова",
+            "link": "metrs_poem.php?poem=257"
+        },
+        {
+            "name": "Ирина Аркадьевна Введенская",
+            "link": "metrs_poem.php?poem=259"
+        },
+        {
+            "name": "Кондратьева Валентина Петровна",
+            "link": "metrs_poem.php?poem=254"
+        },
+        {
+            "name": "Корешкова Людмила Алексеевна",
+            "link": "metrs_poem.php?poem=250"
+        },
+        {
+            "name": "Лаврентьева Елена Фоминична",
+            "link": "metrs_poem.php?poem=255"
+        },
+        {
+            "name": "Наталья Жадан",
+            "link": "metrs_poem.php?poem=251"
+        },
+        {
+            "name": "Нина Титусь",
+            "link": "metrs_poem.php?poem=248"
+        },
+        {
+            "name": "Светлана Бинат",
+            "link": "metrs_poem.php?poem=252"
+        },
+        {
+            "name": "Светлана Викторовна Бинат",
+            "link": "metrs_poem.php?poem=261"
+        },
+        {
+            "name": "Таина Щветкова",
+            "link": "metrs_poem.php?poem=253"
+        }
+    ]
+}

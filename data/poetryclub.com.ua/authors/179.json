@@ -1,0 +1,14 @@
+{
+    "author": "Каунова Тетяна",
+    "link": "/metrs.php?id=86&type=tvorch",
+    "poems": [
+        {
+            "name": "\"Вершнику, де тінь свою полишив?...\"",
+            "link": "metrs_poem.php?poem=458"
+        },
+        {
+            "name": "НА ПОКРОВУ",
+            "link": "metrs_poem.php?poem=457"
+        }
+    ]
+}

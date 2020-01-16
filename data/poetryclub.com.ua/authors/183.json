@@ -1,0 +1,602 @@
+{
+    "author": "Малкович Іван",
+    "link": "/metrs.php?id=18&type=tvorch",
+    "poems": [
+        {
+            "name": "\"Все у нас, бачиш, не так...\"",
+            "link": "metrs_poem.php?poem=19671"
+        },
+        {
+            "name": "\"Гори плечима загати...\"",
+            "link": "metrs_poem.php?poem=19566"
+        },
+        {
+            "name": "\"Запахи в липах потоплені...\"",
+            "link": "metrs_poem.php?poem=19696"
+        },
+        {
+            "name": "\"Заповийся в дощі, як у дим...\"",
+            "link": "metrs_poem.php?poem=128"
+        },
+        {
+            "name": "\"Зближалося на тридцять літ...\"",
+            "link": "metrs_poem.php?poem=19695"
+        },
+        {
+            "name": "\"Здається, нічні заметілі, а снігу нема...\"",
+            "link": "metrs_poem.php?poem=19653"
+        },
+        {
+            "name": "\"Купи рум'янку — рум'янися...\"",
+            "link": "metrs_poem.php?poem=19634"
+        },
+        {
+            "name": "\"На черешні, що зрубана...\"",
+            "link": "metrs_poem.php?poem=176"
+        },
+        {
+            "name": "\"Над зелен-рікою, на деревці скраю...\"",
+            "link": "metrs_poem.php?poem=19649"
+        },
+        {
+            "name": "\"Ольвія дальня слів твоїх майже нечутна...\"",
+            "link": "metrs_poem.php?poem=19569"
+        },
+        {
+            "name": "\"Отак прожив собі, дивись...\"",
+            "link": "metrs_poem.php?poem=19565"
+        },
+        {
+            "name": "\"При цих деревах, в цім ладу...\"",
+            "link": "metrs_poem.php?poem=19574"
+        },
+        {
+            "name": "\"Росте тривоги чорний парашут...\"",
+            "link": "metrs_poem.php?poem=19699"
+        },
+        {
+            "name": "\"Сизі ранки поснулі...\"",
+            "link": "metrs_poem.php?poem=19670"
+        },
+        {
+            "name": "\"Сумного й неминучого — я знаю...\"",
+            "link": "metrs_poem.php?poem=19680"
+        },
+        {
+            "name": "\"Там, де мені добре...\"",
+            "link": "metrs_poem.php?poem=19552"
+        },
+        {
+            "name": "\"Тоді, як у нашому листівнику...\"",
+            "link": "metrs_poem.php?poem=19553"
+        },
+        {
+            "name": "\"У снах я боявся бика...\"",
+            "link": "metrs_poem.php?poem=19698"
+        },
+        {
+            "name": "\"Шукаймо тайн в труді й любові..\"",
+            "link": "metrs_poem.php?poem=177"
+        },
+        {
+            "name": "\"Ще ранок лиш...\"",
+            "link": "metrs_poem.php?poem=19564"
+        },
+        {
+            "name": "\"Я вигортаю попіл із каміна...\"",
+            "link": "metrs_poem.php?poem=19587"
+        },
+        {
+            "name": "\"Я загубив свій ключ: я голочку соснову...\"",
+            "link": "metrs_poem.php?poem=19575"
+        },
+        {
+            "name": "\"кожний день...\"",
+            "link": "metrs_poem.php?poem=19550"
+        },
+        {
+            "name": "\"тут...\"",
+            "link": "metrs_poem.php?poem=19612"
+        },
+        {
+            "name": "\"ці беззвучні слова що нашіптую їх десь-таки западають...\"",
+            "link": "metrs_poem.php?poem=19632"
+        },
+        {
+            "name": "\"якщо дерево...\"",
+            "link": "metrs_poem.php?poem=19557"
+        },
+        {
+            "name": "ІВАН І ЩЕЗНИК (З циклу «Вертепчик») ",
+            "link": "metrs_poem.php?poem=19655"
+        },
+        {
+            "name": "ІВАНО-ФРАНКІВСЬКУ ЧИ СТАНИСЛАВОВУ ",
+            "link": "metrs_poem.php?poem=19594"
+        },
+        {
+            "name": "ІЗ ЯНГОЛОМ НА ПЛЕЧІ",
+            "link": "metrs_poem.php?poem=19542"
+        },
+        {
+            "name": "ІМПРОВІЗ ",
+            "link": "metrs_poem.php?poem=19654"
+        },
+        {
+            "name": "ІШОВ МИКОЛАЙ (Про Святого Миколая)",
+            "link": "metrs_poem.php?poem=19543"
+        },
+        {
+            "name": "АНТИГРУДЕНЬ ",
+            "link": "metrs_poem.php?poem=19615"
+        },
+        {
+            "name": "АНТОНИЧ ",
+            "link": "metrs_poem.php?poem=19660"
+        },
+        {
+            "name": "1. Ніжний спогад, або Ива-маржина ",
+            "link": "/metrs_poem.php?poem=19581"
+        },
+        {
+            "name": "2. Юзь ",
+            "link": "/metrs_poem.php?poem=19582"
+        },
+        {
+            "name": "3. Вірган ",
+            "link": "/metrs_poem.php?poem=19583"
+        },
+        {
+            "name": "4. Ясь Жеревецький",
+            "link": "/metrs_poem.php?poem=19584"
+        },
+        {
+            "name": "5. Вечір із прабабкою ",
+            "link": "/metrs_poem.php?poem=19585"
+        },
+        {
+            "name": "6. Постраховисько ",
+            "link": "/metrs_poem.php?poem=19586"
+        },
+        {
+            "name": "БУКОЛІКА З ЄВШАНОМ ",
+            "link": "metrs_poem.php?poem=19665"
+        },
+        {
+            "name": "В ПЕРЕДЧУТТІ",
+            "link": "metrs_poem.php?poem=19683"
+        },
+        {
+            "name": "ВІЙСЬКО ",
+            "link": "metrs_poem.php?poem=19675"
+        },
+        {
+            "name": "ВІЙСЬКО (Звучить як міт)",
+            "link": "metrs_poem.php?poem=19540"
+        },
+        {
+            "name": "Гуцульська ніч і Криворівня",
+            "link": "/metrs_poem.php?poem=19555"
+        },
+        {
+            "name": "Я хочу плакати, бо туск...",
+            "link": "/metrs_poem.php?poem=19556"
+        },
+        {
+            "name": "ВЕЧІРНЯ (ГУСЯЧА) БУКОЛІКА ",
+            "link": "metrs_poem.php?poem=19620"
+        },
+        {
+            "name": "1. Передкарпаття ",
+            "link": "/metrs_poem.php?poem=19559"
+        },
+        {
+            "name": "2. З-за високої стодоли...",
+            "link": "/metrs_poem.php?poem=19560"
+        },
+        {
+            "name": "3. Най би хоч баранчики...",
+            "link": "/metrs_poem.php?poem=19561"
+        },
+        {
+            "name": "4. Мама мені написала",
+            "link": "/metrs_poem.php?poem=19562"
+        },
+        {
+            "name": "1. Все ясне, і тонке, й незабутнє, як листячко шкіри...",
+            "link": "/metrs_poem.php?poem=19627"
+        },
+        {
+            "name": "2. Як я чорта боявся, коли мене посилали під вечір...",
+            "link": "/metrs_poem.php?poem=19628"
+        },
+        {
+            "name": "3. Риба, яка проти річки протяжно пливе...",
+            "link": "/metrs_poem.php?poem=19629"
+        },
+        {
+            "name": "4. ...і мама тоді мені голову лугом змила",
+            "link": "/metrs_poem.php?poem=19630"
+        },
+        {
+            "name": "1. Все ясне, і тонке, й незабутнє, як листячко шкіри ",
+            "link": "/metrs_poem.php?poem=19571"
+        },
+        {
+            "name": "2. як я чорта боявся коли мене посилали під вечір ",
+            "link": "/metrs_poem.php?poem=19572"
+        },
+        {
+            "name": "3. Риба, яка проти річки протяжно пливе",
+            "link": "/metrs_poem.php?poem=19573"
+        },
+        {
+            "name": "ДАЛЕКЕ ЛІТО ",
+            "link": "metrs_poem.php?poem=19568"
+        },
+        {
+            "name": "ДИВНА ПІСЕНЬКА ",
+            "link": "metrs_poem.php?poem=19563"
+        },
+        {
+            "name": "ДИТИНСТВО ТРЬОХ ",
+            "link": "metrs_poem.php?poem=19663"
+        },
+        {
+            "name": "ДОЛЯ ",
+            "link": "metrs_poem.php?poem=19682"
+        },
+        {
+            "name": "ЖИТІЄ ОЛЕНЯРА",
+            "link": "metrs_poem.php?poem=19690"
+        },
+        {
+            "name": "ЖИТІЄ СВЯЩЕНИКА ",
+            "link": "metrs_poem.php?poem=19689"
+        },
+        {
+            "name": "ЖИТІЄ СКРИПАЛЬОК",
+            "link": "metrs_poem.php?poem=19687"
+        },
+        {
+            "name": "ЖИТІЄ ЧАСНИКА ",
+            "link": "metrs_poem.php?poem=19686"
+        },
+        {
+            "name": "З НІЧНИХ МОЛИТОВ ",
+            "link": "metrs_poem.php?poem=19666"
+        },
+        {
+            "name": "З НАРОДНИХ МОТИВІВ ",
+            "link": "metrs_poem.php?poem=19613"
+        },
+        {
+            "name": "З'ЯСУВАННЯ ІЗ БІЛИМ КАМЕНЕМ",
+            "link": "metrs_poem.php?poem=19631"
+        },
+        {
+            "name": "ЗАКЛЯТТЯ ",
+            "link": "metrs_poem.php?poem=19579"
+        },
+        {
+            "name": "КАЗКА ",
+            "link": "metrs_poem.php?poem=19678"
+        },
+        {
+            "name": "КАНАТОХОДЦІ ",
+            "link": "metrs_poem.php?poem=19638"
+        },
+        {
+            "name": "КАРТИ ДОЛІ ",
+            "link": "metrs_poem.php?poem=19650"
+        },
+        {
+            "name": "КАХЛЯНА (ТОСКНА) БУКОЛІКА ",
+            "link": "metrs_poem.php?poem=19667"
+        },
+        {
+            "name": "КОЛО ",
+            "link": "metrs_poem.php?poem=19576"
+        },
+        {
+            "name": "КОЛЯДА ",
+            "link": "metrs_poem.php?poem=19635"
+        },
+        {
+            "name": "КОНОТОП ",
+            "link": "metrs_poem.php?poem=19618"
+        },
+        {
+            "name": "КРАЇНА СОНЦЯ ",
+            "link": "metrs_poem.php?poem=19637"
+        },
+        {
+            "name": "КУБАНЩИНА ",
+            "link": "metrs_poem.php?poem=19694"
+        },
+        {
+            "name": "ЛІС ",
+            "link": "metrs_poem.php?poem=19593"
+        },
+        {
+            "name": "ЛІТОПИС ",
+            "link": "metrs_poem.php?poem=19674"
+        },
+        {
+            "name": "ЛЕГЕНІ ",
+            "link": "metrs_poem.php?poem=19652"
+        },
+        {
+            "name": "ЛЕСБОС ",
+            "link": "metrs_poem.php?poem=19691"
+        },
+        {
+            "name": "ЛУБОК ",
+            "link": "metrs_poem.php?poem=19668"
+        },
+        {
+            "name": "МІСЯЧНИЙ КАНТ (З циклу «Вертепчик») ",
+            "link": "metrs_poem.php?poem=19645"
+        },
+        {
+            "name": "МАРКО ПЕКЕЛЬНИЙ ",
+            "link": "metrs_poem.php?poem=19641"
+        },
+        {
+            "name": "МЕНІ ПОДАРОВАНО ЧАРІВНИЙ БУКЕТ ЖОВТИХ ТРОЯНД... ",
+            "link": "metrs_poem.php?poem=19646"
+        },
+        {
+            "name": "МОЖЛИВІСТЬ ",
+            "link": "metrs_poem.php?poem=19599"
+        },
+        {
+            "name": "МУЗИКА, ЩО ПІШЛА",
+            "link": "metrs_poem.php?poem=19544"
+        },
+        {
+            "name": "НІЧ. ОСІНЬ ",
+            "link": "metrs_poem.php?poem=19567"
+        },
+        {
+            "name": "1. З'ява перша: «Концерт» ",
+            "link": "/metrs_poem.php?poem=19601"
+        },
+        {
+            "name": "2. З'ява друга: «Розп'яття» ",
+            "link": "/metrs_poem.php?poem=19602"
+        },
+        {
+            "name": "3. З'ява третя: «Каприччіо із слимаком» ",
+            "link": "/metrs_poem.php?poem=19603"
+        },
+        {
+            "name": "4. З'ява четверта: «Шершенний вірус» ",
+            "link": "/metrs_poem.php?poem=19604"
+        },
+        {
+            "name": "5. З'ява п'ята: «Репліка режисера» ",
+            "link": "/metrs_poem.php?poem=19605"
+        },
+        {
+            "name": "6. З'ява шоста: «Діалог двох невідомих» ",
+            "link": "/metrs_poem.php?poem=19607"
+        },
+        {
+            "name": "7. З'ява сьома: «Інтермедія з князем Ігорем» ",
+            "link": "/metrs_poem.php?poem=19608"
+        },
+        {
+            "name": "8. З'ява восьма: «Гербарійний Геракл» ",
+            "link": "/metrs_poem.php?poem=19609"
+        },
+        {
+            "name": "9. З'ява дев'ята: «Фінал» ",
+            "link": "/metrs_poem.php?poem=19610"
+        },
+        {
+            "name": "Постскриптум ",
+            "link": "/metrs_poem.php?poem=19611"
+        },
+        {
+            "name": "НАБЛИЖЕННЯ ",
+            "link": "metrs_poem.php?poem=19643"
+        },
+        {
+            "name": "НАМАРНІ ЛЮДИ ",
+            "link": "metrs_poem.php?poem=19669"
+        },
+        {
+            "name": "НАПЕРЕДОВЕЦЬ (Поема)",
+            "link": "metrs_poem.php?poem=19662"
+        },
+        {
+            "name": "НАПУЧУВАННЯ СІЛЬСЬКОГО ВЧИТЕЛЯ",
+            "link": "metrs_poem.php?poem=19545"
+        },
+        {
+            "name": "НЕЗБАГНЕННА ЛЮБОВ ДО МЕЛЬНИКУВАННЯ ",
+            "link": "metrs_poem.php?poem=19685"
+        },
+        {
+            "name": "НЕЩАСЛИВЕ КОХАННЯ ",
+            "link": "metrs_poem.php?poem=19633"
+        },
+        {
+            "name": "НОКТЮРН ДЛЯ ЗЕМЛЯКІВ ",
+            "link": "metrs_poem.php?poem=19642"
+        },
+        {
+            "name": "ОЧІКУВАННЯ ",
+            "link": "metrs_poem.php?poem=19661"
+        },
+        {
+            "name": "ПІЙМАНИЙ СКОВОРОДА ",
+            "link": "metrs_poem.php?poem=19692"
+        },
+        {
+            "name": "ПІСЕНЬКА ПРО ЧЕРЕШНЮ ",
+            "link": "metrs_poem.php?poem=19551"
+        },
+        {
+            "name": "ПО РІЗДВІ (Колядка)",
+            "link": "metrs_poem.php?poem=19546"
+        },
+        {
+            "name": "ПОЇЗД ",
+            "link": "metrs_poem.php?poem=19659"
+        },
+        {
+            "name": "ПОДОРОЖНИК ",
+            "link": "metrs_poem.php?poem=19549"
+        },
+        {
+            "name": "ПОСЛАННЯ ДО Т. ",
+            "link": "metrs_poem.php?poem=19664"
+        },
+        {
+            "name": "ПОСТСКРИПТУМ",
+            "link": "metrs_poem.php?poem=19547"
+        },
+        {
+            "name": "ПРІРВА  ",
+            "link": "metrs_poem.php?poem=19640"
+        },
+        {
+            "name": "ПРАВІТРИ: ПРАБОГ ",
+            "link": "metrs_poem.php?poem=19673"
+        },
+        {
+            "name": "ПРАКОРАБЕЛЬ",
+            "link": "metrs_poem.php?poem=19672"
+        },
+        {
+            "name": "ПРОБА ГОЛОСУ ",
+            "link": "metrs_poem.php?poem=19597"
+        },
+        {
+            "name": "ПРОВИНА ",
+            "link": "metrs_poem.php?poem=19658"
+        },
+        {
+            "name": "ПРОМОВКА ПРО ВОВКА (З циклу “Вертепчик”) ",
+            "link": "metrs_poem.php?poem=19588"
+        },
+        {
+            "name": "ПТАШИНА ЕЛЕГІЯ",
+            "link": "metrs_poem.php?poem=19616"
+        },
+        {
+            "name": "РОСА ",
+            "link": "metrs_poem.php?poem=19697"
+        },
+        {
+            "name": "СІТНИК, АБО СИТНЯГ ",
+            "link": "metrs_poem.php?poem=19657"
+        },
+        {
+            "name": "САД РІЗДВЯНИЙ ",
+            "link": "metrs_poem.php?poem=19621"
+        },
+        {
+            "name": "СВІЧКА ",
+            "link": "metrs_poem.php?poem=19578"
+        },
+        {
+            "name": "СИНОВІ ",
+            "link": "metrs_poem.php?poem=19577"
+        },
+        {
+            "name": "СИНОЧКОВІ НА ПЕРШУ ЙОГО КОЛЯДУ ",
+            "link": "metrs_poem.php?poem=19684"
+        },
+        {
+            "name": "СЛУХАЧІ МУЗИКИ ",
+            "link": "metrs_poem.php?poem=19651"
+        },
+        {
+            "name": "СЛЬОЗА",
+            "link": "metrs_poem.php?poem=19676"
+        },
+        {
+            "name": "СМОРОДИНА",
+            "link": "metrs_poem.php?poem=19644"
+        },
+        {
+            "name": "СОЛОМИНКА ",
+            "link": "metrs_poem.php?poem=19614"
+        },
+        {
+            "name": "СОН ІЗ ВЕСІЛЬНИМ ХЛІБОМ ",
+            "link": "metrs_poem.php?poem=19648"
+        },
+        {
+            "name": "СОНЕТ ІЗ ТОРБИНКОЮ КВАСОЛІ ",
+            "link": "metrs_poem.php?poem=19598"
+        },
+        {
+            "name": "СТРИБКИ НА БАТУТІ ",
+            "link": "metrs_poem.php?poem=19656"
+        },
+        {
+            "name": "ТІЛЬКИ СПОГАД ",
+            "link": "metrs_poem.php?poem=19595"
+        },
+        {
+            "name": "ТАВРІЯ ",
+            "link": "metrs_poem.php?poem=19693"
+        },
+        {
+            "name": "ТРАДИЦІЙНИЙ ПОРТРЕТ ПОЕТА ",
+            "link": "metrs_poem.php?poem=19639"
+        },
+        {
+            "name": "УКРАЇНСЬКИЙ ПІВДЕНЬ ",
+            "link": "metrs_poem.php?poem=19681"
+        },
+        {
+            "name": "ХОВАНКА ",
+            "link": "metrs_poem.php?poem=19619"
+        },
+        {
+            "name": "ХОР ",
+            "link": "metrs_poem.php?poem=19688"
+        },
+        {
+            "name": "ХТОСЬ З ДИТЯМ УДВОХ (Сучасна колядка)",
+            "link": "metrs_poem.php?poem=19548"
+        },
+        {
+            "name": "ЦИГАНСЬКЕ МИТО ",
+            "link": "metrs_poem.php?poem=19677"
+        },
+        {
+            "name": "ЧОВЕН ",
+            "link": "metrs_poem.php?poem=19596"
+        },
+        {
+            "name": "ЧОЛОВІК ",
+            "link": "metrs_poem.php?poem=19636"
+        },
+        {
+            "name": "1. Стрімкими ріками зелених електричок",
+            "link": "/metrs_poem.php?poem=19590"
+        },
+        {
+            "name": "2. Нав'язливий сон ",
+            "link": "/metrs_poem.php?poem=19591"
+        },
+        {
+            "name": "3. Цієї ночі...",
+            "link": "/metrs_poem.php?poem=19592"
+        },
+        {
+            "name": "ЩЕ ОДНА ОСІНЬ ",
+            "link": "metrs_poem.php?poem=19679"
+        },
+        {
+            "name": "ЮНА МАЙБУТНЯ ДРУЖИНА ",
+            "link": "metrs_poem.php?poem=19647"
+        }
+    ]
+}

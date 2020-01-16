@@ -1,0 +1,222 @@
+{
+    "author": "Гнатюк Іван",
+    "link": "/metrs.php?id=48&type=tvorch",
+    "poems": [
+        {
+            "name": "\"І в’яне в неволі дівоча краса...\"",
+            "link": "metrs_poem.php?poem=3478"
+        },
+        {
+            "name": "\"І дні, і літа пропливають поволі...\"",
+            "link": "metrs_poem.php?poem=3484"
+        },
+        {
+            "name": "\"Були у мене сумніви і драми...\"",
+            "link": "metrs_poem.php?poem=3500"
+        },
+        {
+            "name": "\"Вибиті вікна — й знадвору сніг залітає, як пух...\"",
+            "link": "metrs_poem.php?poem=3463"
+        },
+        {
+            "name": "\"Дивлюсь на небо — сіре, однотонне...\"",
+            "link": "metrs_poem.php?poem=3479"
+        },
+        {
+            "name": "\"Здається, що гори горять,— вечоріє...\"",
+            "link": "metrs_poem.php?poem=3457"
+        },
+        {
+            "name": "\"Карпатський ліс прийняв мене - як сина...\"",
+            "link": "metrs_poem.php?poem=320"
+        },
+        {
+            "name": "\"Коли в життєвому циклоні...\"",
+            "link": "metrs_poem.php?poem=3496"
+        },
+        {
+            "name": "\"Наївні сцени завченої ролі...\"",
+            "link": "metrs_poem.php?poem=3497"
+        },
+        {
+            "name": "\"Невдовзі гори знов зазеленіють...\"",
+            "link": "metrs_poem.php?poem=3472"
+        },
+        {
+            "name": "\"Нема — як муки ностальгії...\"",
+            "link": "metrs_poem.php?poem=3505"
+        },
+        {
+            "name": "\"Неначе птах з ключами журавлів...\"",
+            "link": "metrs_poem.php?poem=3492"
+        },
+        {
+            "name": "\"Поле - тихо й п'янко до нестями...\"",
+            "link": "metrs_poem.php?poem=321"
+        },
+        {
+            "name": "\"Хтось за стінкою в камері тихо співа...\"",
+            "link": "metrs_poem.php?poem=3487"
+        },
+        {
+            "name": "\"Я без любові нидію і гину...\"",
+            "link": "metrs_poem.php?poem=3481"
+        },
+        {
+            "name": "\"Я жду чогось — якихось перемін...\"",
+            "link": "metrs_poem.php?poem=3494"
+        },
+        {
+            "name": "\"Я сам-один у камері кромішній...\"",
+            "link": "metrs_poem.php?poem=3483"
+        },
+        {
+            "name": "\"Як вутлий човен, кинутий у бурі...\"",
+            "link": "metrs_poem.php?poem=3458"
+        },
+        {
+            "name": "БЕЗЗАКОННЯ",
+            "link": "metrs_poem.php?poem=3502"
+        },
+        {
+            "name": "БЕЗСОННЯ",
+            "link": "metrs_poem.php?poem=3480"
+        },
+        {
+            "name": "БУРЯ",
+            "link": "metrs_poem.php?poem=3485"
+        },
+        {
+            "name": "ВЕРБОВИЙ ЦВІТ",
+            "link": "metrs_poem.php?poem=3493"
+        },
+        {
+            "name": "ГІРКА ЗОРЯ",
+            "link": "metrs_poem.php?poem=3504"
+        },
+        {
+            "name": "ДЕРЕВОРИТ",
+            "link": "metrs_poem.php?poem=3498"
+        },
+        {
+            "name": "ЕКСПРОМТ",
+            "link": "metrs_poem.php?poem=3499"
+        },
+        {
+            "name": "Етап",
+            "link": "metrs_poem.php?poem=3456"
+        },
+        {
+            "name": "ЖИТТЯ",
+            "link": "metrs_poem.php?poem=3475"
+        },
+        {
+            "name": "КАРЦЕР",
+            "link": "metrs_poem.php?poem=3473"
+        },
+        {
+            "name": "КАТОРЖАНИ",
+            "link": "metrs_poem.php?poem=3464"
+        },
+        {
+            "name": "КОЛИМСЬКА ВЕСНА",
+            "link": "metrs_poem.php?poem=3468"
+        },
+        {
+            "name": "КОЛЮЧЕ ПЛЕТИВО ДРОТІВ",
+            "link": "metrs_poem.php?poem=3482"
+        },
+        {
+            "name": "КОНЦТАБІР ІМ.БЄЛОВА",
+            "link": "metrs_poem.php?poem=3488"
+        },
+        {
+            "name": "МАРЕННЯ",
+            "link": "metrs_poem.php?poem=3459"
+        },
+        {
+            "name": "МАТЕРІ",
+            "link": "metrs_poem.php?poem=3476"
+        },
+        {
+            "name": "МОГИЛА",
+            "link": "metrs_poem.php?poem=3470"
+        },
+        {
+            "name": "НЕВОЛЬНИЦІ",
+            "link": "metrs_poem.php?poem=3477"
+        },
+        {
+            "name": "НЕВОЛЬНИЦЬКА ПІСНЯ",
+            "link": "metrs_poem.php?poem=3471"
+        },
+        {
+            "name": "НОМЕР",
+            "link": "metrs_poem.php?poem=3465"
+        },
+        {
+            "name": "НОСТАЛЬГІЯ",
+            "link": "metrs_poem.php?poem=3460"
+        },
+        {
+            "name": "ПІЛІГРИМ",
+            "link": "metrs_poem.php?poem=3495"
+        },
+        {
+            "name": "ПОВЕРНЕННЯ",
+            "link": "metrs_poem.php?poem=3491"
+        },
+        {
+            "name": "ПОКАРА",
+            "link": "metrs_poem.php?poem=319"
+        },
+        {
+            "name": "ПРОЩАННЯ",
+            "link": "metrs_poem.php?poem=3490"
+        },
+        {
+            "name": "РІЗДВО",
+            "link": "metrs_poem.php?poem=3474"
+        },
+        {
+            "name": "РОЗВІД",
+            "link": "metrs_poem.php?poem=3469"
+        },
+        {
+            "name": "РОЗПУКА",
+            "link": "metrs_poem.php?poem=3489"
+        },
+        {
+            "name": "СИНИЦЯ",
+            "link": "metrs_poem.php?poem=3461"
+        },
+        {
+            "name": "СМЕРТЬ ТИРАНА",
+            "link": "metrs_poem.php?poem=3467"
+        },
+        {
+            "name": "СНІГ",
+            "link": "metrs_poem.php?poem=3486"
+        },
+        {
+            "name": "СНИ",
+            "link": "metrs_poem.php?poem=3501"
+        },
+        {
+            "name": "СПОВІДЬ",
+            "link": "metrs_poem.php?poem=3503"
+        },
+        {
+            "name": "СПОМИН",
+            "link": "metrs_poem.php?poem=3462"
+        },
+        {
+            "name": "Трагічне покоління",
+            "link": "metrs_poem.php?poem=3455"
+        },
+        {
+            "name": "ЮВІЛЕЙ",
+            "link": "metrs_poem.php?poem=3466"
+        }
+    ]
+}

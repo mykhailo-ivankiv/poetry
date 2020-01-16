@@ -1,0 +1,26 @@
+{
+    "author": "Коломієць Володимир",
+    "link": "/metrs.php?id=55&type=tvorch",
+    "poems": [
+        {
+            "name": "\"В дідівській хаті пахнуть дині...\"",
+            "link": "metrs_poem.php?poem=339"
+        },
+        {
+            "name": "\"Мій космосе! Галактико, серцю чудна! ..\"",
+            "link": "metrs_poem.php?poem=337"
+        },
+        {
+            "name": "\"Мово...\"",
+            "link": "metrs_poem.php?poem=17239"
+        },
+        {
+            "name": "НА ПЕРЕГЛЯДІ СОФОКЛОВОЇ \"АНТІГОНИ\"",
+            "link": "metrs_poem.php?poem=338"
+        },
+        {
+            "name": "ЯРЕ ВІНО",
+            "link": "metrs_poem.php?poem=17240"
+        }
+    ]
+}

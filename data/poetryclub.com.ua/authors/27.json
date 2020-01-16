@@ -1,0 +1,26 @@
+{
+    "author": "Манжура Іван ",
+    "link": "/metrs.php?id=108&type=tvorch",
+    "poems": [
+        {
+            "name": "ВЕСНЯНКА",
+            "link": "metrs_poem.php?poem=17243"
+        },
+        {
+            "name": "ВРАНЦІ",
+            "link": "metrs_poem.php?poem=837"
+        },
+        {
+            "name": "РОЗКІШ-ДОЛЯ",
+            "link": "metrs_poem.php?poem=17242"
+        },
+        {
+            "name": "СТАРИЙ МУЗИКА",
+            "link": "metrs_poem.php?poem=17241"
+        },
+        {
+            "name": "СТЕП",
+            "link": "metrs_poem.php?poem=838"
+        }
+    ]
+}

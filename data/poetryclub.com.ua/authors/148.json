@@ -1,0 +1,230 @@
+{
+    "author": "Рубчак Богдан",
+    "link": "/metrs.php?id=328&type=tvorch",
+    "poems": [
+        {
+            "name": "\"Самотні дівчата...\"",
+            "link": "metrs_poem.php?poem=18365"
+        },
+        {
+            "name": "\"У клітці пісні...\"",
+            "link": "metrs_poem.php?poem=18366"
+        },
+        {
+            "name": "ДЕЗЕРТИР ",
+            "link": "metrs_poem.php?poem=18367"
+        },
+        {
+            "name": "ВЕЧІРНІЙ  ЧАЙ ",
+            "link": "/metrs_poem.php?poem=8320"
+        },
+        {
+            "name": "ДІВЧИНІ  БЕЗ  КРАЇНИ ",
+            "link": "/metrs_poem.php?poem=8319"
+        },
+        {
+            "name": "З  ГОТФРІДА  БЕННА ",
+            "link": "/metrs_poem.php?poem=8321"
+        },
+        {
+            "name": "КАЇНОВІ ",
+            "link": "/metrs_poem.php?poem=8323"
+        },
+        {
+            "name": "ЛОВИ  НА  ОДНОРОГА ",
+            "link": "/metrs_poem.php?poem=8327"
+        },
+        {
+            "name": "НЕСПОКІЙНИЙ  СОН ",
+            "link": "/metrs_poem.php?poem=8324"
+        },
+        {
+            "name": "ПІСНЯ  ЖІНКИ  ПІД  МІСЯЦЕМ ",
+            "link": "/metrs_poem.php?poem=8322"
+        },
+        {
+            "name": "РОЗРИВ–ТРАВА ",
+            "link": "/metrs_poem.php?poem=8325"
+        },
+        {
+            "name": "СТАРИЙ  ПОЕТ ",
+            "link": "/metrs_poem.php?poem=8326"
+        },
+        {
+            "name": "“Я  ВИМАГАЮ  ПОВНИХ  ПРАВ” ",
+            "link": "/metrs_poem.php?poem=8306"
+        },
+        {
+            "name": "ІМПРОВІЗАЦІЯ  ОПІВНОЧІ ",
+            "link": "/metrs_poem.php?poem=8308"
+        },
+        {
+            "name": "ІМПРОВІЗАЦІЯ  П’ЯТНАДЦЯТОГО  ЛИСТОПАДА ",
+            "link": "/metrs_poem.php?poem=8307"
+        },
+        {
+            "name": "ІСКРИ  МЕНЕ  —  Імпровізація ",
+            "link": "/metrs_poem.php?poem=8309"
+        },
+        {
+            "name": "В  КІМНАТІ  СТА  ЛЮСТЕР ",
+            "link": "/metrs_poem.php?poem=8302"
+        },
+        {
+            "name": "ГРОБИ  УНУКІВ ",
+            "link": "/metrs_poem.php?poem=8303"
+        },
+        {
+            "name": "НІЧНІ  МІНІЯТЮРИ ",
+            "link": "/metrs_poem.php?poem=8304"
+        },
+        {
+            "name": "ПОЕТОВІ ",
+            "link": "/metrs_poem.php?poem=8310"
+        },
+        {
+            "name": "ПРОЄКТ  ДЛЯ  БАЛЕТУ  В  ТРЬОХ  АКТАХ ",
+            "link": "/metrs_poem.php?poem=8305"
+        },
+        {
+            "name": "ВЕЧІРНЯ  МОЛИТВА ",
+            "link": "/metrs_poem.php?poem=8353"
+        },
+        {
+            "name": "ДРАМАТУРГІЯ ",
+            "link": "/metrs_poem.php?poem=8356"
+        },
+        {
+            "name": "ЗГУСТКИ ",
+            "link": "/metrs_poem.php?poem=8357"
+        },
+        {
+            "name": "КОВАЛЬ ",
+            "link": "/metrs_poem.php?poem=8352"
+        },
+        {
+            "name": "НАРЦИЗ ",
+            "link": "/metrs_poem.php?poem=8354"
+        },
+        {
+            "name": "ПОЕТИЧНИЙ  ХЛІБ ",
+            "link": "/metrs_poem.php?poem=8358"
+        },
+        {
+            "name": "ТРУДНІША  ГРА ",
+            "link": "/metrs_poem.php?poem=8355"
+        },
+        {
+            "name": "БОЖЕСТВА ",
+            "link": "/metrs_poem.php?poem=8349"
+        },
+        {
+            "name": "ВІЩУН ",
+            "link": "/metrs_poem.php?poem=8340"
+        },
+        {
+            "name": "ДЕКАДАНС ",
+            "link": "/metrs_poem.php?poem=8345"
+        },
+        {
+            "name": "ДРУГА  ОГОРОЖА ",
+            "link": "/metrs_poem.php?poem=8346"
+        },
+        {
+            "name": "ДУМАЮ  ПРО  ВОЛЛЕСА  СТІВЕНСА ",
+            "link": "/metrs_poem.php?poem=8350"
+        },
+        {
+            "name": "ЕСКІЗИ ",
+            "link": "/metrs_poem.php?poem=8348"
+        },
+        {
+            "name": "ЛИСТ  ДОДОМУ ",
+            "link": "/metrs_poem.php?poem=8344"
+        },
+        {
+            "name": "МАЛА  ЛЕҐЕНДА ",
+            "link": "/metrs_poem.php?poem=8341"
+        },
+        {
+            "name": "НА  ПОЛЯХ  “ІЛІЯДИ” ",
+            "link": "/metrs_poem.php?poem=8342"
+        },
+        {
+            "name": "П’ЯТНИЦЯ  САМ ",
+            "link": "/metrs_poem.php?poem=8343"
+        },
+        {
+            "name": "СВЯТА  І  ЧОРТ ",
+            "link": "/metrs_poem.php?poem=8347"
+        },
+        {
+            "name": "ДО  КЛІО ",
+            "link": "/metrs_poem.php?poem=8329"
+        },
+        {
+            "name": "ЖОВТНЕВИЙ  ТРАКТАТ ",
+            "link": "/metrs_poem.php?poem=8337"
+        },
+        {
+            "name": "КАМІНЬ ",
+            "link": "/metrs_poem.php?poem=8331"
+        },
+        {
+            "name": "МАЛИЙ  ПОЕТ ",
+            "link": "/metrs_poem.php?poem=8333"
+        },
+        {
+            "name": "МОТЕТ ",
+            "link": "/metrs_poem.php?poem=8338"
+        },
+        {
+            "name": "МОЯ  ІТАКА ",
+            "link": "/metrs_poem.php?poem=8334"
+        },
+        {
+            "name": "ПІСНЯ  ДЛЯ  МАР’ЯНИ ",
+            "link": "/metrs_poem.php?poem=8336"
+        },
+        {
+            "name": "ПОДОРОЖНІЙ ",
+            "link": "/metrs_poem.php?poem=8335"
+        },
+        {
+            "name": "ТРИ  ФРАҐМЕНТИ  “СЛОВА” ",
+            "link": "/metrs_poem.php?poem=8330"
+        },
+        {
+            "name": "ШОПЕН ",
+            "link": "/metrs_poem.php?poem=8332"
+        },
+        {
+            "name": "ЗРАДА  АНГЕЛА ",
+            "link": "/metrs_poem.php?poem=8314"
+        },
+        {
+            "name": "КАССАНДРА  ГОВОРИТЬ ",
+            "link": "/metrs_poem.php?poem=8317"
+        },
+        {
+            "name": "ПОЕТОВІ ",
+            "link": "/metrs_poem.php?poem=8315"
+        },
+        {
+            "name": "ПРОМЕНИСТА  ЗРАДА ",
+            "link": "/metrs_poem.php?poem=8312"
+        },
+        {
+            "name": "СПОМИН  ПРО  МІСЯЦЬ  —  Фраґменти",
+            "link": "/metrs_poem.php?poem=8316"
+        },
+        {
+            "name": "ЩОБ  ДЕСЬ  РУКА  НАКРЕСЛИЛА ",
+            "link": "/metrs_poem.php?poem=8313"
+        },
+        {
+            "name": "МАДРИГАЛ ",
+            "link": "metrs_poem.php?poem=18368"
+        }
+    ]
+}

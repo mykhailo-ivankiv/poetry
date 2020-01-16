@@ -1,0 +1,22 @@
+{
+    "author": "Кобилянський Володимир",
+    "link": "/metrs.php?id=130&type=tvorch",
+    "poems": [
+        {
+            "name": "\"В моїй душі глибоке плесо сліз...\"",
+            "link": "metrs_poem.php?poem=1688"
+        },
+        {
+            "name": "\"Так смутно прекрасні осіннії дні...\"",
+            "link": "metrs_poem.php?poem=1687"
+        },
+        {
+            "name": "І ВДАРИВ ПРОМІНЬ ",
+            "link": "metrs_poem.php?poem=17488"
+        },
+        {
+            "name": "ЛЕБІДЬ",
+            "link": "metrs_poem.php?poem=1689"
+        }
+    ]
+}

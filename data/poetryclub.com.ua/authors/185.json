@@ -1,0 +1,30 @@
+{
+    "author": "Онкович Дмитро",
+    "link": "/metrs.php?id=68&type=tvorch",
+    "poems": [
+        {
+            "name": "БІЛА КОНЮШИНА",
+            "link": "metrs_poem.php?poem=376"
+        },
+        {
+            "name": "ГОЛОД 47-го РОКУ",
+            "link": "metrs_poem.php?poem=19704"
+        },
+        {
+            "name": "ЖОРНА",
+            "link": "metrs_poem.php?poem=19702"
+        },
+        {
+            "name": "ПОЗИЧАТИ ВОГОНЬ",
+            "link": "metrs_poem.php?poem=19701"
+        },
+        {
+            "name": "СЛІДИ НА АСФАЛЬТІ",
+            "link": "metrs_poem.php?poem=19703"
+        },
+        {
+            "name": "ТО ДАВНО БУЛО",
+            "link": "metrs_poem.php?poem=19700"
+        }
+    ]
+}
