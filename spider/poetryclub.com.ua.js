@@ -1,12 +1,12 @@
-const { range, pipe, map } = require("ramda");
+import { promises as fs } from "fs";
+import jsdom from "jsdom";
+import axios from "axios";
+import iconv from "iconv-lite";
 
-const fs = require("fs").promises,
-  { JSDOM } = require("jsdom"),
-  axios = require("axios"),
-  iconv = require("iconv-lite"),
-  DATA_FOLDER = "./data/poetryclub.com.ua",
-  AUTHORS_DATA_PATH = "./data/poetryclub.com.ua/authors.json",
-  DOMAIN = "http://www.poetryclub.com.ua";
+const { JSDOM } = jsdom;
+const DATA_FOLDER = "./data/poetryclub.com.ua";
+const AUTHORS_DATA_PATH = "./data/poetryclub.com.ua/authors.json";
+const DOMAIN = "http://www.poetryclub.com.ua";
 
 const getHTML = url =>
   axios
@@ -82,7 +82,6 @@ const getAuthorPoemLIst = async ({ author, link }) => ({
 Promise.all([
   // Get authors
   // saveAuthorListToFile(DOMAIN + "/poets_of_ua.php", AUTHORS_DATA_PATH)
-
   // Get poem list
   // (async () =>
   //   Promise.all(
@@ -99,10 +98,9 @@ Promise.all([
   //       }
   //     })
   //   ))()
-
   (async () => {
     async function* getPoems() {
-      for (let i = 180; i < 214; i++) await getPoem(i);
+      for (let i = 0; i < 1; i++) await getPoem(i);
     }
 
     for await (let value of getPoems()) {
