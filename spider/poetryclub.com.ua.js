@@ -1,32 +1,12 @@
-import { promises as fs } from "fs";
-import jsdom from "jsdom";
-import axios from "axios";
-import iconv from "iconv-lite";
+import {
+  getHTML,
+  getJSONFromFile,
+  queryDocument,
+  writeJsonToFile
+} from "./helpers.js";
 
-const { JSDOM } = jsdom;
 const DATA_FOLDER = "./data/poetryclub.com.ua";
-const AUTHORS_DATA_PATH = "./data/poetryclub.com.ua/authors.json";
 const DOMAIN = "http://www.poetryclub.com.ua";
-
-const getHTML = url =>
-  axios
-    .get(url, { responseType: "arraybuffer" })
-    .then(response => iconv.decode(response.data, "win1251"))
-    .catch(error => console.log(error));
-
-const writeJsonToFile = async (filePath, data) =>
-  fs.writeFile(filePath, JSON.stringify(data, null, 2));
-
-const getJSONFromFile = async path => {
-  const text = await fs.readFile(path, "utf8");
-  return JSON.parse(text);
-};
-
-const getAuthorsListFromHTML = html =>
-  [...new JSDOM(html).window.document.querySelectorAll("a.buttn")].map(el => ({
-    author: el.innerHTML,
-    link: el.getAttribute("href")
-  }));
 
 const getPoem = async listId => {
   const { author, poems } = await getJSONFromFile(
@@ -41,8 +21,7 @@ const getPoem = async listId => {
         author,
         name,
         link,
-        html: new JSDOM(html).window.document.querySelectorAll(".main")[1]
-          .innerHTML
+        html: queryDocument(html, ".main")[1].innerHTML
       };
 
       await writeJsonToFile(
@@ -56,10 +35,14 @@ const getPoem = async listId => {
   console.log(`[done ] ==========`);
 };
 
-const saveAuthorListToFile = async (url, filePath) => {
+const getAuthorList = async (url, filePath) => {
   try {
     const authorsHTML = await getHTML(url);
-    const authors = getAuthorsListFromHTML(authorsHTML);
+    const authors = queryDocument(authorsHTML, "a.buttn").map(el => ({
+      author: el.innerHTML,
+      link: el.getAttribute("href")
+    }));
+
     return writeJsonToFile(filePath, authors);
   } catch (e) {
     console.log(e);
@@ -81,7 +64,10 @@ const getAuthorPoemLIst = async ({ author, link }) => ({
 
 Promise.all([
   // Get authors
-  // saveAuthorListToFile(DOMAIN + "/poets_of_ua.php", AUTHORS_DATA_PATH)
+  getAuthorList(DOMAIN + "/poets_of_ua.php").then(authorList =>
+    writeJsonToFile(DATA_FOLDER + "/authors.json", authorList)
+  )
+
   // Get poem list
   // (async () =>
   //   Promise.all(
@@ -97,15 +83,16 @@ Promise.all([
   //         return "err";
   //       }
   //     })
-  //   ))()
-  (async () => {
-    async function* getPoems() {
-      for (let i = 0; i < 1; i++) await getPoem(i);
-    }
+  //   ))(),
 
-    for await (let value of getPoems()) {
-    }
-  })()
+  // Get poems
+  // (async () => {
+  //   async function* getPoems() {
+  //     for (let i = 0; i < 1; i++) await getPoem(i);
+  //   }
+  //   for await (let value of getPoems()) {
+  //   }
+  // })()
 ])
   .then(messages => {
     console.log("-----------------");
