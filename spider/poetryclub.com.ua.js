@@ -33,6 +33,7 @@ const getPoem = async listId => {
     `${DATA_FOLDER}/authors/${listId}.json`
   );
 
+  console.log(`[start] ${author}.`);
   await Promise.all(
     poems.map(async ({ name, link }, poemId) => {
       const html = await getHTML(DOMAIN + "/" + link);
@@ -48,11 +49,11 @@ const getPoem = async listId => {
         `${DATA_FOLDER}/poems/${listId}.${poemId}.json`,
         data
       );
-      console.log(`${listId}.${poemId} poem saved.`);
+      console.log(`    ${listId}.${poemId} ${name}`);
     })
   );
 
-  console.log(listId + " all saved.");
+  console.log(`[done ] ==========`);
 };
 
 const saveAuthorListToFile = async (url, filePath) => {
@@ -99,11 +100,14 @@ Promise.all([
   //     })
   //   ))()
 
-  async () => {
-    const list = range(0, 5);
+  (async () => {
+    async function* getPoems() {
+      for (let i = 180; i < 214; i++) await getPoem(i);
+    }
 
-
-  }
+    for await (let value of getPoems()) {
+    }
+  })()
 ])
   .then(messages => {
     console.log("-----------------");
