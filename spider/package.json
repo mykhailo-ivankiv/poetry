@@ -1,0 +1,12 @@
+{
+  "name": "@poetry/spider",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "axios": "^0.19.1",
+    "iconv-lite": "^0.5.1",
+    "jsdom": "^16.0.0"
+  }
+}
