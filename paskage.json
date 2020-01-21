@@ -1,4 +1,4 @@
 {
   "private": true,
-  "workspaces": ["api", "frontend"]
+  "workspaces": ["api", "frontend", "grabber"]
 }
