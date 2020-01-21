@@ -22,3 +22,14 @@ export const getJSONFromFile = async path => {
 
 export const writeJsonToFile = async (filePath, data) =>
   fs.writeFile(filePath, JSON.stringify(data, null, 2));
+
+export async function* getAsyncGenerator(data, fn) {
+  for (const item of data) yield fn(item);
+}
+
+export const asyncMap = async (iterator, fn) => {
+  let counter = 0;
+  const result = [];
+  for await (let data of iterator) result.push(await fn(data, counter++));
+  return result;
+};
