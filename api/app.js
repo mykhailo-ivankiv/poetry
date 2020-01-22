@@ -1,9 +1,5 @@
 import LanguageDetect from "languagedetect";
 import express from "express";
-import exphbs from "express3-handlebars";
-import handlebars from "handlebars";
-import mongojs from "mongojs";
-import { BSONPure } from "mongodb";
 
 const lngDetector = new LanguageDetect();
 console.log(lngDetector.detect("Йдеш на мене подібний"));
