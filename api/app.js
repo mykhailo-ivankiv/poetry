@@ -1,10 +1,12 @@
 import express from "express";
 import authorRoute from "./routers/authors.js";
+import poemsRoute from "./routers/poems.js";
 
 const app = express();
 const API_PORT = 3000;
 
 app.use("/authors", authorRoute);
+app.use("/poems", poemsRoute);
 app.listen(API_PORT, () => {
   console.log(`API is running on http://localhost:${API_PORT}`);
 });
