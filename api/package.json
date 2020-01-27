@@ -11,9 +11,11 @@
     "languagedetect": "~2.0.0"
   },
   "devDependencies": {
-    "grunt-bg-shell": "~2.3.1"
+    "grunt-bg-shell": "~2.3.1",
+    "nodemon": "^2.0.2"
   },
   "scripts": {
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
