@@ -32,7 +32,7 @@ export default () => {
       <h2>{name}</h2>
 
       {poems.map(id => (
-        <Poem id={id} />
+        <Poem id={id} key={id} />
       ))}
     </div>
   );

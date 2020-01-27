@@ -19,15 +19,12 @@ export default ({ id }) => {
 
   if (!poem) return <article>Loading...</article>;
 
-
   const { title, html } = poem;
 
   return (
     <article>
       <h4>{title}</h4>
-      <textarea name="" id="" cols="30" rows="10">
-        {html}
-      </textarea>
+      <textarea name="" id="" cols="30" rows="10" defaultValue={html} />
     </article>
   );
 };
