@@ -5,6 +5,7 @@ import { getJSONFromFile } from "../../grabber/helpers.js";
 const authorRoute = Router();
 
 const DATA_PATH = `../grabber/data`;
+
 authorRoute.get("/", async (req, res) => {
   const fileList = await fs.readdir(`${DATA_PATH}/authors`);
   const data = {
