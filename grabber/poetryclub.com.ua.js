@@ -32,7 +32,7 @@ const grabPoem = async ({ title, link }) => ({
   html: queryDocument(await getHTML(DOMAIN + "/" + link), ".main")[1].innerHTML
 });
 
-const grab = async DOMAIN => {
+const grab = async (DOMAIN, { onAuthor, onPoem }) => {
   console.log(` I. Grab data from ${DOMAIN}`);
 
   const authors = await grabAuthorList(DOMAIN + "/poets_of_ua.php");
@@ -50,18 +50,14 @@ const grab = async DOMAIN => {
     const poemIds = await asyncMap(poems, async (poem, j) => {
       const id = shortid.generate();
 
-      await writeJsonToFile(`./data/tmp/poems/${id}.json`, {
-        author: authorId,
-        id,
-        ...poem
-      });
+      await onPoem({ author: authorId, id, ...poem });
 
       console.log(`    ${i}.${j} ${poem.title} ✓`);
 
       return id;
     });
 
-    await writeJsonToFile(`./data/tmp/authors/${authorId}.json`, {
+    await onAuthor({
       ...author,
       id: authorId,
       poems: poemIds
@@ -69,4 +65,9 @@ const grab = async DOMAIN => {
   });
 };
 
-grab(DOMAIN);
+grab(DOMAIN, {
+  onPoem: async poem =>
+    writeJsonToFile(`./data/tmp/poems/${poem.id}.json`, poem),
+  onAuthor: async author =>
+    writeJsonToFile(`./data/tmp/authors/${author.id}.json`, author)
+});

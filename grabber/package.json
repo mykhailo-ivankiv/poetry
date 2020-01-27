@@ -4,6 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "type": "module",
+  "scripts": {
+    "start": "node poetryclub.com.ua.js"
+  },
   "dependencies": {
     "axios": "^0.19.1",
     "iconv-lite": "^0.5.1",
