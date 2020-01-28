@@ -1,7 +1,13 @@
+import dotenv from "dotenv";
 import express from "express";
 import authorRoute from "./routers/authors.js";
 import poemsRoute from "./routers/poems.js";
 import cors from "cors";
+
+dotenv.config();
+
+console.log(process.env);
+
 
 const app = express();
 const API_PORT = 3001;
