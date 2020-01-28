@@ -7,7 +7,7 @@ import cors from "cors";
 dotenv.config();
 
 const app = express();
-const API_PORT = 3001;
+const API_PORT = 8080;
 app.use(cors());
 app.use("/api/authors", authorRoute);
 app.use("/api/poems", poemsRoute);

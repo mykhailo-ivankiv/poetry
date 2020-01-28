@@ -1,5 +1,5 @@
-FROM node:8-alpine
-WORKDIR /srv
+FROM node:13.7-alpine
+WORKDIR /
 COPY . .
 RUN yarn install --production
 CMD [ "node", "app.js" ]
