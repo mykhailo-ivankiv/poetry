@@ -6,9 +6,6 @@ import cors from "cors";
 
 dotenv.config();
 
-console.log(process.env);
-
-
 const app = express();
 const API_PORT = 3001;
 app.use(cors());
