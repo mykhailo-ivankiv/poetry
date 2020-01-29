@@ -1,7 +1,7 @@
 import express from "express";
 const { Router } = express;
 import { promises as fs } from "fs";
-import { getJSONFromFile } from "../../grabber/helpers.js";
+import { getJSONFromFile } from "../utils/helpers.js";
 const authorRoute = Router();
 
 const DATA_PATH = `../grabber/data`;

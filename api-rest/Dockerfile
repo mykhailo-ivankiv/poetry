@@ -2,4 +2,4 @@ FROM node:13.7-alpine
 WORKDIR /
 COPY . .
 RUN yarn install --production
-CMD [ "node", "app.js" ]
+CMD [ "node", "app.mjs" ]
