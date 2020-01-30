@@ -25,9 +25,12 @@ export default () => {
   return (
     <div className="App">
       {authorsList.map(({ name, id }) => (
-        <Link key={id} to={`/author/${id}`}>
-          {name}
-        </Link>
+        <>
+          <Link key={id} to={`/author/${id}`}>
+            {name}
+          </Link>
+          &nbsp;
+        </>
       ))}
     </div>
   );
