@@ -7,7 +7,7 @@ export default () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("http://localhost:3001/api/authors");
+        const response = await fetch("http://localhost:8080/api/authors");
         const data = await response.json();
         setAuthorsList(data.authors);
       } catch (e) {

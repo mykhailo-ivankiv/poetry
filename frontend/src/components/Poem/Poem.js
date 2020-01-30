@@ -6,7 +6,7 @@ export default ({ id }) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`http://localhost:3001/api/poems/${id}`);
+        const response = await fetch(`http://localhost:8080/api/poems/${id}`);
         const data = await response.json();
         setPoem(data);
       } catch (e) {
