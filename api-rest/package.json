@@ -8,12 +8,11 @@
     "cors": "^2.8.5",
     "express": "~4.17.1",
     "express3-handlebars": "~0.5.0",
-    "handlebars": "~4.7.2",
     "languagedetect": "~2.0.0"
   },
   "devDependencies": {
-    "yenv": "^2.1.1",
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.2",
+    "yenv": "^2.1.1"
   },
   "scripts": {
     "start": "nodemon src/app.mjs",
