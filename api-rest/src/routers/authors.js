@@ -1,7 +1,9 @@
+import yenv from "yenv";
 import express from "express";
 import { promises as fs } from "fs";
-import { DATA_PATH } from "../config.js";
 import { getJSONFromFile } from "../utils/helpers.js";
+
+const { DATA_PATH } = yenv();
 
 const { Router } = express;
 const authorRoute = Router();
