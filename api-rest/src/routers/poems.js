@@ -1,10 +1,11 @@
 import express from "express";
-const { Router } = express;
 import { promises as fs } from "fs";
+import {DATA_PATH} from "../config.js";
 import { getJSONFromFile } from "../utils/helpers.js";
+
+const { Router } = express;
 const poemsRoute = Router();
 
-const DATA_PATH = `../grabber/data`;
 poemsRoute.get("/", async (req, res) => {
   const fileList = await fs.readdir(`${DATA_PATH}/poems`);
   const data = {

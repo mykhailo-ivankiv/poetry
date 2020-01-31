@@ -1,9 +1,9 @@
 {
-  "name": "Poetry",
+  "name": "@poetry/rest-api",
   "version": "0.0.0",
-  "description": "### Mongo monitoring.",
+  "description": "Project try to organize international poetry",
   "type": "module",
-  "main": "app.mjs",
+  "main": "src/app.mjs",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
@@ -16,7 +16,7 @@
     "nodemon": "^2.0.2"
   },
   "scripts": {
-    "start": "nodemon app.mjs",
+    "start": "nodemon src/app.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

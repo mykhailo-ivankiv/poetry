@@ -1,4 +1,9 @@
 import React, { useEffect, useState } from "react";
+// CSS
+import BEM from "../../utils/BEM.js";
+import "./Poem.css";
+
+const b = BEM("Poem");
 
 export default ({ id }) => {
   const [poem, setPoem] = useState(null);
@@ -22,9 +27,9 @@ export default ({ id }) => {
   const { title, html } = poem;
 
   return (
-    <article>
+    <article className={b()}>
       <h4>{title}</h4>
-      <textarea name="" id="" cols="30" rows="10" defaultValue={html} />
+      <p className={b("text")}>{html}</p>
     </article>
   );
 };

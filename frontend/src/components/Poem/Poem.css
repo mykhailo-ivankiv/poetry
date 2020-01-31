@@ -1,0 +1,7 @@
+.Poem {
+}
+
+.Poem__text {
+  white-space: pre;
+  font-family: PT Serif, serif;
+}

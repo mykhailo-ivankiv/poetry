@@ -26,11 +26,16 @@ const grabAuthorPoemList = async ({ name, link }) => ({
   )
 });
 
-const grabPoem = async ({ title, link }) => ({
-  title,
-  link,
-  html: queryDocument(await getHTML(DOMAIN + "/" + link), ".main")[1].innerHTML
-});
+const grabPoem = async ({ title, link }) => {
+  const html = queryDocument(await getHTML(DOMAIN + "/" + link), ".main")[1];
+
+
+  return {
+    title,
+    link,
+    html: html.textContent
+  };
+};
 
 const grab = async (DOMAIN, { onAuthor, onPoem }) => {
   console.log(` I. Grab data from ${DOMAIN}`);
@@ -67,7 +72,7 @@ const grab = async (DOMAIN, { onAuthor, onPoem }) => {
 
 grab(DOMAIN, {
   onPoem: async poem =>
-    writeJsonToFile(`./data/tmp/poems/${poem.id}.json`, poem),
+    writeJsonToFile(`./data/new/poems/${poem.id}.json`, poem),
   onAuthor: async author =>
-    writeJsonToFile(`./data/tmp/authors/${author.id}.json`, author)
+    writeJsonToFile(`./data/new/authors/${author.id}.json`, author)
 });
