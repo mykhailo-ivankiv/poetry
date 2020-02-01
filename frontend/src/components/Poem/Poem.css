@@ -2,6 +2,6 @@
 }
 
 .Poem__text {
-  white-space: pre;
+  white-space: pre-wrap;
   font-family: PT Serif, serif;
 }
