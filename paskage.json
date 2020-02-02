@@ -1,4 +1,4 @@
 {
   "private": true,
-  "workspaces": ["api-rest", "frontend", "grabber"]
+  "workspaces": ["api-rest", "frontend", "grabber", "graph-ql-api"]
 }

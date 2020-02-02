@@ -1,0 +1,21 @@
+{
+  "name": "@poetry/graph-ql-api",
+  "version": "0.0.1",
+  "description": "graph-gl api for poetry project",
+  "main": "index.js",
+  "author": "Mykhailo Ivankiv",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
