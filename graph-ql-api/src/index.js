@@ -14,9 +14,18 @@ const schema = buildSchema(`
   }
   
   type Author {
-    id: String!
+    id: ID!
     name: String!
-    
+    link: String!
+    poems: [Poem!]!
+  }
+  
+  type Poem {
+    author: Author!
+    id: ID!
+    title: String!
+    link: String!
+    html: String!
   }
 `);
 
@@ -32,6 +41,11 @@ const root = {
     );
 
     return authors;
+  },
+
+  Author: {
+    id: parent => parent.id,
+    name: parent => parent.name
   }
 };
 
