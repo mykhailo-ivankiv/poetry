@@ -1,0 +1,20 @@
+type Query {
+  allAuthors: [Author!]!
+  author(id: ID!): Author
+  poem(id: ID!): Poem
+}
+
+type Author {
+  id: ID!
+  name: String!
+  link: String!
+  poems: [Poem!]!
+}
+
+type Poem {
+  author: Author!
+  id: ID!
+  title: String!
+  link: String!
+  html: String!
+}

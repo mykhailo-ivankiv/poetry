@@ -1,61 +1,50 @@
 import yenv from "yenv";
-import express from "express";
-import graphqlHTTP from "express-graphql";
-import graphql from "graphql";
+import yoda from "graphql-yoga";
 import { promises as fs } from "fs";
 import { getJSONFromFile } from "../../api-rest/src/utils/helpers.js";
 
-const { buildSchema } = graphql;
-
 const { DATA_PATH } = yenv();
-const schema = buildSchema(`
-  type Query {
-    allAuthors(last: Int): [Author!]!
-  }
-  
-  type Author {
-    id: ID!
-    name: String!
-    link: String!
-    poems: [Poem!]!
-  }
-  
-  type Poem {
-    author: Author!
-    id: ID!
-    title: String!
-    link: String!
-    html: String!
-  }
-`);
+const { GraphQLServer } = yoda;
 
-const root = {
-  hello: async () => "Hello world!",
-  allAuthors: async () => {
-    const fileList = await fs.readdir(`${DATA_PATH}/authors`);
+const resolvers = {
+  Query: {
+    allAuthors: async () => {
+      const fileList = await fs.readdir(`${DATA_PATH}/authors`);
 
-    const authors = await Promise.all(
-      fileList.map(fileName =>
-        getJSONFromFile(`${DATA_PATH}/authors/${fileName}`)
-      )
-    );
+      return await Promise.all(
+        fileList.map(fileName =>
+          getJSONFromFile(`${DATA_PATH}/authors/${fileName}`)
+        )
+      );
+    },
+    author: async (parent, { id }) =>
+      getJSONFromFile(`${DATA_PATH}/authors/${id}.json`),
+    poem: async (parent, { id }) =>
+      getJSONFromFile(`${DATA_PATH}/poems/${id}.json`)
+  },
 
-    return authors;
+  Poem: {
+    author: async parent => {
+      const { author } = await parent;
+      return getJSONFromFile(`${DATA_PATH}/authors/${author}.json`);
+    }
   },
 
   Author: {
-    id: parent => parent.id,
-    name: parent => parent.name
+    poems: async parent => {
+      const { poems } = await parent;
+
+      return Promise.all(
+        poems.map(poemId =>
+          getJSONFromFile(`${DATA_PATH}/poems/${poemId}.json`)
+        )
+      );
+    }
   }
 };
 
-const app = express();
-app.use(
-  "/graphql",
-  graphqlHTTP({
-    schema: schema,
-    rootValue: root,
-    graphiql: true
-  })
-);
-app.listen(4000, () => console.log("Now browse to localhost:4000/graphql"));
+const server = new GraphQLServer({
+  typeDefs: "./src/poetry.graphql",
+  resolvers
+});
+server.start(() => console.log(`Server is running on http://localhost:4000`));

@@ -11,9 +11,7 @@
     "start": "nodemon src/index.js"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "express-graphql": "^0.9.0",
-    "graphql": "^14.6.0",
+    "graphql-yoga": "^1.18.3",
     "yenv": "^2.1.1"
   },
   "devDependencies": {
