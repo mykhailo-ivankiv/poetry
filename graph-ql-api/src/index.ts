@@ -1,10 +1,9 @@
-import yenv from "yenv";
-import yoda from "graphql-yoga";
+import * as yenv from "yenv";
+import { GraphQLServer } from "graphql-yoga";
 import { promises as fs } from "fs";
-import { getJSONFromFile } from "../../api-rest/src/utils/helpers.js";
+import { getJSONFromFile } from "./utils/helpers";
 
 const { DATA_PATH } = yenv();
-const { GraphQLServer } = yoda;
 
 const resolvers = {
   Query: {
