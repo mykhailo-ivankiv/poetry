@@ -1,0 +1,47 @@
+type Query {
+  info: String!
+  feed: [Link!]!
+  allAuthors: [Author!]!
+  author(id: ID!): Author
+  poem(id: ID!): Poem
+}
+
+type Mutation {
+  post(url: String!, description: String!): Link!
+  signup(email: String!, password: String!, name: String!): AuthPayload
+  login(email: String!, password: String!): AuthPayload
+}
+
+type Link {
+  id: ID!
+  description: String!
+  url: String!
+  postedBy: User
+}
+
+type AuthPayload {
+  token: String
+  user: User
+}
+
+type User {
+  id: ID!
+  name: String!
+  email: String!
+  links: [Link!]!
+}
+
+type Author {
+  id: ID!
+  name: String!
+  link: String!
+  poems: [Poem!]!
+}
+
+type Poem {
+  author: Author!
+  id: ID!
+  title: String!
+  link: String!
+  html: String!
+}
