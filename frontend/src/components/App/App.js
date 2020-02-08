@@ -6,13 +6,15 @@ import AuthorsList from "../AuthorsList/AuthorsList.js";
 import "awsm.css/dist/awsm.css";
 import "./App.css";
 import BEM from "../../utils/BEM.js";
-const b = BEM("App.css");
+const b = BEM("App");
 
 const App = () => (
   <Router>
     <main className={b()}>
-      <h1>
-        <Link to="/">Poetry</Link>
+      <h1 className={b("logo")}>
+        <Link className={b("logo-link")} to="/">
+          Poetry
+        </Link>
       </h1>
 
       <Switch>

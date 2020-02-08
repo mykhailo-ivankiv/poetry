@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import BEM from "../../utils/BEM.js";
+import "./AuthorsList.css";
+const b = BEM("AuthorsList");
 
 export default () => {
   const [authorsList, setAuthorsList] = useState(null);
@@ -23,7 +26,7 @@ export default () => {
   }
 
   return (
-    <div className="App">
+    <div className={b()}>
       {authorsList.map(({ name, id }) => (
         <>
           <Link key={id} to={`/author/${id}`}>

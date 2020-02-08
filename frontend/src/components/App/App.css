@@ -1,3 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico&display=swap&text=Poetry");
 .App {
   font-family: Georgia, serif;
+}
+.App__logo {
+  font-family: "Pacifico", cursive;
+  margin: 2rem 0;
+}
+.App__logo-link {
+  text-decoration: none;
+  color: black;
 }
