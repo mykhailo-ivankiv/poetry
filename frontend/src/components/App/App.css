@@ -10,3 +10,7 @@
   text-decoration: none;
   color: black;
 }
+
+.App__logo-link:visited {
+  color: black;
+}
