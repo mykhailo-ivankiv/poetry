@@ -1,11 +1,17 @@
 # The HTTP endpoint for your Prisma API
 #endpoint: ""
-endpoint: https://eu1.prisma.sh/neformallviv/poetry/dev
+#endpoint: https://eu1.prisma.sh/neformallviv/poetry/dev
+endpoint: http://localhost:4466
 
 # Points to the file that contains your datamodel
 datamodel: datamodel.prisma
+databaseType: document
 
 # Specifies language & location for the generated Prisma client
 generate:
   - generator: typescript-client
     output: ../src/generated/prisma-client
+
+hooks:
+  post-deploy:
+    - prisma generate

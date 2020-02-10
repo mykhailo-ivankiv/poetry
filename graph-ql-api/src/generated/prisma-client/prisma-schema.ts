@@ -141,8 +141,6 @@ input LinkSubscriptionWhereInput {
   updatedFields_contains_some: [String!]
   node: LinkWhereInput
   AND: [LinkSubscriptionWhereInput!]
-  OR: [LinkSubscriptionWhereInput!]
-  NOT: [LinkSubscriptionWhereInput!]
 }
 
 input LinkUpdateInput {
@@ -247,8 +245,6 @@ input LinkWhereInput {
   url_not_ends_with: String
   postedBy: UserWhereInput
   AND: [LinkWhereInput!]
-  OR: [LinkWhereInput!]
-  NOT: [LinkWhereInput!]
 }
 
 input LinkWhereUniqueInput {
@@ -375,8 +371,6 @@ input UserSubscriptionWhereInput {
   updatedFields_contains_some: [String!]
   node: UserWhereInput
   AND: [UserSubscriptionWhereInput!]
-  OR: [UserSubscriptionWhereInput!]
-  NOT: [UserSubscriptionWhereInput!]
 }
 
 input UserUpdateInput {
@@ -469,12 +463,8 @@ input UserWhereInput {
   password_not_starts_with: String
   password_ends_with: String
   password_not_ends_with: String
-  links_every: LinkWhereInput
   links_some: LinkWhereInput
-  links_none: LinkWhereInput
   AND: [UserWhereInput!]
-  OR: [UserWhereInput!]
-  NOT: [UserWhereInput!]
 }
 
 input UserWhereUniqueInput {

@@ -3,7 +3,7 @@ type Link {
   createdAt: DateTime! @createdAt
   description: String!
   url: String!
-  postedBy: User
+  postedBy: User @relation(link: INLINE)
 }
 
 type User {
