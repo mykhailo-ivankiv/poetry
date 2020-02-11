@@ -1,9 +1,14 @@
 type Query {
   info: String!
-  feed: [Link!]!
+  feed(filter: String, skip: Int, first: Int, orderBy: LinkOrderByInput): Feed!
   allAuthors: [Author!]!
   author(id: ID!): Author
   poem(id: ID!): Poem
+}
+
+type Feed {
+  links: [Link!]!
+  count: Int!
 }
 
 type Mutation {
@@ -57,4 +62,13 @@ type Poem {
   title: String!
   link: String!
   html: String!
+}
+
+enum LinkOrderByInput {
+  description_ASC
+  description_DESC
+  url_ASC
+  url_DESC
+  createdAt_ASC
+  createdAt_DESC
 }

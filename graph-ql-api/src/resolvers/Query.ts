@@ -4,7 +4,31 @@ import { getJSONFromFile } from "../utils/helpers";
 
 const { DATA_PATH } = yenv();
 
-export const feed = (parent, args, context, info) => context.prisma.links();
+export const feed = async (parent, args, context, info) => {
+  const where = args.filter
+    ? {
+        description_contains: args.filter,
+        url_contains: args.filter
+      }
+    : {};
+
+  const links = await context.prisma.links({
+    where,
+    skip: args.skip,
+    first: args.first,
+    orderBy: args.orderBy
+  });
+
+  const count = await context.prisma
+    .linksConnection({ where })
+    .aggregate()
+    .count();
+
+  return {
+    links,
+    count
+  };
+};
 
 export const allAuthors = async () =>
   Promise.all(
