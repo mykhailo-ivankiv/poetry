@@ -1,4 +1,10 @@
 {
   "private": true,
-  "workspaces": ["api-rest", "frontend", "grabber", "graph-ql-api"]
+  "workspaces": [
+    "api-rest",
+    "frontend",
+    "grabber",
+    "graph-ql-api-v1",
+    "graph-ql-api-v2"
+  ]
 }
