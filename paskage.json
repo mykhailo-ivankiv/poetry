@@ -1,7 +1,7 @@
 {
   "private": true,
   "workspaces": [
-    "api-rest",
+    "rest-api",
     "frontend",
     "grabber",
     "graph-ql-api-v1",
