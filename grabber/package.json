@@ -8,7 +8,7 @@
     "start": "node poetryclub.com.ua.js"
   },
   "dependencies": {
-    "axios": "^0.19.1",
+    "axios": "^0.21.1",
     "iconv-lite": "^0.5.1",
     "jsdom": "^16.0.0",
     "shortid": "^2.2.15"
